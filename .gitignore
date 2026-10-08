@@ -1,0 +1,5 @@
+__pycache__/
+# scrape.py 가 매번 새로 만드는 결과물 (data.json 은 first_seen 유지를 위해 커밋)
+dashboard.html
+last_run.log
+_site/

@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>전컴 공지 모아보기</title>
+<meta name="description" content="전남대 전자컴퓨터공학부·사업단 공지와 공모전을 소스별로 모은 개인 대시보드.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="theme-color" content="#f4f6f8" media="(prefers-color-scheme:light)">
+<meta name="theme-color" content="#0c1119" media="(prefers-color-scheme:dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f4f6f8; --surface:#fff; --surface-2:#eceff3;
+    --ink:#18202e; --ink-soft:#48546a; --ink-faint:#8b95a6; --line:#e1e5ec;
+    --accent:#0f766e; --accent-ink:#0b5952; --accent-soft:#d8ece9;
+    --crit:#cf3b3b; --warn:#b5680f;
+    --radius:11px; --shadow:0 1px 2px rgba(20,30,45,.05),0 6px 20px rgba(20,30,45,.05);
+    --maxw:1160px;
+    --font:"IBM Plex Sans","Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --bg:#0c1119; --surface:#151d2a; --surface-2:#1d2836;
+    --ink:#e6ecf4; --ink-soft:#a6b2c3; --ink-faint:#6b7788; --line:#293445;
+    --accent:#2dd4bf; --accent-ink:#5eead4; --accent-soft:#123c37;
+    --crit:#f0736f; --warn:#df9a44;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.28);
+  }}
+  :root[data-theme="dark"]{
+    --bg:#0c1119; --surface:#151d2a; --surface-2:#1d2836;
+    --ink:#e6ecf4; --ink-soft:#a6b2c3; --ink-faint:#6b7788; --line:#293445;
+    --accent:#2dd4bf; --accent-ink:#5eead4; --accent-soft:#123c37;
+    --crit:#f0736f; --warn:#df9a44;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 6px 20px rgba(0,0,0,.28);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px 72px}
+  h1,h2,h3{margin:0;text-wrap:balance}
+  a.plain{color:inherit;text-decoration:none}
+  a.plain:hover .si-t,a.plain:hover .u-title{color:var(--accent-ink)}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+  .topbar{max-width:var(--maxw);margin:0 auto;padding:26px 20px 18px;display:flex;
+    align-items:flex-start;justify-content:space-between;gap:18px;flex-wrap:wrap}
+  .brand{display:flex;gap:13px;align-items:center}
+  .mark{width:38px;height:38px;flex:none;border-radius:9px;background:var(--accent);
+    color:#08201d;display:grid;place-items:center;font-family:var(--mono);font-size:19px}
+  .brand h1{font-size:19px;font-weight:600;letter-spacing:-.01em}
+  .brand .sub{margin:2px 0 0;font-size:12.5px;color:var(--ink-faint)}
+  .topmeta{display:flex;flex-direction:column;align-items:flex-end;gap:5px;font-size:12px;color:var(--ink-faint)}
+  .topmeta b{color:var(--ink-soft);font-weight:600;font-family:var(--mono)}
+  .topmeta .row2{display:flex;gap:10px;align-items:center}
+  .topmeta button{font:inherit;font-size:12px;color:var(--ink-soft);background:var(--surface);
+    border:1px solid var(--line);border-radius:7px;padding:4px 10px;cursor:pointer}
+  .topmeta button:hover{border-color:var(--accent)}
+  .topmeta .old{color:var(--warn)}
+
+  .urgent{margin-bottom:24px}
+  .urgent h2,.section-label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--ink-faint);margin-bottom:10px;font-weight:600}
+  .urgent-track{display:flex;gap:12px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}
+  .u-card{flex:0 0 232px;background:var(--surface);border:1px solid var(--line);
+    border-left:3px solid var(--accent);border-radius:10px;padding:12px 13px;box-shadow:var(--shadow)}
+  .u-card.warn{border-left-color:var(--warn)}
+  .u-dday{font-family:var(--mono);font-size:20px;line-height:1;color:var(--crit)}
+  .u-card.warn .u-dday{color:var(--warn)}
+  .u-src{font-size:10.5px;color:var(--ink-faint);margin:8px 0 3px}
+  .u-title{font-size:12.5px;font-weight:500;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .urgent-empty{font-size:12.5px;color:var(--ink-faint)}
+
+  .controls{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;
+    margin-bottom:20px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+  .filters{display:flex;gap:6px;flex-wrap:wrap}
+  .filters button{font:inherit;font-size:12px;color:var(--ink-soft);background:var(--surface);
+    border:1px solid var(--line);border-radius:999px;padding:5px 12px;cursor:pointer}
+  .filters button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+  .count-note{font-size:12px;color:var(--ink-faint);font-family:var(--mono)}
+
+  .sources{columns:2;column-gap:16px}
+  @media(max-width:760px){.sources{columns:1}}
+  .srcbox{break-inside:avoid;margin-bottom:16px;background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+  .srcbox>summary{list-style:none;cursor:pointer;padding:13px 15px;display:flex;align-items:center;gap:9px}
+  .srcbox>summary::-webkit-details-marker{display:none}
+  .srcbox .dot{width:9px;height:9px;border-radius:50%;background:var(--accent);flex:none}
+  .srcbox .sname{font-size:13px;font-weight:600;flex:1;min-width:0}
+  .srcbox .scount{font-family:var(--mono);font-size:11px;color:var(--ink-faint)}
+  .srcbox .caret{color:var(--ink-faint);font-size:11px;transition:transform .15s}
+  .srcbox[open] .caret{transform:rotate(90deg)}
+  .badge{font-family:var(--mono);font-size:9.5px;padding:1px 5px;border-radius:4px;font-weight:500}
+  .badge.new{color:var(--accent-ink);background:var(--accent-soft)}
+  .badge.stale{color:var(--warn);background:transparent;border:1px solid var(--warn)}
+  .srclist{border-top:1px solid var(--line)}
+  .srcitem{display:flex;gap:10px;align-items:baseline;padding:9px 15px;border-bottom:1px solid var(--line);font-size:12.5px}
+  .srcitem:last-child{border-bottom:0}
+  .srcitem .si-t{flex:1}
+  .srcitem .si-t .pin{color:var(--ink-faint);margin-right:4px}
+  .srcitem .si-t .nb{color:var(--accent-ink);font-family:var(--mono);font-size:9px;margin-left:5px;vertical-align:1px}
+  .srcitem .si-d{font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);flex:none;white-space:nowrap}
+  .srcitem .si-d.crit{color:var(--crit)}
+  .srcitem .si-d.warn{color:var(--warn)}
+  .srcfoot{padding:9px 15px;font-size:11px}
+  .srcfoot a{color:var(--ink-faint)}
+  .srcerr{padding:9px 15px;font-size:11px;color:var(--warn);border-top:1px solid var(--line);font-family:var(--mono)}
+
+  footer{max-width:var(--maxw);margin:36px auto 0;padding:18px 20px;border-top:1px solid var(--line);
+    font-size:11.5px;color:var(--ink-faint);line-height:1.7}
+  footer b{color:var(--ink-soft)}
+
+  /* 폰 화면 */
+  @media(max-width:600px){
+    body{-webkit-tap-highlight-color:transparent}
+    .topbar{padding:calc(16px + env(safe-area-inset-top)) 14px 14px;gap:12px}
+    .topmeta{align-items:flex-start;width:100%}
+    .topmeta .row2{width:100%;flex-wrap:wrap}
+    .topmeta #sched{flex:1;min-width:0}
+    .topmeta button{font-size:13px;padding:8px 13px}
+    .wrap{padding:0 14px calc(48px + env(safe-area-inset-bottom))}
+    .u-card{flex-basis:204px}
+    .u-title{font-size:13.5px}
+    .u-src{font-size:11.5px}
+    .filters button{font-size:13.5px;padding:8px 14px}
+    .srcbox>summary{padding:15px 14px}
+    .srcbox .sname{font-size:14.5px}
+    .srcbox .scount{font-size:12px}
+    .badge{font-size:10.5px}
+    .srcitem{padding:12px 14px;font-size:14px}
+    .srcitem .si-d{font-size:11.5px}
+    .srcfoot{padding:13px 14px;font-size:12.5px}
+    .srcerr{font-size:11.5px}
+    footer{padding:18px 14px;font-size:12px}
+  }
+</style>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="mark">◉</span>
+    <div>
+      <h1>전컴 공지 모아보기</h1>
+      <p class="sub">전남대 전자컴퓨터공학부 · 사업단 공지 / 공모전 통합</p>
+    </div>
+  </div>
+  <div class="topmeta">
+    <span>마지막 수집 <b id="genAt">—</b></span>
+    <div class="row2">
+      <span id="sched"></span>
+      <button id="reload" type="button">새로고침</button>
+      <button id="theme" type="button">라이트/다크</button>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="urgent">
+    <h2>마감 임박</h2>
+    <div class="urgent-track" id="urgentTrack"></div>
+  </section>
+
+  <div class="controls">
+    <div class="filters" id="filters">
+      <button type="button" data-cat="all" class="on">전체</button>
+      <button type="button" data-cat="notice">공지</button>
+      <button type="button" data-cat="contest">공모전·대회</button>
+      <button type="button" data-cat="academic">학사·장학</button>
+      <button type="button" data-cat="job">채용·인턴</button>
+    </div>
+    <span class="count-note" id="countNote"></span>
+  </div>
+
+  <div class="section-label">소스별</div>
+  <div class="sources" id="sources"></div>
+
+  <footer id="foot"></footer>
+</div>
+
+<script>
+/*__DATA__*/
+(function () {
+  var DATA = window.DASH_DATA;
+  var CAT = {notice:"공지", contest:"공모전·대회", academic:"학사·장학", job:"채용·인턴"};
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) {
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); };
+
+  if (!DATA) {
+    $("#sources").innerHTML = '<p style="color:var(--ink-faint);font-size:13px">'
+      + 'data가 없습니다. <code>python scrape.py</code> 로 생성된 <b>dashboard.html</b> 를 여세요.</p>';
+    return;
+  }
+
+  var cat = "all";
+  var today = new Date(); today.setHours(0,0,0,0);
+  var dday = function (iso) {
+    if (!iso) return null;
+    var p = iso.split("-");
+    var d = new Date(+p[0], +p[1]-1, +p[2]); d.setHours(0,0,0,0);
+    return Math.round((d - today) / 86400000);
+  };
+  var ddayText = function (n) { return n < 0 ? "마감" : n === 0 ? "D-DAY" : "D-" + n; };
+  var ddayCls  = function (n) { return n < 0 ? "" : n <= 7 ? "crit" : n <= 14 ? "warn" : ""; };
+  var mdk = function (iso) { var p = iso.split("-"); return (+p[1]) + "/" + (+p[2]); };
+
+  $("#genAt").textContent = DATA.generated_at || "—";
+  $("#sched").textContent = DATA.schedule || "";
+  // 자동 수집이 멈춘 걸 알아챌 수 있게, 수집한 지 36시간이 넘으면 강조
+  var gen = new Date((DATA.generated_at || "").replace(" ", "T") + ":00+09:00");
+  if (!isNaN(gen) && Date.now() - gen > 36 * 3600000) {
+    $("#genAt").classList.add("old");
+    $("#genAt").textContent += " (오래됨)";
+  }
+  $("#reload").addEventListener("click", function () { location.reload(); });
+
+  function pass(it) { return cat === "all" || it.category === cat; }
+
+  function renderUrgent() {
+    var all = [];
+    DATA.sources.forEach(function (s) {
+      (s.items || []).forEach(function (it) {
+        if (!it.deadline || !pass(it)) return;
+        var n = dday(it.deadline);
+        if (n === null || n < 0 || n > 30) return;
+        all.push({ n:n, it:it, s:s });
+      });
+    });
+    all.sort(function (a, b) { return a.n - b.n; });
+    var t = $("#urgentTrack");
+    if (!all.length) { t.innerHTML = '<span class="urgent-empty">임박한 마감 항목이 없습니다.</span>'; return; }
+    t.innerHTML = all.slice(0, 10).map(function (x) {
+      return '<a class="plain" href="' + esc(x.it.url) + '" target="_blank" rel="noopener">'
+        + '<article class="u-card ' + (x.n <= 7 ? "" : "warn") + '">'
+        + '<div class="u-dday">' + ddayText(x.n) + '</div>'
+        + '<div class="u-src">' + esc(x.s.name) + ' · ~' + mdk(x.it.deadline) + '</div>'
+        + '<div class="u-title">' + esc(x.it.title) + '</div>'
+        + '</article></a>';
+    }).join("");
+  }
+
+  function renderSources() {
+    var host = $("#sources"), shown = 0, box = [];
+    DATA.sources.forEach(function (s) {
+      var items = (s.items || []).filter(pass);
+      if (s.linkonly) {
+        box.push('<details class="srcbox"><summary><span class="dot"></span>'
+          + '<span class="sname">' + esc(s.name) + '</span>'
+          + '<span class="scount">링크</span><span class="caret">▸</span></summary>'
+          + '<div class="srcfoot"><a href="' + esc(s.url) + '" target="_blank" rel="noopener">'
+          + '사이트 열기 ↗</a> · 자동 수집 미지원(JS 렌더링 사이트)</div></details>');
+        return;
+      }
+      if (!items.length && cat !== "all") return;
+      shown += items.length;
+      var nnew = items.filter(function (i) { return i.is_new; }).length;
+      var soon = items.some(function (i) { var n = dday(i.deadline); return n !== null && n >= 0 && n <= 14; });
+      var open = (nnew > 0 || soon) ? " open" : "";
+      var pinnedN = items.filter(function (i) { return i.pinned; }).length;
+      var showPins = pinnedN < items.length;   // 전부 고정공지면 아이콘 생략
+      var rows = items.map(function (it) {
+        var n = dday(it.deadline), right, cls = "";
+        if (n !== null && n >= -1) { right = ddayText(n) + " · " + mdk(it.deadline); cls = " " + ddayCls(n); }
+        else { right = it.date || "—"; }
+        return '<a class="plain" href="' + esc(it.url) + '" target="_blank" rel="noopener">'
+          + '<div class="srcitem"><span class="si-t">'
+          + (it.pinned && showPins ? '<span class="pin">📌</span>' : '')
+          + esc(it.title)
+          + (it.is_new ? '<span class="nb">NEW</span>' : '')
+          + '</span><span class="si-d' + cls + '">' + esc(right) + '</span></div></a>';
+      }).join("");
+      box.push('<details class="srcbox"' + open + '><summary><span class="dot"></span>'
+        + '<span class="sname">' + esc(s.name) + '</span>'
+        + (nnew ? '<span class="badge new">+' + nnew + '</span>' : '')
+        + (s.stale ? '<span class="badge stale">STALE</span>' : '')
+        + '<span class="scount">' + items.length + '</span><span class="caret">▸</span></summary>'
+        + '<div class="srclist">' + (rows || '<div class="srcitem"><span class="si-t" style="color:var(--ink-faint)">해당 분류 항목 없음</span></div>') + '</div>'
+        + (s.error ? '<div class="srcerr">수집 실패: ' + esc(s.error) + ' (직전 데이터 표시 중)</div>' : '')
+        + '<div class="srcfoot"><a href="' + esc(s.url) + '" target="_blank" rel="noopener">게시판 전체 보기 ↗</a></div>'
+        + '</details>');
+    });
+    host.innerHTML = box.join("");
+    $("#countNote").textContent = (cat === "all" ? DATA.total : shown) + "건 표시";
+  }
+
+  function render() { renderUrgent(); renderSources(); }
+
+  $("#filters").addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (!b) return;
+    cat = b.dataset.cat;
+    [].forEach.call(this.children, function (x) { x.classList.toggle("on", x === b); });
+    render();
+  });
+  $("#theme").addEventListener("click", function () {
+    var r = document.documentElement;
+    var cur = r.getAttribute("data-theme")
+      || (matchMedia("(prefers-color-scheme:dark)").matches ? "dark" : "light");
+    r.setAttribute("data-theme", cur === "dark" ? "light" : "dark");
+  });
+
+  var errs = DATA.sources.filter(function (s) { return s.error; });
+  $("#foot").innerHTML =
+    '<b>' + DATA.sources.length + '개 소스</b> · ' + esc(DATA.schedule || "") + ' · 수집 시각 ' + esc(DATA.generated_at || "")
+    + '<br>정렬: 소스 안에서 <b>고정공지(📌)</b> → 최신순. 제목에 <code>~9/18</code>·<code>~09.04.</code> 같은 표현이 있으면 자동으로 D-day를 계산합니다.'
+    + (errs.length ? '<br><b style="color:var(--warn)">수집 실패:</b> ' + errs.map(function (s) { return esc(s.name); }).join(", ") + ' — 직전 데이터로 표시 중입니다.' : '');
+
+  render();
+})();
+// 설치형 웹앱: https 로 열렸을 때만 등록 (로컬 dashboard.html 더블클릭은 그대로 동작)
+if ("serviceWorker" in navigator && location.protocol === "https:") {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
+</html>

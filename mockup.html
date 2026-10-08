@@ -1,0 +1,460 @@
+<title>전컴 공지 모아보기</title>
+<meta name="description" content="전남대 전자컴퓨터공학부·사업단 공지와 공모전을 한 곳에 모으는 대시보드의 레이아웃 시안 3종.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f4f6f8;
+    --surface:#ffffff;
+    --surface-2:#eceff3;
+    --ink:#18202e;
+    --ink-soft:#48546a;
+    --ink-faint:#8b95a6;
+    --line:#e1e5ec;
+    --accent:#0f766e;
+    --accent-ink:#0b5952;
+    --accent-soft:#d8ece9;
+    --crit:#cf3b3b;
+    --crit-soft:#f7e2e1;
+    --warn:#b5680f;
+    --warn-soft:#f4e9d7;
+    --radius:11px;
+    --shadow:0 1px 2px rgba(20,30,45,.05), 0 6px 20px rgba(20,30,45,.05);
+    --maxw:1100px;
+    --font:"IBM Plex Sans","Pretendard","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#0c1119;
+      --surface:#151d2a;
+      --surface-2:#1d2836;
+      --ink:#e6ecf4;
+      --ink-soft:#a6b2c3;
+      --ink-faint:#6b7788;
+      --line:#293445;
+      --accent:#2dd4bf;
+      --accent-ink:#5eead4;
+      --accent-soft:#123c37;
+      --crit:#f0736f;
+      --crit-soft:#3c1f1f;
+      --warn:#df9a44;
+      --warn-soft:#382a16;
+      --shadow:0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.28);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0c1119;
+    --surface:#151d2a;
+    --surface-2:#1d2836;
+    --ink:#e6ecf4;
+    --ink-soft:#a6b2c3;
+    --ink-faint:#6b7788;
+    --line:#293445;
+    --accent:#2dd4bf;
+    --accent-ink:#5eead4;
+    --accent-soft:#123c37;
+    --crit:#f0736f;
+    --crit-soft:#3c1f1f;
+    --warn:#df9a44;
+    --warn-soft:#382a16;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.28);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font-family:var(--font);line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px 72px}
+  h1,h2,h3{text-wrap:balance;margin:0}
+
+  /* ---- top bar ---- */
+  .topbar{
+    max-width:var(--maxw);margin:0 auto;padding:26px 20px 18px;
+    display:flex;align-items:flex-start;justify-content:space-between;gap:18px;flex-wrap:wrap;
+  }
+  .brand{display:flex;gap:13px;align-items:center}
+  .mark{
+    width:38px;height:38px;flex:none;border-radius:9px;
+    background:var(--accent);color:#fff;display:grid;place-items:center;
+    font-family:var(--mono);font-size:19px;font-weight:500;
+  }
+  :root[data-theme="dark"] .mark, :root:not([data-theme="light"]) .mark{color:#0c1119}
+  @media (prefers-color-scheme:light){:root:not([data-theme]) .mark{color:#fff}}
+  .brand h1{font-size:19px;font-weight:600;letter-spacing:-.01em}
+  .brand .sub{margin:2px 0 0;font-size:12.5px;color:var(--ink-faint)}
+  .topmeta{display:flex;align-items:center;gap:14px;font-size:12px;color:var(--ink-faint)}
+  .topmeta b{color:var(--ink-soft);font-weight:600;font-family:var(--mono)}
+  #theme{
+    font:inherit;font-size:12px;color:var(--ink-soft);
+    background:var(--surface);border:1px solid var(--line);border-radius:7px;
+    padding:5px 11px;cursor:pointer;
+  }
+  #theme:hover{border-color:var(--accent)}
+
+  .note{
+    max-width:var(--maxw);margin:0 auto 22px;padding:10px 14px;
+    background:var(--accent-soft);color:var(--accent-ink);
+    border-radius:9px;font-size:12.5px;
+  }
+  .note b{font-weight:600}
+
+  /* ---- urgent strip ---- */
+  .urgent{margin-bottom:26px}
+  .urgent h2{
+    font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--ink-faint);margin-bottom:10px;font-weight:600;
+  }
+  .urgent-track{
+    display:flex;gap:12px;overflow-x:auto;padding-bottom:6px;
+    scrollbar-width:thin;
+  }
+  .u-card{
+    flex:0 0 214px;background:var(--surface);border:1px solid var(--line);
+    border-left:3px solid var(--src);border-radius:10px;padding:12px 13px;
+    box-shadow:var(--shadow);
+  }
+  .u-dday{
+    font-family:var(--mono);font-size:20px;font-weight:500;line-height:1;
+    color:var(--crit);
+  }
+  .u-dday.warn{color:var(--warn)}
+  .u-src{font-size:10.5px;color:var(--ink-faint);margin:8px 0 3px;letter-spacing:.02em}
+  .u-title{font-size:12.5px;font-weight:500;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+  /* ---- controls ---- */
+  .controls{
+    display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;
+    margin-bottom:20px;padding-bottom:14px;border-bottom:1px solid var(--line);
+  }
+  .views{display:flex;gap:2px;background:var(--surface-2);padding:3px;border-radius:9px}
+  .views button{
+    font:inherit;font-size:12.5px;font-weight:500;color:var(--ink-soft);
+    background:transparent;border:0;border-radius:7px;padding:6px 15px;cursor:pointer;
+  }
+  .views button.on{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+  .filters{display:flex;gap:6px;flex-wrap:wrap}
+  .filters button{
+    font:inherit;font-size:12px;color:var(--ink-soft);
+    background:var(--surface);border:1px solid var(--line);border-radius:999px;
+    padding:5px 12px;cursor:pointer;
+  }
+  .filters button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+
+  /* ---- board view ---- */
+  .board{display:grid;grid-template-columns:repeat(auto-fill,minmax(275px,1fr));gap:14px}
+  .card{
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    border-left:3px solid var(--src);padding:15px 16px 13px;
+    display:flex;flex-direction:column;gap:9px;box-shadow:var(--shadow);
+  }
+  .card-top{display:flex;align-items:center;gap:8px}
+  .chip{
+    font-size:10.5px;font-weight:600;letter-spacing:.02em;
+    padding:2px 7px;border-radius:5px;background:var(--surface-2);color:var(--ink-soft);
+  }
+  .dot{width:6px;height:6px;border-radius:50%;background:var(--src);flex:none}
+  .new{
+    margin-left:auto;font-family:var(--mono);font-size:9.5px;font-weight:500;
+    color:var(--accent-ink);background:var(--accent-soft);padding:1px 5px;border-radius:4px;
+  }
+  .card h3{font-size:14px;font-weight:600;letter-spacing:-.005em;line-height:1.4}
+  .card p{
+    margin:0;font-size:12px;color:var(--ink-faint);
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  }
+  .card-meta{
+    display:flex;align-items:center;gap:10px;margin-top:auto;padding-top:4px;
+    font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);
+  }
+  .dday{font-weight:500;color:var(--ink-soft)}
+  .dday.crit{color:var(--crit)}
+  .dday.warn{color:var(--warn)}
+
+  /* ---- timeline view ---- */
+  .timeline{display:flex;flex-direction:column;gap:2px}
+  .day{
+    font-family:var(--mono);font-size:11px;color:var(--ink-faint);
+    padding:16px 0 7px;position:sticky;top:0;background:var(--bg);
+  }
+  .day:first-child{padding-top:0}
+  .row{
+    display:flex;align-items:center;gap:12px;padding:9px 4px;
+    border-bottom:1px solid var(--line);
+  }
+  .row .dot{width:7px;height:7px}
+  .row .rsrc{font-size:11px;color:var(--ink-faint);flex:0 0 118px;letter-spacing:.01em}
+  .row .rtitle{font-size:13px;font-weight:500;flex:1;min-width:0}
+  .row .rtitle .newmini{color:var(--accent-ink);font-family:var(--mono);font-size:9.5px;margin-left:6px}
+  .row .rday{font-family:var(--mono);font-size:11px;color:var(--ink-soft);flex:none}
+  .row .rday.crit{color:var(--crit)}
+  .row .rday.warn{color:var(--warn)}
+  @media(max-width:620px){
+    .row{flex-wrap:wrap}
+    .row .rsrc{flex-basis:auto;order:1}
+    .row .rday{order:2;margin-left:auto}
+    .row .rtitle{order:3;flex-basis:100%}
+  }
+
+  /* ---- source view ---- */
+  .sources{columns:2;column-gap:16px}
+  @media(max-width:720px){.sources{columns:1}}
+  .srcbox{
+    break-inside:avoid;margin-bottom:16px;background:var(--surface);
+    border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    overflow:hidden;
+  }
+  .srcbox>summary{
+    list-style:none;cursor:pointer;padding:13px 15px;
+    display:flex;align-items:center;gap:9px;
+  }
+  .srcbox>summary::-webkit-details-marker{display:none}
+  .srcbox>summary .dot{width:9px;height:9px}
+  .srcbox>summary .sname{font-size:13px;font-weight:600;flex:1}
+  .srcbox>summary .scount{font-family:var(--mono);font-size:11px;color:var(--ink-faint)}
+  .srcbox>summary .caret{color:var(--ink-faint);font-size:11px;transition:transform .15s}
+  .srcbox[open]>summary .caret{transform:rotate(90deg)}
+  .srclist{border-top:1px solid var(--line)}
+  .srcitem{
+    display:flex;gap:10px;align-items:baseline;padding:9px 15px;
+    border-bottom:1px solid var(--line);font-size:12.5px;
+  }
+  .srcitem:last-child{border-bottom:0}
+  .srcitem .si-t{flex:1;font-weight:500}
+  .srcitem .si-d{font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);flex:none}
+  .srcitem .si-d.crit{color:var(--crit)}
+  .srcitem .si-d.warn{color:var(--warn)}
+
+  footer{
+    max-width:var(--maxw);margin:40px auto 0;padding:20px;
+    border-top:1px solid var(--line);font-size:12px;color:var(--ink-faint);
+  }
+  footer b{color:var(--ink-soft);font-weight:600}
+  footer ol{margin:8px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:4px}
+
+  a.plain{color:inherit;text-decoration:none}
+  a.plain:hover h3,a.plain:hover .rtitle,a.plain:hover .si-t{color:var(--accent-ink)}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+  @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="mark">◉</span>
+    <div>
+      <h1>전컴 공지 모아보기</h1>
+      <p class="sub">전남대 전자컴퓨터공학부 · 사업단 공지 / 공모전 통합 보드</p>
+    </div>
+  </div>
+  <div class="topmeta">
+    <span>마지막 수집 <b>9/8 09:00</b></span>
+    <button id="theme" type="button">라이트/다크</button>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="note">
+    아래는 레이아웃 비교용 <b>예시 데이터</b>입니다 — 실제 공지가 아니에요.
+    세 가지 스타일 중 마음에 드는 걸 고르면, 그 형태로 실제 수집기를 붙여 <b>주 2~3회</b> 자동 갱신되게 만들 예정입니다.
+  </div>
+
+  <section class="urgent">
+    <h2>마감 임박</h2>
+    <div class="urgent-track" id="urgentTrack"></div>
+  </section>
+
+  <div class="controls">
+    <div class="views" id="views">
+      <button type="button" data-view="board" class="on">보드</button>
+      <button type="button" data-view="timeline">타임라인</button>
+      <button type="button" data-view="source">소스별</button>
+    </div>
+    <div class="filters" id="filters">
+      <button type="button" data-cat="all" class="on">전체</button>
+      <button type="button" data-cat="notice">공지</button>
+      <button type="button" data-cat="contest">공모전·대회</button>
+      <button type="button" data-cat="academic">학사·장학</button>
+      <button type="button" data-cat="job">채용·인턴</button>
+    </div>
+  </div>
+
+  <main id="stage"></main>
+
+  <footer>
+    <b>스타일 미리보기</b> — 같은 데이터를 세 가지 방식으로 배치했습니다.
+    <ol>
+      <li><b>보드</b> · 카드 격자. 제목·요약·마감이 한눈에. 훑어보기 좋음.</li>
+      <li><b>타임라인</b> · 날짜순 한 줄 피드. "새로 뭐 올라왔나" 확인용.</li>
+      <li><b>소스별</b> · 사업단/게시판별로 접었다 펴는 묶음. 소스가 12개라 정리에 유리.</li>
+    </ol>
+    고른 뒤엔 → 각 사이트 게시판 수집 → 이 폴더에 저장 → 주 2~3회 갱신 스크립트 순으로 붙입니다.
+  </footer>
+</div>
+
+<script>
+const TODAY = new Date('2026-09-08T09:00:00');
+
+const SOURCES = {
+  ece:      {label:'전자컴퓨터공학부', color:'#0f766e'},
+  jnu:      {label:'전남대 학사공지',  color:'#2563eb'},
+  sojoong:  {label:'소프트웨어사업단', color:'#7c3aed'},
+  icee:     {label:'공학교육혁신(ICEE)',color:'#ea580c'},
+  aicoss:   {label:'인공지능사업단',   color:'#db2777'},
+  coss:     {label:'혁신융합대학COSS', color:'#0891b2'},
+  nccoss:   {label:'차세대융합통신',   color:'#65a30d'},
+  crdc:     {label:'지역개발연구소',   color:'#ca8a04'},
+  diaspora: {label:'디아스포라 BK21',  color:'#4f46e5'},
+  contest:  {label:'외부 공모전·대회', color:'#64748b'}
+};
+const CAT = {notice:'공지', contest:'공모전·대회', academic:'학사·장학', job:'채용·인턴'};
+
+const ITEMS = [
+  {src:'ece',      cat:'notice',   date:'2026-09-05', due:'2026-09-19', title:'2026-2학기 복수전공·부전공 신청 안내', ex:'신청 기간·제출 서류·심사 일정 포함. 학부 행정실 방문 접수.'},
+  {src:'ece',      cat:'academic', date:'2026-09-04', due:null,          title:'졸업예정자 이수구분 정정 및 졸업요건 확인 신청', ex:'2027-2 졸업예정자 대상. 지도교수 확인 후 제출.'},
+  {src:'ece',      cat:'job',      date:'2026-09-08', due:'2026-09-22', title:'[채용] LG전자 SoC 설계 채용연계형 인턴 (학·석사)', ex:'디지털 논리설계·Verilog 우대. 학부 취업게시판 공고.'},
+  {src:'ece',      cat:'contest',  date:'2026-09-02', due:'2026-10-10', title:'제12회 전자컴퓨터공학부 캡스톤디자인 경진대회 작품 접수', ex:'팀당 3~5인, 결과보고서·시연 영상 제출.'},
+  {src:'jnu',      cat:'academic', date:'2026-09-08', due:'2026-09-18', title:'2026-2학기 국가장학금 2차 신청 안내', ex:'한국장학재단 신청 후 가구원 동의·서류 제출 필수.'},
+  {src:'jnu',      cat:'academic', date:'2026-09-01', due:'2026-09-12', title:'2026-2학기 수강정정 및 수강포기 일정 안내', ex:'수강포기는 등록금 환불 없음. 포털에서 처리.'},
+  {src:'jnu',      cat:'notice',   date:'2026-09-03', due:null,          title:'제2공학관 정전 작업 안내 (9/13 02:00~06:00)', ex:'해당 시간 연구실 장비 전원 차단 요망.'},
+  {src:'sojoong',  cat:'contest',  date:'2026-09-06', due:'2026-09-21', title:"2026 SW중심대학 해커톤 'CODE-N' 참가팀 모집", ex:'무박 2일, 광주 지역 문제 해결 주제. 상금 총 800만원.'},
+  {src:'sojoong',  cat:'notice',   date:'2026-09-05', due:null,          title:'오픈소스 SW 컨트리뷰션 아카데미 4기 모집', ex:'멘토 매칭 후 실제 오픈소스 PR 기여. 수료증 발급.'},
+  {src:'sojoong',  cat:'job',      date:'2026-08-29', due:null,          title:'SW기업 채용관 — 광주 지역 IT기업 상시 채용', ex:'백엔드·임베디드·데이터 직군. 재학생 인턴 포함.'},
+  {src:'icee',     cat:'contest',  date:'2026-09-04', due:'2026-11-07', title:'2026 창의융합 캡스톤디자인 경진대회 (ICEE)', ex:'공학교육혁신센터 주관. 전 공학계열 참가 가능.'},
+  {src:'icee',     cat:'notice',   date:'2026-08-28', due:null,          title:'공학설계입문 튜터링 튜터 모집', ex:'3학년 이상, 시급 지급. 주 2회 2시간.'},
+  {src:'aicoss',   cat:'contest',  date:'2026-09-07', due:'2026-09-30', title:'AICOSS AI 챌린지 2026 — 제조 이상탐지 트랙', ex:'제공 데이터셋 기반 모델 성능 경쟁. 개인/팀.'},
+  {src:'aicoss',   cat:'notice',   date:'2026-09-02', due:null,          title:'AI융합인재 하계 집중교육 수료증 발급 안내', ex:'출석 80% 이상 대상. 포털에서 다운로드.'},
+  {src:'coss',     cat:'academic', date:'2026-09-05', due:'2026-09-15', title:'혁신융합대학(COSS) 마이크로디그리 2학기 수강신청', ex:'차세대반도체·미래자동차 등 8개 트랙 개설.'},
+  {src:'nccoss',   cat:'contest',  date:'2026-09-03', due:'2026-10-31', title:'차세대통신 6G 대학생 논문 경진대회', ex:'통신·신호처리·네트워크 분야. 우수작 학회 발표 지원.'},
+  {src:'crdc',     cat:'contest',  date:'2026-08-30', due:'2026-09-26', title:'지역혁신 리빙랩 아이디어 공모전', ex:'광주·전남 지역 현안 해결 아이디어. 팀 단위.'},
+  {src:'diaspora', cat:'notice',   date:'2026-09-01', due:'2026-09-20', title:'국제이주·디아스포라 BK21 대학원생 국제학술대회 발표자 모집', ex:'초록 제출 후 심사. 발표자 등록비 지원.'}
+];
+
+const stage = document.getElementById('stage');
+let view = 'board', cat = 'all';
+
+const dday = d => d==null ? null : Math.round((new Date(d+'T23:59:59') - TODAY)/86400000);
+const ddayText = n => n==null ? '' : n<0 ? '마감' : n===0 ? 'D-DAY' : 'D-'+n;
+const ddayClass = n => n==null ? '' : n<0 ? '' : n<=7 ? 'crit' : n<=14 ? 'warn' : '';
+const md = d => { const x=new Date(d+'T00:00:00'); return (x.getMonth()+1)+'/'+x.getDate(); };
+const dayLabel = d => { const x=new Date(d+'T00:00:00'); const w=['일','월','화','수','목','금','토'][x.getDay()];
+  return (x.getMonth()+1)+'월 '+x.getDate()+'일 ('+w+')'; };
+const isNew = d => (TODAY - new Date(d+'T00:00:00'))/86400000 <= 3;
+const filtered = () => ITEMS.filter(i => cat==='all' || i.cat===cat);
+const sortByUrgency = arr => [...arr].sort((a,b)=>{
+  const da=dday(a.due), db=dday(b.due);
+  const ua=(da!=null&&da>=0&&da<=14)?da:999, ub=(db!=null&&db>=0&&db<=14)?db:999;
+  if(ua!==ub) return ua-ub;
+  return b.date.localeCompare(a.date);
+});
+const srcStyle = s => `--src:${SOURCES[s].color}`;
+
+function renderUrgent(){
+  const t = document.getElementById('urgentTrack');
+  const up = ITEMS.filter(i=>i.due!=null && dday(i.due)>=0 && dday(i.due)<=21)
+                  .sort((a,b)=>dday(a.due)-dday(b.due)).slice(0,6);
+  t.innerHTML = up.map(i=>{
+    const n=dday(i.due);
+    return `<article class="u-card" style="${srcStyle(i.src)}">
+      <div class="u-dday ${n<=7?'':'warn'}">${ddayText(n)}</div>
+      <div class="u-src">${SOURCES[i.src].label}</div>
+      <div class="u-title">${i.title}</div>
+    </article>`;
+  }).join('');
+}
+
+function renderBoard(){
+  const list = sortByUrgency(filtered());
+  stage.className=''; stage.innerHTML = `<div class="board">` + list.map(i=>{
+    const n=dday(i.due);
+    return `<a class="plain" href="#"><article class="card" style="${srcStyle(i.src)}">
+      <div class="card-top">
+        <span class="dot"></span>
+        <span class="chip">${CAT[i.cat]}</span>
+        <span style="font-size:11px;color:var(--ink-faint)">${SOURCES[i.src].label}</span>
+        ${isNew(i.date)?'<span class="new">NEW</span>':''}
+      </div>
+      <h3>${i.title}</h3>
+      <p>${i.ex}</p>
+      <div class="card-meta">
+        <span>게시 ${md(i.date)}</span>
+        ${i.due?`<span class="dday ${ddayClass(n)}">${ddayText(n)} · ${md(i.due)} 마감</span>`:''}
+      </div>
+    </article></a>`;
+  }).join('') + `</div>`;
+}
+
+function renderTimeline(){
+  const list = [...filtered()].sort((a,b)=>b.date.localeCompare(a.date));
+  let html='<div class="timeline">', cur=null;
+  list.forEach(i=>{
+    if(i.date!==cur){ cur=i.date; html+=`<div class="day">${dayLabel(i.date)}</div>`; }
+    const n=dday(i.due);
+    html+=`<a class="plain" href="#"><div class="row" style="${srcStyle(i.src)}">
+      <span class="dot"></span>
+      <span class="rsrc">${SOURCES[i.src].label}</span>
+      <span class="rtitle">${i.title}${isNew(i.date)?'<span class="newmini">NEW</span>':''}</span>
+      ${i.due?`<span class="rday ${ddayClass(n)}">${ddayText(n)}</span>`:'<span class="rday" style="color:var(--ink-faint)">·</span>'}
+    </div></a>`;
+  });
+  stage.className=''; stage.innerHTML = html+'</div>';
+}
+
+function renderSource(){
+  const groups = {};
+  filtered().forEach(i=>{ (groups[i.src]=groups[i.src]||[]).push(i); });
+  const order = Object.keys(groups).sort((a,b)=>{
+    const ma=Math.max(...groups[a].map(x=>+new Date(x.date)));
+    const mb=Math.max(...groups[b].map(x=>+new Date(x.date)));
+    return mb-ma;
+  });
+  let html='<div class="sources">';
+  order.forEach((s,idx)=>{
+    const items=[...groups[s]].sort((a,b)=>b.date.localeCompare(a.date));
+    html+=`<details class="srcbox" style="${srcStyle(s)}" ${idx<4?'open':''}>
+      <summary>
+        <span class="dot"></span>
+        <span class="sname">${SOURCES[s].label}</span>
+        <span class="scount">${items.length}건</span>
+        <span class="caret">▸</span>
+      </summary>
+      <div class="srclist">` + items.map(i=>{
+        const n=dday(i.due);
+        return `<a class="plain" href="#"><div class="srcitem">
+          <span class="si-t">${i.title}${isNew(i.date)?' <span style="color:var(--accent-ink);font-family:var(--mono);font-size:9.5px">NEW</span>':''}</span>
+          <span class="si-d ${ddayClass(n)}">${i.due?ddayText(n):md(i.date)}</span>
+        </div></a>`;
+      }).join('') + `</div>
+    </details>`;
+  });
+  stage.innerHTML = html+'</div>';
+}
+
+function render(){
+  ({board:renderBoard, timeline:renderTimeline, source:renderSource})[view]();
+}
+
+document.getElementById('views').addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b) return;
+  view=b.dataset.view;
+  [...e.currentTarget.children].forEach(x=>x.classList.toggle('on',x===b));
+  render();
+});
+document.getElementById('filters').addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b) return;
+  cat=b.dataset.cat;
+  [...e.currentTarget.children].forEach(x=>x.classList.toggle('on',x===b));
+  render();
+});
+document.getElementById('theme').addEventListener('click',()=>{
+  const r=document.documentElement;
+  const now=r.getAttribute('data-theme')
+    || (matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');
+  r.setAttribute('data-theme', now==='dark'?'light':'dark');
+});
+
+renderUrgent();
+render();
+</script>

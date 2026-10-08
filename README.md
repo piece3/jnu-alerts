@@ -28,7 +28,6 @@ PC가 꺼져 있어도 갱신된다.
 | `.github/workflows/update.yml` | 예약 수집 + Pages 배포 워크플로 |
 | `manifest.webmanifest`, `sw.js`, `icons/` | 앱 설치용 설정 · 오프라인 캐시 · 아이콘 |
 | `refresh.bat` | **PC에서 수집 → dashboard.html 열기**. 바탕화면 바로가기가 이걸 실행 |
-| `run.bat` | 작업 스케줄러가 실행하는 배치 파일 (수집만, 창 안 뜸) |
 | `last_run.log` | 마지막 실행 로그 (소스별 건수/실패 여부) |
 
 ## PC에서 수동 실행 (바탕화면 바로가기)
@@ -46,21 +45,6 @@ python scrape.py      # 또는 refresh.bat 더블클릭
 
 > 바로가기 다시 만들기(경로 옮겼을 때 등):
 > `refresh.bat` 우클릭 → 보내기 → 바탕 화면(바로 가기 만들기)
-
-## 자동 실행 (월·수·금 08:00) — 선택
-
-바탕화면 바로가기와 별개로, Windows 작업 스케줄러에도 등록되어 있어서
-PC가 켜져 있으면 월·수·금 아침 8시에 알아서 한 번 갱신해 둔다 (작업 이름: **JNU-Alerts**).
-필요 없으면 아래 삭제 명령으로 지우면 되고, 바로가기만으로도 충분하다.
-
-- 확인:  `schtasks /Query /TN JNU-Alerts`
-- 지금 바로 한 번 실행:  `schtasks /Run /TN JNU-Alerts`
-- 삭제:  `schtasks /Delete /TN JNU-Alerts /F`
-- 시간/요일 변경 예시(화·목 09:30):
-  `schtasks /Change /TN JNU-Alerts /SC WEEKLY /D TUE,THU /ST 09:30`
-
-> PC가 꺼져 있으면 그 회차는 건너뛴다(로그인 후 놓친 실행은 자동 보정되지 않음).
-> 필요하면 작업 스케줄러 GUI에서 "누락된 실행 즉시 시작" 옵션을 켜면 된다.
 
 ## 소스 (10개 자동수집 + 1개 링크)
 

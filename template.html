@@ -65,7 +65,8 @@
   .urgent h2,.section-label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;
     color:var(--ink-faint);margin-bottom:10px;font-weight:600}
   .urgent-track{display:flex;gap:12px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}
-  .u-card{flex:0 0 232px;background:var(--surface);border:1px solid var(--line);
+  .urgent-track>a{flex:0 0 232px;min-width:0}
+  .u-card{height:100%;background:var(--surface);border:1px solid var(--line);
     border-left:3px solid var(--accent);border-radius:10px;padding:12px 13px;box-shadow:var(--shadow)}
   .u-card.warn{border-left-color:var(--warn)}
   .u-dday{font-family:var(--mono);font-size:20px;line-height:1;color:var(--crit)}
@@ -122,7 +123,7 @@
     .topmeta #sched{flex:1;min-width:0}
     .topmeta button{font-size:13px;padding:8px 13px}
     .wrap{padding:0 14px calc(48px + env(safe-area-inset-bottom))}
-    .u-card{flex-basis:204px}
+    .urgent-track>a{flex-basis:204px}
     .u-title{font-size:13.5px}
     .u-src{font-size:11.5px}
     .filters button{font-size:13.5px;padding:8px 14px}

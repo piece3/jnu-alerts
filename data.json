@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11 10:21",
+  "generated_at": "2026-10-12 00:07",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 119,
   "sources": [
@@ -162,7 +162,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[2026.10.12.~27.1.13.] NC AI K-뉴딜 아카데미 - 3개월 과정(~10/12)",
@@ -175,7 +175,7 @@
           "category": "notice",
           "deadline": "2026-10-12",
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[2026.10.23.(금) 13:00~15:00] 2026학년도 공과대학 특강 'AI 활용 커리어 로드맵'(선착순 모집)",
@@ -188,7 +188,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026학년도 공과대학 해외 단기파견 대상자 선발 안내",
@@ -201,7 +201,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 산업별 경쟁사 및 대표 기업 특강(9/15 09:00부터 선착순 모집)",
@@ -315,7 +315,7 @@
           "category": "job",
           "deadline": "2026-11-13",
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[광주 근무] (주)프리시젼옵텍스 생산기술(~9/30)",
@@ -442,7 +442,7 @@
           "category": "contest",
           "deadline": null,
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[학사안내] 2026학년도 2학기 교과구분 정정 실시 안내",
@@ -575,6 +575,32 @@
           "is_new": false
         },
         {
+          "title": "[취업정보] 「현직자와의 AI 토크토크(1차)」참여 모집중!",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70631",
+          "date": "2026-10-11",
+          "pinned": false,
+          "author": "진로취업지원실",
+          "source": "jnu",
+          "id": "b07c7e6d28",
+          "category": "job",
+          "deadline": null,
+          "first_seen": "2026-10-12",
+          "is_new": true
+        },
+        {
+          "title": "[취업정보] 「AI, 역량검사부터 면접까지」모집중",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70630",
+          "date": "2026-10-11",
+          "pinned": false,
+          "author": "진로취업지원실",
+          "source": "jnu",
+          "id": "c730b6ee2f",
+          "category": "job",
+          "deadline": null,
+          "first_seen": "2026-10-12",
+          "is_new": true
+        },
+        {
           "title": "[채용공고] 2026년 제9회 전남대학교 앵커사업단·제2회 서남권공유대학사...",
           "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70629",
           "date": "2026-10-08",
@@ -664,32 +690,6 @@
           "deadline": null,
           "first_seen": "2026-10-08",
           "is_new": true
-        },
-        {
-          "title": "[취업정보] [재맞고] 2026 『AI를 활용한 보고서 및 레포트 작성법 ...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70622",
-          "date": "2026-10-08",
-          "pinned": false,
-          "author": "취업지원실",
-          "source": "jnu",
-          "id": "6216a6098f",
-          "category": "job",
-          "deadline": null,
-          "first_seen": "2026-10-08",
-          "is_new": true
-        },
-        {
-          "title": "[공모전] [제주대학교] 제46회 백록학술상 공모전 안내",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70621",
-          "date": "2026-10-08",
-          "pinned": false,
-          "author": "학생과",
-          "source": "jnu",
-          "id": "a092f30433",
-          "category": "contest",
-          "deadline": null,
-          "first_seen": "2026-10-08",
-          "is_new": true
         }
       ]
     },
@@ -761,7 +761,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 AICOSS-UTAS 글로벌 학생프로그램 학생 선발 안내",
@@ -774,7 +774,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "「AICOSS Career Compass 2026」 진로실태 설문조사 참여 안내",
@@ -813,7 +813,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[인공지능 혁신융합대학사업단] 2026 AICOSS-UTAS 글로벌 학생 프로그램 선발 안내(~10/14까지)",
@@ -826,7 +826,7 @@
           "category": "academic",
           "deadline": "2026-10-14",
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026학년도 AICOSS-UTAS 글로벌 학생 프로그램 참가자 모집 안내",
@@ -839,7 +839,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026년 2학기 캡스톤디자인 과제 선정 안내",
@@ -852,7 +852,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "(성균관대)2026년 캡스톤디자인 및 AI해커톤 신청 안내(마감/선정인원 발표)",
@@ -1184,7 +1184,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[안내] 2026 Capstone Design 경진대회 본선일정표 공고",
@@ -1324,7 +1324,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[International Student Admissions] Spring 2027 Admissions for the Graduate School",
@@ -1503,7 +1503,7 @@
           "category": "notice",
           "deadline": "2026-10-30",
           "first_seen": "2026-10-07",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "전남대학교 지역개발연구소 행정조교 최종합격자 발표",

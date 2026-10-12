@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12 00:07",
+  "generated_at": "2026-10-12 10:52",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 119,
   "sources": [
@@ -445,19 +445,6 @@
           "is_new": false
         },
         {
-          "title": "[학사안내] 2026학년도 2학기 교과구분 정정 실시 안내",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70353",
-          "date": "2026-09-11",
-          "pinned": true,
-          "author": "학사과",
-          "source": "jnu",
-          "id": "73cd3a46b0",
-          "category": "academic",
-          "deadline": null,
-          "first_seen": "2026-09-14",
-          "is_new": false
-        },
-        {
           "title": "[공모전] 『2026 English Essay Contest』개최 안내",
           "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70131",
           "date": "2026-08-26",
@@ -573,6 +560,19 @@
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
+        },
+        {
+          "title": "[장학안내] [재단법인은평구민장학재단] 2026년도 하반기 은평구민 장학생...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70632",
+          "date": "2026-10-12",
+          "pinned": false,
+          "author": "학생과",
+          "source": "jnu",
+          "id": "067ceb9458",
+          "category": "academic",
+          "deadline": null,
+          "first_seen": "2026-10-12",
+          "is_new": true
         },
         {
           "title": "[취업정보] 「현직자와의 AI 토크토크(1차)」참여 모집중!",
@@ -959,7 +959,7 @@
           "title": "2026년 Quantum-HPC 첨단 기술 세미나 참가 신청 (선착순)",
           "url": "https://jnu.nccoss.kr/www/notice/view/385?bd=notice&page=1",
           "date": "2026-09-29",
-          "pinned": true,
+          "pinned": false,
           "author": "",
           "source": "nccoss",
           "id": "6ad7deb106",
@@ -972,7 +972,7 @@
           "title": "2026학년도 2학기 기업 연계형 캡스톤디자인 과제 지원 안내(~9/30(수) 15:00까지)",
           "url": "https://jnu.nccoss.kr/www/notice/view/384?bd=notice&page=1",
           "date": "2026-09-22",
-          "pinned": true,
+          "pinned": false,
           "author": "",
           "source": "nccoss",
           "id": "1b9f20f96f",
@@ -985,7 +985,7 @@
           "title": "2026학년도 2학기 캡스톤디자인 WE-Meet 프로젝트 과제 신청 결과 안내",
           "url": "https://jnu.nccoss.kr/www/notice/view/383?bd=notice&page=1",
           "date": "2026-09-22",
-          "pinned": true,
+          "pinned": false,
           "author": "",
           "source": "nccoss",
           "id": "eb91f3b6b7",
@@ -993,19 +993,6 @@
           "deadline": null,
           "first_seen": "2026-10-08",
           "is_new": true
-        },
-        {
-          "title": "차세대통신 혁신융합대학사업단 2026학년도 2학기 교육·실습 기자재 대여안내",
-          "url": "https://jnu.nccoss.kr/www/notice/view/381?bd=notice&page=1",
-          "date": "2026-08-14",
-          "pinned": true,
-          "author": "",
-          "source": "nccoss",
-          "id": "c027302886",
-          "category": "academic",
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
         },
         {
           "title": "2026학년도 2학기 캡스톤디자인 WE-Meet 프로젝트 과제 지원 안내(~9/21(월) 10:00까지)",
@@ -1016,6 +1003,19 @@
           "source": "nccoss",
           "id": "f590e10477",
           "category": "notice",
+          "deadline": null,
+          "first_seen": "2026-09-08",
+          "is_new": false
+        },
+        {
+          "title": "차세대통신 혁신융합대학사업단 2026학년도 2학기 교육·실습 기자재 대여안내",
+          "url": "https://jnu.nccoss.kr/www/notice/view/381?bd=notice&page=1",
+          "date": "2026-08-14",
+          "pinned": false,
+          "author": "",
+          "source": "nccoss",
+          "id": "c027302886",
+          "category": "academic",
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false

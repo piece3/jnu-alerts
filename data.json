@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13 03:14",
+  "generated_at": "2026-10-13 12:14",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 119,
+  "total": 118,
   "sources": [
     {
       "key": "ece",
@@ -562,6 +562,84 @@
           "is_new": false
         },
         {
+          "title": "[취업정보] 2026년 글로컬대학사업 「AI, 역량검사부터 면접까지」",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70654",
+          "date": "2026-10-13",
+          "pinned": false,
+          "author": "취업지원실",
+          "source": "jnu",
+          "id": "5dffa2f250",
+          "category": "job",
+          "deadline": null,
+          "first_seen": "2026-10-13",
+          "is_new": true
+        },
+        {
+          "title": "[채용공고] 2026년도 제12회 계약직원(사무원, 언론담당관) 경력경쟁채...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70653",
+          "date": "2026-10-13",
+          "pinned": false,
+          "author": "총무과",
+          "source": "jnu",
+          "id": "8e0eea78a9",
+          "category": "job",
+          "deadline": null,
+          "first_seen": "2026-10-13",
+          "is_new": true
+        },
+        {
+          "title": "[채용공고] 2026년도 제13회 계약직원(뉴미디어 홍보담당, 영상제작·편...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70652",
+          "date": "2026-10-13",
+          "pinned": false,
+          "author": "총무과",
+          "source": "jnu",
+          "id": "1c0d0ab93b",
+          "category": "job",
+          "deadline": null,
+          "first_seen": "2026-10-13",
+          "is_new": true
+        },
+        {
+          "title": "[공모전] [소상공인시장진흥공단] 2026년 소상공인365 활용사례 공모...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70651",
+          "date": "2026-10-13",
+          "pinned": false,
+          "author": "학생과",
+          "source": "jnu",
+          "id": "f34346df63",
+          "category": "contest",
+          "deadline": null,
+          "first_seen": "2026-10-13",
+          "is_new": true
+        },
+        {
+          "title": "[모집공고] [한국과학기술원] 2027년 KAIST-MIT 양자 정보 겨울...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70650",
+          "date": "2026-10-13",
+          "pinned": false,
+          "author": "학생과",
+          "source": "jnu",
+          "id": "37d033a010",
+          "category": "notice",
+          "deadline": null,
+          "first_seen": "2026-10-13",
+          "is_new": true
+        },
+        {
+          "title": "[학사안내] 2026학년도 2학기 중소기업 취업연계 장학(희망사다리 Ⅰ유형...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70649",
+          "date": "2026-10-13",
+          "pinned": false,
+          "author": "학생과",
+          "source": "jnu",
+          "id": "e31d6e40c9",
+          "category": "job",
+          "deadline": null,
+          "first_seen": "2026-10-13",
+          "is_new": true
+        },
+        {
           "title": "[학사안내] 2026학년도 동계 계절학기 타 대학교(충북대) 교류수학 추천...",
           "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70648",
           "date": "2026-10-12",
@@ -612,84 +690,6 @@
           "deadline": null,
           "first_seen": "2026-10-13",
           "is_new": true
-        },
-        {
-          "title": "[공모전] [안산시] 2026 안산시 정책 홍보 숏폼 대학생 공모전 안내",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70644",
-          "date": "2026-10-12",
-          "pinned": false,
-          "author": "학생과",
-          "source": "jnu",
-          "id": "6ca670fd49",
-          "category": "contest",
-          "deadline": null,
-          "first_seen": "2026-10-13",
-          "is_new": true
-        },
-        {
-          "title": "[대학생활] 충남대·국립부경대·충북대 연합 릴레이 특강 안내",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70639",
-          "date": "2026-10-12",
-          "pinned": false,
-          "author": "학생과",
-          "source": "jnu",
-          "id": "b016c92961",
-          "category": "notice",
-          "deadline": null,
-          "first_seen": "2026-10-13",
-          "is_new": true
-        },
-        {
-          "title": "[모집공고] [(재)전라남도청소년미래재단] 2026년 대학생 기관탐방 프로...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70638",
-          "date": "2026-10-12",
-          "pinned": false,
-          "author": "학생과",
-          "source": "jnu",
-          "id": "0120a22ae7",
-          "category": "notice",
-          "deadline": null,
-          "first_seen": "2026-10-13",
-          "is_new": true
-        },
-        {
-          "title": "[대학생활] [육아정책연구소] 영유아 사교육 인식개선 토크콘서트 안내",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70637",
-          "date": "2026-10-12",
-          "pinned": false,
-          "author": "학생과",
-          "source": "jnu",
-          "id": "d60c56217d",
-          "category": "notice",
-          "deadline": null,
-          "first_seen": "2026-10-13",
-          "is_new": true
-        },
-        {
-          "title": "[장학안내] [재단법인은평구민장학재단] 2026년도 하반기 은평구민 장학생...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70632",
-          "date": "2026-10-12",
-          "pinned": false,
-          "author": "학생과",
-          "source": "jnu",
-          "id": "067ceb9458",
-          "category": "academic",
-          "deadline": null,
-          "first_seen": "2026-10-12",
-          "is_new": true
-        },
-        {
-          "title": "[취업정보] 「현직자와의 AI 토크토크(1차)」참여 모집중!",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70631",
-          "date": "2026-10-11",
-          "pinned": false,
-          "author": "진로취업지원실",
-          "source": "jnu",
-          "id": "b07c7e6d28",
-          "category": "job",
-          "deadline": null,
-          "first_seen": "2026-10-12",
-          "is_new": true
         }
       ]
     },
@@ -701,19 +701,6 @@
       "stale": false,
       "error": null,
       "items": [
-        {
-          "title": "[공지] 제26회 TOPCIT 응시자 필독(※시험장 변경※)",
-          "url": "https://sojoong.kr/notice/notice-board/?uid=1046&mod=document",
-          "date": "2026-10-07",
-          "pinned": true,
-          "author": "",
-          "source": "sojoong",
-          "id": "234cbde050",
-          "category": "notice",
-          "deadline": null,
-          "first_seen": "2026-10-08",
-          "is_new": false
-        },
         {
           "title": "[홍보] AI기반 지역사회 문제해결톤 참가자 모집(~ 10.16.(금) 까지)",
           "url": "https://sojoong.kr/notice/notice-board/?uid=1045&mod=document",
@@ -1174,7 +1161,7 @@
           "is_new": false
         },
         {
-          "title": "[접수중] 2026 공학페스티벌 공대생심사단 모집",
+          "title": "[접수중] 2026 공학페스티벌 공대생심사단 모집(대기접수중)",
           "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1056446/artclView.do",
           "date": "2026-09-29",
           "pinned": false,
@@ -1450,8 +1437,8 @@
       "name": "지역개발연구소",
       "url": "https://crdcnu.jnuac.kr/bbs/board.php?bo_table=0501",
       "kind": "gnuboard",
-      "stale": true,
-      "error": "RuntimeError: 파싱 결과 0건 (사이트 구조 변경 의심)",
+      "stale": false,
+      "error": null,
       "items": [
         {
           "title": "전남대 지역개발연구소 2023 한국연구재단 인문사회연구소 사업 선정",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14 23:05",
+  "generated_at": "2026-10-15 09:59",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 118,
   "sources": [
@@ -562,6 +562,58 @@
           "is_new": false
         },
         {
+          "title": "[학사안내] 2026학년도 2학기 재학생 분할납부 3회차 고지서 출력",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70681",
+          "date": "2026-10-15",
+          "pinned": false,
+          "author": "재무과",
+          "source": "jnu",
+          "id": "72e2e1d83b",
+          "category": "academic",
+          "deadline": null,
+          "first_seen": "2026-10-15",
+          "is_new": true
+        },
+        {
+          "title": "[취업정보] ​[IGE] 2026년 미국 인턴십 – Dongwon Aut...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70680",
+          "date": "2026-10-15",
+          "pinned": false,
+          "author": "진로취업지원실",
+          "source": "jnu",
+          "id": "7679d8f947",
+          "category": "job",
+          "deadline": null,
+          "first_seen": "2026-10-15",
+          "is_new": true
+        },
+        {
+          "title": "[대학생활] [국립아시아문화전당] 2026 ACC 빅도어 영화 포럼 안내",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70679",
+          "date": "2026-10-15",
+          "pinned": false,
+          "author": "학생과",
+          "source": "jnu",
+          "id": "00c885cc7a",
+          "category": "notice",
+          "deadline": null,
+          "first_seen": "2026-10-15",
+          "is_new": true
+        },
+        {
+          "title": "[취업정보] 2026년 글로컬대학사업 「제조 도메인 연계 산업 AI 실무 ...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70678",
+          "date": "2026-10-15",
+          "pinned": false,
+          "author": "취업지원실",
+          "source": "jnu",
+          "id": "4f70f1ba70",
+          "category": "job",
+          "deadline": null,
+          "first_seen": "2026-10-15",
+          "is_new": true
+        },
+        {
           "title": "[채용공고] 2026년도 제1회 전남대학교 거점국립대 패키지 지원대학 사업...",
           "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70677",
           "date": "2026-10-14",
@@ -636,58 +688,6 @@
           "id": "7bd0bd3f20",
           "category": "academic",
           "deadline": null,
-          "first_seen": "2026-10-14",
-          "is_new": true
-        },
-        {
-          "title": "[채용공고] 2026년도 제1회 전남대학교 교육혁신본부 계약직원 채용시험(...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70671",
-          "date": "2026-10-14",
-          "pinned": false,
-          "author": "교육혁신정책실",
-          "source": "jnu",
-          "id": "7132d794e8",
-          "category": "job",
-          "deadline": null,
-          "first_seen": "2026-10-14",
-          "is_new": true
-        },
-        {
-          "title": "[취업정보] [한미약품]제약영업★학교 추천채용(~10.16.(금)10시까지)",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70670",
-          "date": "2026-10-14",
-          "pinned": false,
-          "author": "취업지원실",
-          "source": "jnu",
-          "id": "a839062116",
-          "category": "job",
-          "deadline": "2026-10-16",
-          "first_seen": "2026-10-14",
-          "is_new": true
-        },
-        {
-          "title": "[취업정보] [기계설비건설공제조합]2026년도 하반기 신입직원 채용(~10...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70669",
-          "date": "2026-10-14",
-          "pinned": false,
-          "author": "취업지원실",
-          "source": "jnu",
-          "id": "6e5c6647f2",
-          "category": "job",
-          "deadline": null,
-          "first_seen": "2026-10-14",
-          "is_new": true
-        },
-        {
-          "title": "[취업정보] [KT&G]2026 하반기 계약사원 채용(~10.19.(월) ...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70668",
-          "date": "2026-10-14",
-          "pinned": false,
-          "author": "취업지원실",
-          "source": "jnu",
-          "id": "30934879a5",
-          "category": "job",
-          "deadline": "2026-10-19",
           "first_seen": "2026-10-14",
           "is_new": true
         }

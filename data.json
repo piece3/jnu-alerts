@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15 22:43",
+  "generated_at": "2026-10-16 09:50",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 118,
   "sources": [
@@ -562,6 +562,19 @@
           "is_new": false
         },
         {
+          "title": "[학사안내] 2026학년도 동계 계절학기 타 대학교(경상국립대) 교류수학 ...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70687",
+          "date": "2026-10-16",
+          "pinned": false,
+          "author": "학사과",
+          "source": "jnu",
+          "id": "1bc80828f0",
+          "category": "academic",
+          "deadline": null,
+          "first_seen": "2026-10-16",
+          "is_new": true
+        },
+        {
           "title": "[채용공고] 제9회 앵커사업단 및 제2회 서남권 공유대학 사업단 직원 채용...",
           "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70686",
           "date": "2026-10-15",
@@ -677,19 +690,6 @@
           "deadline": null,
           "first_seen": "2026-10-15",
           "is_new": true
-        },
-        {
-          "title": "[채용공고] 2026년도 제1회 전남대학교 거점국립대 패키지 지원대학 사업...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70677",
-          "date": "2026-10-14",
-          "pinned": false,
-          "author": "대학혁신지원과",
-          "source": "jnu",
-          "id": "d76e07b48e",
-          "category": "job",
-          "deadline": null,
-          "first_seen": "2026-10-14",
-          "is_new": true
         }
       ]
     },
@@ -798,7 +798,7 @@
           "source": "aicoss",
           "id": "82296169a3",
           "category": "academic",
-          "deadline": "2026-10-14",
+          "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
         },

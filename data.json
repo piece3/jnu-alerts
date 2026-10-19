@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18 21:48",
+  "generated_at": "2026-10-19 09:34",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 119,
   "sources": [
@@ -188,7 +188,7 @@
           "category": "job",
           "deadline": null,
           "first_seen": "2026-10-14",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "정보보안 컬로퀴엄 21차 특강 안내(온라인 특강)",
@@ -562,6 +562,45 @@
           "is_new": false
         },
         {
+          "title": "[취업정보] 2026년 글로컬대학사업 「(특강) 현직자와의 AI 토크토크(...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70707",
+          "date": "2026-10-19",
+          "pinned": false,
+          "author": "취업지원실",
+          "source": "jnu",
+          "id": "de32faab10",
+          "category": "job",
+          "deadline": null,
+          "first_seen": "2026-10-19",
+          "is_new": true
+        },
+        {
+          "title": "[장학안내] [거창군] 2026학년도 2학기 거창군 지역출신 대학생 등록금...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70706",
+          "date": "2026-10-19",
+          "pinned": false,
+          "author": "학생과",
+          "source": "jnu",
+          "id": "a001eb371e",
+          "category": "academic",
+          "deadline": null,
+          "first_seen": "2026-10-19",
+          "is_new": true
+        },
+        {
+          "title": "[모집공고] [포스코퓨처엠] 「2026 포스코퓨처엠배 Future's Le...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70705",
+          "date": "2026-10-19",
+          "pinned": false,
+          "author": "학생과",
+          "source": "jnu",
+          "id": "17e6dac9a9",
+          "category": "notice",
+          "deadline": null,
+          "first_seen": "2026-10-19",
+          "is_new": true
+        },
+        {
           "title": "[채용공고] 2026년 제2회 전남대학교 패키지 지원대학 사업 전문 및 사...",
           "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70704",
           "date": "2026-10-16",
@@ -647,45 +686,6 @@
           "author": "교육혁신정책실",
           "source": "jnu",
           "id": "7d65e8f9a8",
-          "category": "job",
-          "deadline": null,
-          "first_seen": "2026-10-16",
-          "is_new": true
-        },
-        {
-          "title": "[학사안내] 2026학년도 동계 계절학기 타 대학교(순천대) 교류수학 추천...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70696",
-          "date": "2026-10-16",
-          "pinned": false,
-          "author": "학사과",
-          "source": "jnu",
-          "id": "58b02e505a",
-          "category": "academic",
-          "deadline": null,
-          "first_seen": "2026-10-16",
-          "is_new": true
-        },
-        {
-          "title": "[취업정보] [한국교통안전공단 광주전남본부]현직자 취업멘토링(*멘토: 일반...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70695",
-          "date": "2026-10-16",
-          "pinned": false,
-          "author": "진로취업지원실",
-          "source": "jnu",
-          "id": "58d261e0be",
-          "category": "job",
-          "deadline": null,
-          "first_seen": "2026-10-16",
-          "is_new": true
-        },
-        {
-          "title": "[취업정보] [푸른저축은행]2026년 신입직원 금융일반, IT전산 공개채용...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70694",
-          "date": "2026-10-16",
-          "pinned": false,
-          "author": "취업지원실",
-          "source": "jnu",
-          "id": "b571d5c38a",
           "category": "job",
           "deadline": null,
           "first_seen": "2026-10-16",
@@ -1184,7 +1184,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-14",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[접수중] 2026 공학페스티벌 공대생심사단 모집(대기접수중)",

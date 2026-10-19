@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19 09:34",
+  "generated_at": "2026-10-20 01:15",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 119,
+  "total": 120,
   "sources": [
     {
       "key": "ece",
@@ -162,7 +162,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-15",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[BIXPO 2026 참가] 2026년 글로컬대학사업 「제조 도메인 연계 산업 AI 실무 탐방」(~10/29)",
@@ -175,7 +175,7 @@
           "category": "academic",
           "deadline": "2026-10-29",
           "first_seen": "2026-10-15",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "공과대학 취업서포터즈 - 취업로드맵·동문지도 콘텐츠 안내",
@@ -428,8 +428,8 @@
       "name": "전남대 학사·일반공지",
       "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5",
       "kind": "jnu",
-      "stale": false,
-      "error": null,
+      "stale": true,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.jnu.ac.kr', port=443): Read timed out. (read timeout=25)",
       "items": [
         {
           "title": "[모집공고] 제24회 2026 전남대학교 창업 아이템 경진대회",
@@ -702,6 +702,19 @@
       "error": null,
       "items": [
         {
+          "title": "[모집홍보] 2026 METAmobility 자율주행 자동차 경진대회",
+          "url": "https://sojoong.kr/notice/notice-board/?uid=1048&mod=document",
+          "date": "2026-10-19",
+          "pinned": true,
+          "author": "",
+          "source": "sojoong",
+          "id": "90ac8dae3a",
+          "category": "contest",
+          "deadline": null,
+          "first_seen": "2026-10-20",
+          "is_new": true
+        },
+        {
           "title": "[학생모집] 2026년 동계 계절학기 해외(일본) 인턴십(4주) 참여학생 추가모집 ( ~ 10월 23일(금)까지)",
           "url": "https://sojoong.kr/notice/notice-board/?uid=1047&mod=document",
           "date": "2026-10-16",
@@ -750,6 +763,19 @@
       "stale": false,
       "error": null,
       "items": [
+        {
+          "title": "글로벌 AI 역량강화 교육과정(Microsoft AI-901) 교육생 추가 모집 안내",
+          "url": "https://aicoss.ac.kr/www/notice/view/4124?bd=notice&page=1",
+          "date": "2026-10-19",
+          "pinned": true,
+          "author": "",
+          "source": "aicoss",
+          "id": "6026ef8233",
+          "category": "notice",
+          "deadline": null,
+          "first_seen": "2026-10-20",
+          "is_new": true
+        },
         {
           "title": "2026 AICOSS-UTAS 글로벌 학생프로그램 면접 전형 안내",
           "url": "https://aicoss.ac.kr/www/notice/view/4123?bd=notice&page=1",
@@ -927,19 +953,6 @@
           "author": "",
           "source": "aicoss",
           "id": "129f546f63",
-          "category": "notice",
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "2026년 2학기 캡스톤디자인 과제 지원 모집 안내(~9/18까지)",
-          "url": "https://aicoss.ac.kr/www/notice/view/4104?bd=notice&page=1",
-          "date": "2026-09-01",
-          "pinned": false,
-          "author": "",
-          "source": "aicoss",
-          "id": "df2382de77",
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-09-08",

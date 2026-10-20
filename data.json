@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20 10:19",
+  "generated_at": "2026-10-20 22:53",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 120,
   "sources": [
@@ -152,6 +152,45 @@
       "error": null,
       "items": [
         {
+          "title": "2027년도 한국지도자육성장학재단 장학생 선발 안내",
+          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1058054/artclView.do",
+          "date": "2026-10-20",
+          "pinned": true,
+          "author": "김현희",
+          "source": "eng",
+          "id": "b0937fb9f2",
+          "category": "academic",
+          "deadline": null,
+          "first_seen": "2026-10-20",
+          "is_new": true
+        },
+        {
+          "title": "2026학년도 2학기 도전장학생(비상) 선발 계획 안내",
+          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1058051/artclView.do",
+          "date": "2026-10-20",
+          "pinned": true,
+          "author": "김현희",
+          "source": "eng",
+          "id": "cb5ab61cdf",
+          "category": "academic",
+          "deadline": null,
+          "first_seen": "2026-10-20",
+          "is_new": true
+        },
+        {
+          "title": "2026 동계 GRC (Global Residential College) 프로그램 운영 안내",
+          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1057963/artclView.do",
+          "date": "2026-10-20",
+          "pinned": false,
+          "author": "김송희",
+          "source": "eng",
+          "id": "b348b633c5",
+          "category": "notice",
+          "deadline": null,
+          "first_seen": "2026-10-20",
+          "is_new": true
+        },
+        {
           "title": "2026학년도 공과대학 해외 단기 파견 대상자 확정 공고",
           "url": "https://eng.jnu.ac.kr/bbs/eng/993/1057625/artclView.do",
           "date": "2026-10-15",
@@ -240,45 +279,6 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-07",
-          "is_new": false
-        },
-        {
-          "title": "2026 산업별 경쟁사 및 대표 기업 특강(9/15 09:00부터 선착순 모집)",
-          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1054987/artclView.do",
-          "date": "2026-09-14",
-          "pinned": false,
-          "author": "조은혜",
-          "source": "eng",
-          "id": "aa0dd92770",
-          "category": "notice",
-          "deadline": null,
-          "first_seen": "2026-09-16",
-          "is_new": false
-        },
-        {
-          "title": "[온라인 설명회] 사이버 전문사관 제3기 후보생 모집설명회",
-          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1054833/artclView.do",
-          "date": "2026-09-11",
-          "pinned": false,
-          "author": "김수진",
-          "source": "eng",
-          "id": "30bba43a98",
-          "category": "notice",
-          "deadline": null,
-          "first_seen": "2026-09-14",
-          "is_new": false
-        },
-        {
-          "title": "2026학년도 2학기 진로취업지원실 글로컬 프로그램",
-          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1054499/artclView.do",
-          "date": "2026-09-09",
-          "pinned": false,
-          "author": "조은혜",
-          "source": "eng",
-          "id": "0c2561f9eb",
-          "category": "job",
-          "deadline": null,
-          "first_seen": "2026-09-09",
           "is_new": false
         }
       ]
@@ -1463,8 +1463,8 @@
       "name": "지역개발연구소",
       "url": "https://crdcnu.jnuac.kr/bbs/board.php?bo_table=0501",
       "kind": "gnuboard",
-      "stale": false,
-      "error": null,
+      "stale": true,
+      "error": "RuntimeError: 파싱 결과 0건 (사이트 구조 변경 의심)",
       "items": [
         {
           "title": "전남대 지역개발연구소 2023 한국연구재단 인문사회연구소 사업 선정",

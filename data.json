@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20 22:53",
+  "generated_at": "2026-10-21 10:04",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 120,
   "sources": [
@@ -725,7 +725,7 @@
           "category": "job",
           "deadline": "2026-10-23",
           "first_seen": "2026-10-16",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[홍보] AI기반 지역사회 문제해결톤 참가자 모집(~ 10.26.(월) 까지)",
@@ -787,7 +787,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-16",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026년도 9월호 AICOSS 레터",
@@ -1463,8 +1463,8 @@
       "name": "지역개발연구소",
       "url": "https://crdcnu.jnuac.kr/bbs/board.php?bo_table=0501",
       "kind": "gnuboard",
-      "stale": true,
-      "error": "RuntimeError: 파싱 결과 0건 (사이트 구조 변경 의심)",
+      "stale": false,
+      "error": null,
       "items": [
         {
           "title": "전남대 지역개발연구소 2023 한국연구재단 인문사회연구소 사업 선정",
@@ -1502,6 +1502,19 @@
           "id": "7531b096bc",
           "category": "notice",
           "deadline": null,
+          "first_seen": "2026-09-08",
+          "is_new": false
+        },
+        {
+          "title": "『지역개발연구』 2024년 12월호 논문모집 안내(~11.15)",
+          "url": "https://crdcnu.jnuac.kr/bbs/board.php?bo_table=0501&wr_id=195",
+          "date": "2026-10-21",
+          "pinned": false,
+          "author": "",
+          "source": "crdc",
+          "id": "208ce0d64f",
+          "category": "notice",
+          "deadline": "2026-11-15",
           "first_seen": "2026-09-08",
           "is_new": false
         },
@@ -1643,19 +1656,6 @@
           "author": "",
           "source": "crdc",
           "id": "1f2125bc84",
-          "category": "notice",
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "『지역개발연구』 2024년 12월호 논문모집 안내(~11.15)",
-          "url": "https://crdcnu.jnuac.kr/bbs/board.php?bo_table=0501&wr_id=195",
-          "date": "2025-10-21",
-          "pinned": false,
-          "author": "",
-          "source": "crdc",
-          "id": "208ce0d64f",
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-09-08",

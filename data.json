@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21 10:04",
+  "generated_at": "2026-10-21 23:10",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 120,
   "sources": [
@@ -764,6 +764,19 @@
       "error": null,
       "items": [
         {
+          "title": "「AI 도구가 Data Scientist의 업무를 어떻게 변화시키고 있는가」 특강 신청 안내(~10/28)",
+          "url": "https://aicoss.ac.kr/www/notice/view/4125?bd=notice&page=1",
+          "date": "2026-10-21",
+          "pinned": true,
+          "author": "",
+          "source": "aicoss",
+          "id": "ae1ca8e8e0",
+          "category": "notice",
+          "deadline": "2026-10-28",
+          "first_seen": "2026-10-21",
+          "is_new": true
+        },
+        {
           "title": "글로벌 AI 역량강화 교육과정(Microsoft AI-901) 교육생 추가 모집 안내",
           "url": "https://aicoss.ac.kr/www/notice/view/4124?bd=notice&page=1",
           "date": "2026-10-19",
@@ -775,19 +788,6 @@
           "deadline": null,
           "first_seen": "2026-10-20",
           "is_new": true
-        },
-        {
-          "title": "2026 AICOSS-UTAS 글로벌 학생프로그램 면접 전형 안내",
-          "url": "https://aicoss.ac.kr/www/notice/view/4123?bd=notice&page=1",
-          "date": "2026-10-16",
-          "pinned": true,
-          "author": "",
-          "source": "aicoss",
-          "id": "01f409b6ca",
-          "category": "notice",
-          "deadline": null,
-          "first_seen": "2026-10-16",
-          "is_new": false
         },
         {
           "title": "2026년도 9월호 AICOSS 레터",
@@ -826,6 +826,19 @@
           "category": "academic",
           "deadline": null,
           "first_seen": "2026-09-08",
+          "is_new": false
+        },
+        {
+          "title": "2026 AICOSS-UTAS 글로벌 학생프로그램 면접 전형 안내",
+          "url": "https://aicoss.ac.kr/www/notice/view/4123?bd=notice&page=1",
+          "date": "2026-10-16",
+          "pinned": false,
+          "author": "",
+          "source": "aicoss",
+          "id": "01f409b6ca",
+          "category": "notice",
+          "deadline": null,
+          "first_seen": "2026-10-16",
           "is_new": false
         },
         {
@@ -940,19 +953,6 @@
           "author": "",
           "source": "aicoss",
           "id": "c157c2ab79",
-          "category": "notice",
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "2026년도 8월호 AICOSS 레터",
-          "url": "https://aicoss.ac.kr/www/notice/view/4105?bd=notice&page=1",
-          "date": "2026-09-02",
-          "pinned": false,
-          "author": "",
-          "source": "aicoss",
-          "id": "129f546f63",
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-09-08",
@@ -1519,7 +1519,7 @@
           "is_new": false
         },
         {
-          "title": "『지역개발연구』2026년 12월호 논문모집 안내(~10.30.)(접수마감)",
+          "title": "『지역개발연구』2026년 12월호 논문모집 안내(~10.30.))",
           "url": "https://crdcnu.jnuac.kr/bbs/board.php?bo_table=0501&wr_id=204",
           "date": "2026-10-06",
           "pinned": false,

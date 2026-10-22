@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21 23:10",
+  "generated_at": "2026-10-22 10:01",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 120,
   "sources": [
@@ -969,6 +969,19 @@
       "error": null,
       "items": [
         {
+          "title": "2026 전남대학교 용봉학술제 X NCCOSS 부스 · 특강 운영 안내",
+          "url": "https://jnu.nccoss.kr/www/notice/view/386?bd=notice&page=1",
+          "date": "2026-10-22",
+          "pinned": true,
+          "author": "",
+          "source": "nccoss",
+          "id": "1a61415987",
+          "category": "notice",
+          "deadline": null,
+          "first_seen": "2026-10-22",
+          "is_new": true
+        },
+        {
           "title": "2026년 Quantum-HPC 첨단 기술 세미나 참가 신청 (선착순)",
           "url": "https://jnu.nccoss.kr/www/notice/view/385?bd=notice&page=1",
           "date": "2026-09-29",
@@ -1146,19 +1159,6 @@
           "source": "nccoss",
           "id": "748abd17f8",
           "category": "job",
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "2026년 하계 한국자동차연구원 실무체험 참가 신청 (~2026. 7. 8.(수) 15:00)",
-          "url": "https://jnu.nccoss.kr/www/notice/view/366?bd=notice&page=1",
-          "date": "2026-06-29",
-          "pinned": false,
-          "author": "",
-          "source": "nccoss",
-          "id": "3846eb21a6",
-          "category": "notice",
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false

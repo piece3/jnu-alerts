@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22 10:01",
+  "generated_at": "2026-10-22 23:14",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 120,
   "sources": [
@@ -969,14 +969,14 @@
       "error": null,
       "items": [
         {
-          "title": "2026 전남대학교 용봉학술제 X NCCOSS 부스 · 특강 운영 안내",
+          "title": "2026 전남대학교 용봉학술제 X 차세대통신혁신융합대학사업단 부스 · 특강 운영 안내",
           "url": "https://jnu.nccoss.kr/www/notice/view/386?bd=notice&page=1",
           "date": "2026-10-22",
           "pinned": true,
           "author": "",
           "source": "nccoss",
           "id": "1a61415987",
-          "category": "notice",
+          "category": "academic",
           "deadline": null,
           "first_seen": "2026-10-22",
           "is_new": true
@@ -1187,7 +1187,7 @@
           "is_new": false
         },
         {
-          "title": "[접수중] 2026 공학페스티벌 서포터즈 E2메이트 모집",
+          "title": "[접수마감] 2026 공학페스티벌 서포터즈 E2메이트 모집",
           "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1057410/artclView.do",
           "date": "2026-10-13",
           "pinned": false,

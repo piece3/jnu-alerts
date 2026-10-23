@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23 10:03",
+  "generated_at": "2026-10-23 22:51",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 120,
   "sources": [
@@ -715,7 +715,7 @@
           "is_new": true
         },
         {
-          "title": "[학생모집] 2026년 동계 계절학기 해외(일본) 인턴십(4주) 참여학생 추가모집 ( ~ 10월 23일(금)까지)",
+          "title": "[학생모집] 2026년 동계 계절학기 해외(일본) 인턴십(4주) 참여학생 추가모집 ( ~ 10월 25일(일)까지)",
           "url": "https://sojoong.kr/notice/notice-board/?uid=1047&mod=document",
           "date": "2026-10-16",
           "pinned": true,
@@ -723,7 +723,7 @@
           "source": "sojoong",
           "id": "2abe246d34",
           "category": "job",
-          "deadline": "2026-10-23",
+          "deadline": "2026-10-25",
           "first_seen": "2026-10-16",
           "is_new": false
         },
@@ -763,6 +763,19 @@
       "stale": false,
       "error": null,
       "items": [
+        {
+          "title": "2026 AICOSS-UTAS 글로벌 학생프로그램 합격자 발표 일정 안내",
+          "url": "https://aicoss.ac.kr/www/notice/view/4126?bd=notice&page=1",
+          "date": "2026-10-23",
+          "pinned": true,
+          "author": "",
+          "source": "aicoss",
+          "id": "3090c76495",
+          "category": "notice",
+          "deadline": null,
+          "first_seen": "2026-10-23",
+          "is_new": true
+        },
         {
           "title": "「AI 도구가 Data Scientist의 업무를 어떻게 변화시키고 있는가」 특강 신청 안내(~10/28)",
           "url": "https://aicoss.ac.kr/www/notice/view/4125?bd=notice&page=1",
@@ -943,19 +956,6 @@
           "category": "academic",
           "deadline": null,
           "first_seen": "2026-09-14",
-          "is_new": false
-        },
-        {
-          "title": "2026학년도 AICOSS-UNLV(미국) 글로벌 단기 파견 프로그램 참가자 선발 안내",
-          "url": "https://aicoss.ac.kr/www/notice/view/4111?bd=notice&page=1",
-          "date": "2026-09-08",
-          "pinned": false,
-          "author": "",
-          "source": "aicoss",
-          "id": "c157c2ab79",
-          "category": "notice",
-          "deadline": null,
-          "first_seen": "2026-09-08",
           "is_new": false
         }
       ]

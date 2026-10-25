@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24 21:57",
+  "generated_at": "2026-10-25 09:36",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 120,
   "sources": [
@@ -162,7 +162,7 @@
           "category": "academic",
           "deadline": null,
           "first_seen": "2026-10-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026학년도 2학기 도전장학생(비상) 선발 계획 안내",
@@ -175,7 +175,7 @@
           "category": "academic",
           "deadline": null,
           "first_seen": "2026-10-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 동계 GRC (Global Residential College) 프로그램 운영 안내",
@@ -188,7 +188,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026학년도 공과대학 해외 단기 파견 대상자 확정 공고",
@@ -712,7 +712,7 @@
           "category": "contest",
           "deadline": null,
           "first_seen": "2026-10-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[학생모집] 2026년 동계 계절학기 해외(일본) 인턴십(4주) 참여학생 추가모집 ( ~ 10월 25일(일)까지)",
@@ -800,7 +800,7 @@
           "category": "notice",
           "deadline": null,
           "first_seen": "2026-10-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026년도 9월호 AICOSS 레터",
@@ -1463,8 +1463,8 @@
       "name": "지역개발연구소",
       "url": "https://crdcnu.jnuac.kr/bbs/board.php?bo_table=0501",
       "kind": "gnuboard",
-      "stale": false,
-      "error": null,
+      "stale": true,
+      "error": "RuntimeError: 파싱 결과 0건 (사이트 구조 변경 의심)",
       "items": [
         {
           "title": "전남대 지역개발연구소 2023 한국연구재단 인문사회연구소 사업 선정",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25 09:36",
+  "generated_at": "2026-10-25 22:23",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 120,
   "sources": [
@@ -1463,8 +1463,8 @@
       "name": "지역개발연구소",
       "url": "https://crdcnu.jnuac.kr/bbs/board.php?bo_table=0501",
       "kind": "gnuboard",
-      "stale": true,
-      "error": "RuntimeError: 파싱 결과 0건 (사이트 구조 변경 의심)",
+      "stale": false,
+      "error": null,
       "items": [
         {
           "title": "전남대 지역개발연구소 2023 한국연구재단 인문사회연구소 사업 선정",

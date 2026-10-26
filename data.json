@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26 09:47",
+  "generated_at": "2026-10-27 00:30",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 120,
   "sources": [
@@ -723,7 +723,7 @@
           "source": "sojoong",
           "id": "2abe246d34",
           "category": "job",
-          "deadline": "2026-10-25",
+          "deadline": null,
           "first_seen": "2026-10-16",
           "is_new": false
         },
@@ -969,6 +969,19 @@
       "error": null,
       "items": [
         {
+          "title": "2026학년도 서울시립대학교 차세대통신혁신융합대학사업단 동계 계절학기 학점교류(~ 11.06.(금))",
+          "url": "https://jnu.nccoss.kr/www/notice/view/388?bd=notice&page=1",
+          "date": "2026-10-26",
+          "pinned": true,
+          "author": "",
+          "source": "nccoss",
+          "id": "fb5ee5e8e3",
+          "category": "academic",
+          "deadline": "2026-11-06",
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
           "title": "2026 전남대학교 용봉학술제 X 차세대통신혁신융합대학사업단 부스 · 특강 운영 안내",
           "url": "https://jnu.nccoss.kr/www/notice/view/386?bd=notice&page=1",
           "date": "2026-10-22",
@@ -979,6 +992,19 @@
           "category": "academic",
           "deadline": null,
           "first_seen": "2026-10-22",
+          "is_new": false
+        },
+        {
+          "title": "2026 동계 NCCOSS 경진대회 개최(신청: 10/26(월)~11/13(금) 15:00)",
+          "url": "https://jnu.nccoss.kr/www/notice/view/387?bd=notice&page=1",
+          "date": "2026-10-26",
+          "pinned": false,
+          "author": "",
+          "source": "nccoss",
+          "id": "5d7cda40e6",
+          "category": "contest",
+          "deadline": "2026-11-13",
+          "first_seen": "2026-10-27",
           "is_new": true
         },
         {
@@ -1136,32 +1162,6 @@
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
-        },
-        {
-          "title": "2026-2학기 서울시립대학교 차세대통신혁신융합대학사업단 학점교류 교과목 신청 안내",
-          "url": "https://jnu.nccoss.kr/www/notice/view/369?bd=notice&page=1",
-          "date": "2026-07-13",
-          "pinned": false,
-          "author": "",
-          "source": "nccoss",
-          "id": "7fdcba78df",
-          "category": "academic",
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "2026년 한국알프스(주) 취업연계 공동교육과정 프로그램 신청 (~2026. 8. 5.(수) 15:00) 기간 연장 ★",
-          "url": "https://jnu.nccoss.kr/www/notice/view/368?bd=notice&page=1",
-          "date": "2026-07-08",
-          "pinned": false,
-          "author": "",
-          "source": "nccoss",
-          "id": "748abd17f8",
-          "category": "job",
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
         }
       ]
     },
@@ -1185,6 +1185,32 @@
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
+        },
+        {
+          "title": "[접수중] 2026 공학페스티벌「E²SODE」 공대생 에피소드 쇼츠 공모전",
+          "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1058805/artclView.do",
+          "date": "2026-10-26",
+          "pinned": false,
+          "author": "공학교육혁신센터",
+          "source": "icee",
+          "id": "3193b4ce44",
+          "category": "contest",
+          "deadline": null,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "[접수공고] 2026 기초창의설계 경진대회(2학기) 개최 안내",
+          "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1058683/artclView.do",
+          "date": "2026-10-26",
+          "pinned": false,
+          "author": "공학교육혁신센터",
+          "source": "icee",
+          "id": "cf0783ccd1",
+          "category": "contest",
+          "deadline": null,
+          "first_seen": "2026-10-27",
+          "is_new": true
         },
         {
           "title": "[접수마감] 2026 공학페스티벌 서포터즈 E2메이트 모집",
@@ -1286,32 +1312,6 @@
           "source": "icee",
           "id": "1af34ccf30",
           "category": "notice",
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "[외부교육] [마감] 2026 차세대 응용에너지 소자 이론 및 실습 교육과정 참가자 모집",
-          "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1050109/artclView.do",
-          "date": "2026-07-21",
-          "pinned": false,
-          "author": "공학교육혁신센터",
-          "source": "icee",
-          "id": "c4a77c7fd7",
-          "category": "notice",
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "[홍보] [한국디스플레이산업협회] 2026 디스플레이 취업진로박람회 개최 안내",
-          "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1049721/artclView.do",
-          "date": "2026-07-14",
-          "pinned": false,
-          "author": "공학교육혁신센터",
-          "source": "icee",
-          "id": "d73499acef",
-          "category": "job",
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25 22:23",
+  "generated_at": "2026-10-26 09:47",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 120,
   "sources": [
@@ -787,7 +787,7 @@
           "category": "notice",
           "deadline": "2026-10-28",
           "first_seen": "2026-10-21",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "글로벌 AI 역량강화 교육과정(Microsoft AI-901) 교육생 추가 모집 안내",

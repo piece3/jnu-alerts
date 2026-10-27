@@ -85,10 +85,15 @@ def extract_deadline(title):
 
 # ── 수집 ────────────────────────────────────────────────────
 def fetch(src):
-    r = requests.get(src["url"], headers=UA, timeout=25, verify=False)
-    r.raise_for_status()
     parser = S.PARSERS[src["kind"]]
-    items = parser(r, src)
+    items = []
+    targets = src.get("urls") or [src.get("api") or src["url"]]
+    for i, u in enumerate(targets):
+        if i:
+            time.sleep(0.6)
+        r = requests.get(u, headers=UA, timeout=25, verify=False)
+        r.raise_for_status()
+        items += parser(r, src)
     # 정리: 제목 없는 것 제외, 중복 url 제거
     seen, clean = set(), []
     for it in items:
@@ -118,6 +123,15 @@ def load_prev():
     return first_seen, by_source
 
 
+_HACK = re.compile(r"해커톤|hackathon|구름톤|아이디어톤|데이터톤|메이커톤|ideathon|ctf", re.I)
+
+def _norm_title(t):
+    return re.sub(r"[^0-9a-z가-힣]", "", t.lower())
+
+def sort_by_deadline(items):
+    return sorted(items, key=lambda it: (it.get("deadline") or "9999-12-31", it["title"]))
+
+
 def sort_items(items):
     # 고정공지 먼저(날짜 내림차순), 그다음 일반글 날짜 내림차순
     return sorted(
@@ -135,11 +149,14 @@ def _neg_date(d):
 def main():
     first_seen, prev_by_source = load_prev()
     out_sources = []
+    ext_seen = set()      # 외부 공모전 사이트끼리 같은 대회 중복 제거
     todays = TODAY.isoformat()
 
     for src in S.SOURCES:
+        ext = src.get("group") == "ext"
         entry = dict(key=src["key"], name=src["name"], url=src["url"],
-                     kind=src["kind"], stale=False, error=None, items=[])
+                     kind=src["kind"], group=src.get("group", "jnu"),
+                     stale=False, error=None, items=[])
 
         if src["kind"] == "linkonly":
             entry["linkonly"] = True
@@ -149,13 +166,25 @@ def main():
 
         try:
             items = fetch(src)
-            if not items:
+            if not items and not ext:     # 외부 사이트는 전공 필터 후 0건일 수도 있음
                 raise RuntimeError("파싱 결과 0건 (사이트 구조 변경 의심)")
+            if ext:
+                kept = []
+                for it in items:
+                    if it.get("deadline") and it["deadline"] < todays:
+                        continue                      # 이미 마감
+                    nt = _norm_title(it["title"])
+                    if nt in ext_seen:
+                        continue
+                    ext_seen.add(nt)
+                    kept.append(it)
+                items = kept
             for it in items:
                 it["source"] = src["key"]
                 it["id"] = hashlib.md5(it["url"].encode("utf-8")).hexdigest()[:10]
-                it["category"] = src.get("force_cat") or categorize(it["title"])
-                it["deadline"] = extract_deadline(it["title"])
+                it["category"] = "contest" if ext else (src.get("force_cat") or categorize(it["title"]))
+                it["hack"] = src["key"] == "devpost" or bool(_HACK.search(it["title"]))
+                it["deadline"] = it.get("deadline") or extract_deadline(it["title"])
                 if it["deadline"] and it["date"]:   # 오래된 글의 마감 표기는 신뢰도↓
                     try:
                         if (TODAY - date.fromisoformat(it["date"])).days > 120:
@@ -173,7 +202,7 @@ def main():
                 except ValueError:
                     fresh_post = True
                 it["is_new"] = recent_seen and fresh_post
-            entry["items"] = sort_items(items)[:KEEP_PER_SOURCE]
+            entry["items"] = (sort_by_deadline(items) if ext else sort_items(items))[:KEEP_PER_SOURCE]
             log(f"{src['key']:9s}  {len(entry['items']):3d}건  "
                 f"(신규 {sum(1 for i in entry['items'] if i['is_new'])})")
         except Exception as e:

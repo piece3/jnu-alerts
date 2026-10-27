@@ -106,6 +106,10 @@
   .srcitem .si-d{font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);flex:none;white-space:nowrap}
   .srcitem .si-d.crit{color:var(--crit)}
   .srcitem .si-d.warn{color:var(--warn)}
+  .srcitem .si-t .hk{color:var(--warn);font-family:var(--mono);font-size:9px;margin-left:5px;vertical-align:1px}
+  .srcitem .si-t .org{display:block;font-size:10.5px;color:var(--ink-faint);margin-top:1px}
+  .ext-label{margin-top:26px}
+  .ext-label span{letter-spacing:0;text-transform:none;font-weight:400;margin-left:6px}
   .srcfoot{padding:9px 15px;font-size:11px}
   .srcfoot a{color:var(--ink-faint)}
   .srcerr{padding:9px 15px;font-size:11px;color:var(--warn);border-top:1px solid var(--line);font-family:var(--mono)}
@@ -168,14 +172,18 @@
       <button type="button" data-cat="all" class="on">전체</button>
       <button type="button" data-cat="notice">공지</button>
       <button type="button" data-cat="contest">공모전·대회</button>
+      <button type="button" data-cat="hack">해커톤</button>
       <button type="button" data-cat="academic">학사·장학</button>
       <button type="button" data-cat="job">채용·인턴</button>
     </div>
     <span class="count-note" id="countNote"></span>
   </div>
 
-  <div class="section-label">소스별</div>
+  <div class="section-label">학교 · 사업단 공지</div>
   <div class="sources" id="sources"></div>
+
+  <div class="section-label ext-label">외부 공모전 · 해커톤 <span>전자·컴퓨터 전공 키워드로 거름 · 마감일순</span></div>
+  <div class="sources" id="extSources"></div>
 
   <footer id="foot"></footer>
 </div>
@@ -217,7 +225,7 @@
   }
   $("#reload").addEventListener("click", function () { location.reload(); });
 
-  function pass(it) { return cat === "all" || it.category === cat; }
+  function pass(it) { return cat === "all" || (cat === "hack" ? it.hack : it.category === cat); }
 
   function renderUrgent() {
     var all = [];
@@ -232,7 +240,7 @@
     all.sort(function (a, b) { return a.n - b.n; });
     var t = $("#urgentTrack");
     if (!all.length) { t.innerHTML = '<span class="urgent-empty">임박한 마감 항목이 없습니다.</span>'; return; }
-    t.innerHTML = all.slice(0, 10).map(function (x) {
+    t.innerHTML = all.slice(0, 14).map(function (x) {
       return '<a class="plain" href="' + esc(x.it.url) + '" target="_blank" rel="noopener">'
         + '<article class="u-card ' + (x.n <= 7 ? "" : "warn") + '">'
         + '<div class="u-dday">' + ddayText(x.n) + '</div>'
@@ -243,8 +251,9 @@
   }
 
   function renderSources() {
-    var host = $("#sources"), shown = 0, box = [];
+    var shown = 0, box = [], extBox = [];
     DATA.sources.forEach(function (s) {
+      var isExt = s.group === "ext";
       var items = (s.items || []).filter(pass);
       if (s.linkonly) {
         box.push('<details class="srcbox"><summary><span class="dot"></span>'
@@ -255,6 +264,7 @@
         return;
       }
       if (!items.length && cat !== "all") return;
+      var out = isExt ? extBox : box;
       shown += items.length;
       var nnew = items.filter(function (i) { return i.is_new; }).length;
       var soon = items.some(function (i) { var n = dday(i.deadline); return n !== null && n >= 0 && n <= 14; });
@@ -269,20 +279,24 @@
           + '<div class="srcitem"><span class="si-t">'
           + (it.pinned && showPins ? '<span class="pin">📌</span>' : '')
           + esc(it.title)
+          + (it.hack ? '<span class="hk">HACK</span>' : '')
           + (it.is_new ? '<span class="nb">NEW</span>' : '')
+          + (isExt && it.author ? '<span class="org">' + esc(it.author) + '</span>' : '')
           + '</span><span class="si-d' + cls + '">' + esc(right) + '</span></div></a>';
       }).join("");
-      box.push('<details class="srcbox"' + open + '><summary><span class="dot"></span>'
+      out.push('<details class="srcbox"' + open + '><summary><span class="dot"></span>'
         + '<span class="sname">' + esc(s.name) + '</span>'
         + (nnew ? '<span class="badge new">+' + nnew + '</span>' : '')
         + (s.stale ? '<span class="badge stale">STALE</span>' : '')
         + '<span class="scount">' + items.length + '</span><span class="caret">▸</span></summary>'
         + '<div class="srclist">' + (rows || '<div class="srcitem"><span class="si-t" style="color:var(--ink-faint)">해당 분류 항목 없음</span></div>') + '</div>'
         + (s.error ? '<div class="srcerr">수집 실패: ' + esc(s.error) + ' (직전 데이터 표시 중)</div>' : '')
-        + '<div class="srcfoot"><a href="' + esc(s.url) + '" target="_blank" rel="noopener">게시판 전체 보기 ↗</a></div>'
+        + '<div class="srcfoot"><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + (isExt ? "사이트에서 더 보기 ↗" : "게시판 전체 보기 ↗") + '</a></div>'
         + '</details>');
     });
-    host.innerHTML = box.join("");
+    $("#sources").innerHTML = box.join("");
+    $("#extSources").innerHTML = extBox.join("")
+      || '<p style="color:var(--ink-faint);font-size:12.5px;margin:0">해당 분류의 외부 공모전이 없습니다.</p>';
     $("#countNote").textContent = (cat === "all" ? DATA.total : shown) + "건 표시";
   }
 
@@ -304,7 +318,7 @@
   var errs = DATA.sources.filter(function (s) { return s.error; });
   $("#foot").innerHTML =
     '<b>' + DATA.sources.length + '개 소스</b> · ' + esc(DATA.schedule || "") + ' · 수집 시각 ' + esc(DATA.generated_at || "")
-    + '<br>정렬: 소스 안에서 <b>고정공지(📌)</b> → 최신순. 제목에 <code>~9/18</code>·<code>~09.04.</code> 같은 표현이 있으면 자동으로 D-day를 계산합니다.'
+    + '<br>정렬: 학교 공지는 <b>고정공지(📌)</b> → 최신순, 외부 공모전은 마감일순. 외부 공모전은 AI·SW·보안·데이터·로봇·반도체 같은 전공 키워드가 있는 것만 남기고 영상·슬로건·청소년 대상 등은 뺍니다. 제목에 <code>~9/18</code>·<code>~09.04.</code> 같은 표현이 있으면 자동으로 D-day를 계산합니다.'
     + (errs.length ? '<br><b style="color:var(--warn)">수집 실패:</b> ' + errs.map(function (s) { return esc(s.name); }).join(", ") + ' — 직전 데이터로 표시 중입니다.' : '');
 
   render();

@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-10-27 00:30",
+  "generated_at": "2026-10-27 09:14",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 120,
+  "total": 172,
   "sources": [
     {
       "key": "ece",
       "name": "전자컴퓨터공학부",
       "url": "https://ece.jnu.ac.kr/bbs/ece/2770/artclList.do",
       "kind": "k2web",
+      "group": "jnu",
       "stale": false,
       "error": null,
       "items": [
@@ -20,6 +21,7 @@
           "source": "ece",
           "id": "185d67008b",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-20",
           "is_new": false
@@ -33,6 +35,7 @@
           "source": "ece",
           "id": "8699ac6c3c",
           "category": "contest",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-14",
           "is_new": false
@@ -46,6 +49,7 @@
           "source": "ece",
           "id": "86b2117b51",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -59,6 +63,7 @@
           "source": "ece",
           "id": "924b82745d",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -72,6 +77,7 @@
           "source": "ece",
           "id": "364019ce23",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -85,6 +91,7 @@
           "source": "ece",
           "id": "141aa84964",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -98,6 +105,7 @@
           "source": "ece",
           "id": "310c723aab",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -111,6 +119,7 @@
           "source": "ece",
           "id": "e898bbaf5b",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -124,6 +133,7 @@
           "source": "ece",
           "id": "f8908f18f2",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -137,6 +147,7 @@
           "source": "ece",
           "id": "435ff55ad6",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -148,6 +159,7 @@
       "name": "공과대학 공지",
       "url": "https://eng.jnu.ac.kr/bbs/eng/993/artclList.do",
       "kind": "k2web",
+      "group": "jnu",
       "stale": false,
       "error": null,
       "items": [
@@ -160,6 +172,7 @@
           "source": "eng",
           "id": "b0937fb9f2",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-20",
           "is_new": false
@@ -173,6 +186,7 @@
           "source": "eng",
           "id": "cb5ab61cdf",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-20",
           "is_new": false
@@ -186,6 +200,7 @@
           "source": "eng",
           "id": "b348b633c5",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-20",
           "is_new": false
@@ -199,6 +214,7 @@
           "source": "eng",
           "id": "dcea38d0bd",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-15",
           "is_new": false
@@ -212,6 +228,7 @@
           "source": "eng",
           "id": "3a8d857740",
           "category": "academic",
+          "hack": false,
           "deadline": "2026-10-29",
           "first_seen": "2026-10-15",
           "is_new": false
@@ -225,6 +242,7 @@
           "source": "eng",
           "id": "4d648fb290",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-14",
           "is_new": false
@@ -238,6 +256,7 @@
           "source": "eng",
           "id": "3e2565c917",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
@@ -251,6 +270,7 @@
           "source": "eng",
           "id": "8af29ed74a",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
@@ -264,6 +284,7 @@
           "source": "eng",
           "id": "eb6eea1237",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
@@ -277,6 +298,7 @@
           "source": "eng",
           "id": "ef540d67fa",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
@@ -288,6 +310,7 @@
       "name": "공과대학 채용정보",
       "url": "https://eng.jnu.ac.kr/bbs/eng/1287/artclList.do",
       "kind": "k2web",
+      "group": "jnu",
       "stale": false,
       "error": null,
       "items": [
@@ -300,6 +323,7 @@
           "source": "engjob",
           "id": "0638936e45",
           "category": "job",
+          "hack": false,
           "deadline": "2026-10-27",
           "first_seen": "2026-10-08",
           "is_new": false
@@ -313,6 +337,7 @@
           "source": "engjob",
           "id": "e706ca67d5",
           "category": "job",
+          "hack": false,
           "deadline": "2026-11-13",
           "first_seen": "2026-10-07",
           "is_new": false
@@ -326,6 +351,7 @@
           "source": "engjob",
           "id": "623d560c3b",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -339,6 +365,7 @@
           "source": "engjob",
           "id": "eadcf4dd7a",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -352,6 +379,7 @@
           "source": "engjob",
           "id": "eb01d9b56a",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -365,6 +393,7 @@
           "source": "engjob",
           "id": "19aaf5622b",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -378,6 +407,7 @@
           "source": "engjob",
           "id": "74ad804885",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -391,6 +421,7 @@
           "source": "engjob",
           "id": "0fbffdd460",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -404,6 +435,7 @@
           "source": "engjob",
           "id": "9a071ee381",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -417,6 +449,7 @@
           "source": "engjob",
           "id": "94cf3545af",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -428,8 +461,9 @@
       "name": "전남대 학사·일반공지",
       "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5",
       "kind": "jnu",
-      "stale": true,
-      "error": "ReadTimeout: HTTPSConnectionPool(host='www.jnu.ac.kr', port=443): Read timed out. (read timeout=25)",
+      "group": "jnu",
+      "stale": false,
+      "error": null,
       "items": [
         {
           "title": "[모집공고] 제24회 2026 전남대학교 창업 아이템 경진대회",
@@ -440,6 +474,7 @@
           "source": "jnu",
           "id": "526afc3c26",
           "category": "contest",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
@@ -453,6 +488,7 @@
           "source": "jnu",
           "id": "f7946a8801",
           "category": "contest",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -466,6 +502,7 @@
           "source": "jnu",
           "id": "6a4f58315a",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -479,6 +516,7 @@
           "source": "jnu",
           "id": "483a058e8f",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -492,6 +530,7 @@
           "source": "jnu",
           "id": "b55a0429f0",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -505,6 +544,7 @@
           "source": "jnu",
           "id": "c855086cda",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -518,6 +558,7 @@
           "source": "jnu",
           "id": "4c7a9a7c60",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -531,12 +572,13 @@
           "source": "jnu",
           "id": "888bfbd728",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
         },
         {
-          "title": "[대학생활] 전남대 사칭 보이스피싱 '노쇼(No Show)\u0003...",
+          "title": "[대학생활] 전남대 사칭 보이스피싱 '노쇼(No Show)...",
           "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=66348",
           "date": "2025-07-01",
           "pinned": true,
@@ -544,6 +586,7 @@
           "source": "jnu",
           "id": "35fa69f90d",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -557,138 +600,149 @@
           "source": "jnu",
           "id": "1a24274a32",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
         },
         {
-          "title": "[취업정보] 2026년 글로컬대학사업 「(특강) 현직자와의 AI 토크토크(...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70707",
-          "date": "2026-10-19",
+          "title": "[취업정보] [BIXPO 2026 참가] 2026년 글로컬대학사업 「제조 ...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70810",
+          "date": "2026-10-27",
           "pinned": false,
           "author": "취업지원실",
           "source": "jnu",
-          "id": "de32faab10",
+          "id": "4e9eff56fc",
           "category": "job",
+          "hack": false,
           "deadline": null,
-          "first_seen": "2026-10-19",
+          "first_seen": "2026-10-27",
           "is_new": true
         },
         {
-          "title": "[장학안내] [거창군] 2026학년도 2학기 거창군 지역출신 대학생 등록금...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70706",
-          "date": "2026-10-19",
+          "title": "[취업정보] 2026년 글로컬대학사업 「빅데이터분석기사, 차근차근 실습하기」",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70809",
+          "date": "2026-10-27",
           "pinned": false,
-          "author": "학생과",
+          "author": "취업지원실",
           "source": "jnu",
-          "id": "a001eb371e",
-          "category": "academic",
+          "id": "fcafa6d6be",
+          "category": "job",
+          "hack": false,
           "deadline": null,
-          "first_seen": "2026-10-19",
+          "first_seen": "2026-10-27",
           "is_new": true
         },
         {
-          "title": "[모집공고] [포스코퓨처엠] 「2026 포스코퓨처엠배 Future's Le...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70705",
-          "date": "2026-10-19",
+          "title": "[채용공고] 전남대 서비스디자인융합연구소 인문사회연구소지원사업 2026년...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70808",
+          "date": "2026-10-27",
           "pinned": false,
-          "author": "학생과",
+          "author": "서비스디자인융합연구소",
           "source": "jnu",
-          "id": "17e6dac9a9",
+          "id": "394fe1acfa",
+          "category": "job",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "[모집공고] 공직인재 요람 '용봉인재원 행정고시반' 신규 실원 모집",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70807",
+          "date": "2026-10-26",
+          "pinned": false,
+          "author": "진로취업지원실",
+          "source": "jnu",
+          "id": "4dc1ae9e3c",
           "category": "notice",
+          "hack": false,
           "deadline": null,
-          "first_seen": "2026-10-19",
+          "first_seen": "2026-10-27",
           "is_new": true
         },
         {
-          "title": "[채용공고] 2026년 제2회 전남대학교 패키지 지원대학 사업 전문 및 사...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70704",
-          "date": "2026-10-16",
-          "pinned": false,
-          "author": "대학혁신지원과",
-          "source": "jnu",
-          "id": "a22919c49b",
-          "category": "job",
-          "deadline": null,
-          "first_seen": "2026-10-16",
-          "is_new": true
-        },
-        {
-          "title": "[취업정보] [한샘]리하우스 디자이너 채용★학교 추천채용(~10.22.(목...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70703",
-          "date": "2026-10-16",
-          "pinned": false,
-          "author": "취업지원실",
-          "source": "jnu",
-          "id": "d107637ddc",
-          "category": "job",
-          "deadline": "2026-10-22",
-          "first_seen": "2026-10-16",
-          "is_new": true
-        },
-        {
-          "title": "[공모전] 인문사회융합인재양성사업단(HUSS) 디지털로 빚는 새로운 경...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70702",
-          "date": "2026-10-16",
-          "pinned": false,
-          "author": "인문사회융합인재양성사업단",
-          "source": "jnu",
-          "id": "f9dee23955",
-          "category": "contest",
-          "deadline": null,
-          "first_seen": "2026-10-16",
-          "is_new": true
-        },
-        {
-          "title": "[채용공고] 2026년 제6회 국제협력과 기간제 계약직 직원 공개채용시험 ...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70700",
-          "date": "2026-10-16",
-          "pinned": false,
-          "author": "국제협력과",
-          "source": "jnu",
-          "id": "0115592435",
-          "category": "job",
-          "deadline": null,
-          "first_seen": "2026-10-16",
-          "is_new": true
-        },
-        {
-          "title": "[채용공고] 2026년 제3회 전남대학교 첨단산업 인재양성 부트캠프 사업(...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70699",
-          "date": "2026-10-16",
-          "pinned": false,
-          "author": "첨단산업인재양성부트캠프(미래",
-          "source": "jnu",
-          "id": "4447be0996",
-          "category": "job",
-          "deadline": null,
-          "first_seen": "2026-10-16",
-          "is_new": true
-        },
-        {
-          "title": "[장학안내] [한국고등교육재단] 인재림 제7기 장학생 선발 안내",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70698",
-          "date": "2026-10-16",
+          "title": "[장학안내] [한국장학재단] 삼성 청년 SW·AI 아카데미(ssafy) 1...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70806",
+          "date": "2026-10-26",
           "pinned": false,
           "author": "학생과",
           "source": "jnu",
-          "id": "432e519d60",
+          "id": "28160f5b28",
           "category": "academic",
+          "hack": false,
           "deadline": null,
-          "first_seen": "2026-10-16",
+          "first_seen": "2026-10-27",
           "is_new": true
         },
         {
-          "title": "[채용공고] 2026년도 제1회 전남대학교 교육혁신본부 계약직원 채용시험 ...",
-          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70697",
-          "date": "2026-10-16",
+          "title": "[행정공고] 법학전문대학원 1,2호관 CCTV 추가설치 행정예고 및 의견조회",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70805",
+          "date": "2026-10-26",
           "pinned": false,
-          "author": "교육혁신정책실",
+          "author": "법학전문대학원",
           "source": "jnu",
-          "id": "7d65e8f9a8",
-          "category": "job",
+          "id": "2a49fcae8b",
+          "category": "notice",
+          "hack": false,
           "deadline": null,
-          "first_seen": "2026-10-16",
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "[대학생활] 요즘젊은이들은 말랑이를 좋아한다지 그래서 말랑이를 DREAM ...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70804",
+          "date": "2026-10-26",
+          "pinned": false,
+          "author": "정보보호특성화대학지원사업단",
+          "source": "jnu",
+          "id": "8f13dbe79d",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "[채용공고] 2026년 제3회 전남대학교 산학연협력단지조성지원사업 전담직원...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70803",
+          "date": "2026-10-26",
+          "pinned": false,
+          "author": "산학연협력단지조성지원사업단",
+          "source": "jnu",
+          "id": "ae5319be2d",
+          "category": "job",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "[모집공고] [전남대학교창업중심대학사업단] CNU 지역사회 혁신포럼 개최 ...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70802",
+          "date": "2026-10-26",
+          "pinned": false,
+          "author": "창업중심대학사업단",
+          "source": "jnu",
+          "id": "c3324f36a8",
+          "category": "academic",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "[모집공고] 2026년 대학 산학협력단지 조성지원사업 산학연혁신허브 기업 ...",
+          "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5&bbsMode=view&page=1&key=70801",
+          "date": "2026-10-26",
+          "pinned": false,
+          "author": "전남대학교캠퍼스혁신파크사업단",
+          "source": "jnu",
+          "id": "5719b8561b",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-27",
           "is_new": true
         }
       ]
@@ -698,6 +752,7 @@
       "name": "소프트웨어중심대학 사업단",
       "url": "https://sojoong.kr/notice/notice-board/",
       "kind": "kboard",
+      "group": "jnu",
       "stale": false,
       "error": null,
       "items": [
@@ -710,6 +765,7 @@
           "source": "sojoong",
           "id": "90ac8dae3a",
           "category": "contest",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-20",
           "is_new": false
@@ -723,6 +779,7 @@
           "source": "sojoong",
           "id": "2abe246d34",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-16",
           "is_new": false
@@ -736,6 +793,7 @@
           "source": "sojoong",
           "id": "dfab4b5fef",
           "category": "notice",
+          "hack": false,
           "deadline": "2026-10-26",
           "first_seen": "2026-10-08",
           "is_new": false
@@ -749,6 +807,7 @@
           "source": "sojoong",
           "id": "9d64b953f5",
           "category": "contest",
+          "hack": false,
           "deadline": "2026-11-04",
           "first_seen": "2026-10-08",
           "is_new": false
@@ -760,6 +819,7 @@
       "name": "인공지능혁신융합대학 사업단",
       "url": "https://aicoss.ac.kr/www/notice/",
       "kind": "www",
+      "group": "jnu",
       "stale": false,
       "error": null,
       "items": [
@@ -772,6 +832,7 @@
           "source": "aicoss",
           "id": "3090c76495",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-23",
           "is_new": true
@@ -785,6 +846,7 @@
           "source": "aicoss",
           "id": "ae1ca8e8e0",
           "category": "notice",
+          "hack": false,
           "deadline": "2026-10-28",
           "first_seen": "2026-10-21",
           "is_new": false
@@ -798,6 +860,7 @@
           "source": "aicoss",
           "id": "6026ef8233",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-20",
           "is_new": false
@@ -811,6 +874,7 @@
           "source": "aicoss",
           "id": "a20887e0ec",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
@@ -824,6 +888,7 @@
           "source": "aicoss",
           "id": "84b534ac52",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-09",
           "is_new": false
@@ -837,6 +902,7 @@
           "source": "aicoss",
           "id": "07b35db6a4",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -850,6 +916,7 @@
           "source": "aicoss",
           "id": "01f409b6ca",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-16",
           "is_new": false
@@ -863,6 +930,7 @@
           "source": "aicoss",
           "id": "b179bcfd33",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
@@ -876,6 +944,7 @@
           "source": "aicoss",
           "id": "82296169a3",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
@@ -889,6 +958,7 @@
           "source": "aicoss",
           "id": "2af4ad03cd",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
@@ -902,6 +972,7 @@
           "source": "aicoss",
           "id": "fa1f6c1317",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
@@ -915,6 +986,7 @@
           "source": "aicoss",
           "id": "e1273667d8",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
@@ -928,6 +1000,7 @@
           "source": "aicoss",
           "id": "4e632379f1",
           "category": "contest",
+          "hack": true,
           "deadline": null,
           "first_seen": "2026-09-21",
           "is_new": false
@@ -941,6 +1014,7 @@
           "source": "aicoss",
           "id": "64f773682a",
           "category": "contest",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-21",
           "is_new": false
@@ -954,6 +1028,7 @@
           "source": "aicoss",
           "id": "0474a9080f",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-14",
           "is_new": false
@@ -965,6 +1040,7 @@
       "name": "차세대통신혁신융합대학 사업단",
       "url": "https://jnu.nccoss.kr/www/notice/",
       "kind": "www",
+      "group": "jnu",
       "stale": false,
       "error": null,
       "items": [
@@ -977,6 +1053,7 @@
           "source": "nccoss",
           "id": "fb5ee5e8e3",
           "category": "academic",
+          "hack": false,
           "deadline": "2026-11-06",
           "first_seen": "2026-10-27",
           "is_new": true
@@ -990,6 +1067,7 @@
           "source": "nccoss",
           "id": "1a61415987",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-22",
           "is_new": false
@@ -1003,6 +1081,7 @@
           "source": "nccoss",
           "id": "5d7cda40e6",
           "category": "contest",
+          "hack": false,
           "deadline": "2026-11-13",
           "first_seen": "2026-10-27",
           "is_new": true
@@ -1016,6 +1095,7 @@
           "source": "nccoss",
           "id": "6ad7deb106",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-08",
           "is_new": false
@@ -1029,6 +1109,7 @@
           "source": "nccoss",
           "id": "1b9f20f96f",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-08",
           "is_new": false
@@ -1042,6 +1123,7 @@
           "source": "nccoss",
           "id": "eb91f3b6b7",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-08",
           "is_new": false
@@ -1055,6 +1137,7 @@
           "source": "nccoss",
           "id": "f590e10477",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1068,6 +1151,7 @@
           "source": "nccoss",
           "id": "c027302886",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1081,6 +1165,7 @@
           "source": "nccoss",
           "id": "51481623c5",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1094,6 +1179,7 @@
           "source": "nccoss",
           "id": "69b7487f1f",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1107,6 +1193,7 @@
           "source": "nccoss",
           "id": "2d818e8b3d",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1120,6 +1207,7 @@
           "source": "nccoss",
           "id": "b498319074",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1133,6 +1221,7 @@
           "source": "nccoss",
           "id": "3b6e51df4f",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1146,6 +1235,7 @@
           "source": "nccoss",
           "id": "0dce73febc",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1159,6 +1249,7 @@
           "source": "nccoss",
           "id": "10cd028d74",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1170,6 +1261,7 @@
       "name": "공학교육혁신센터 (ICEE)",
       "url": "https://icee.jnu.ac.kr/bbs/icee/2798/artclList.do",
       "kind": "k2web",
+      "group": "jnu",
       "stale": false,
       "error": null,
       "items": [
@@ -1182,6 +1274,7 @@
           "source": "icee",
           "id": "3052d23c1d",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1195,6 +1288,7 @@
           "source": "icee",
           "id": "3193b4ce44",
           "category": "contest",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-27",
           "is_new": true
@@ -1208,6 +1302,7 @@
           "source": "icee",
           "id": "cf0783ccd1",
           "category": "contest",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-27",
           "is_new": true
@@ -1221,6 +1316,7 @@
           "source": "icee",
           "id": "b0718267e4",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-14",
           "is_new": false
@@ -1234,6 +1330,7 @@
           "source": "icee",
           "id": "8c91249f24",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
@@ -1247,6 +1344,7 @@
           "source": "icee",
           "id": "11b2cab0a2",
           "category": "contest",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1260,6 +1358,7 @@
           "source": "icee",
           "id": "4b0b5adcc4",
           "category": "contest",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1273,6 +1372,7 @@
           "source": "icee",
           "id": "efb6ed0e6d",
           "category": "contest",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1286,6 +1386,7 @@
           "source": "icee",
           "id": "1958006965",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1299,6 +1400,7 @@
           "source": "icee",
           "id": "82c33a61d4",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1312,6 +1414,7 @@
           "source": "icee",
           "id": "1af34ccf30",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1323,6 +1426,7 @@
       "name": "국제이주·디아스포라 BK21",
       "url": "https://diasporabk21.jnu.ac.kr/bbs/diasporabk21/741/artclList.do",
       "kind": "k2web",
+      "group": "jnu",
       "stale": false,
       "error": null,
       "items": [
@@ -1335,6 +1439,7 @@
           "source": "diaspora",
           "id": "da2e31055c",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
@@ -1348,6 +1453,7 @@
           "source": "diaspora",
           "id": "c2aa834fad",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-16",
           "is_new": false
@@ -1361,6 +1467,7 @@
           "source": "diaspora",
           "id": "ac03fb88ed",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1374,6 +1481,7 @@
           "source": "diaspora",
           "id": "7c5ad2b4a4",
           "category": "academic",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1387,6 +1495,7 @@
           "source": "diaspora",
           "id": "7847096cd2",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1400,6 +1509,7 @@
           "source": "diaspora",
           "id": "b8b9b47d75",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1413,6 +1523,7 @@
           "source": "diaspora",
           "id": "f9bc6e9e51",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1426,6 +1537,7 @@
           "source": "diaspora",
           "id": "f02aa873be",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1439,6 +1551,7 @@
           "source": "diaspora",
           "id": "922489ba0c",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1452,6 +1565,7 @@
           "source": "diaspora",
           "id": "c72fdf11e1",
           "category": "contest",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1463,6 +1577,7 @@
       "name": "지역개발연구소",
       "url": "https://crdcnu.jnuac.kr/bbs/board.php?bo_table=0501",
       "kind": "gnuboard",
+      "group": "jnu",
       "stale": false,
       "error": null,
       "items": [
@@ -1475,6 +1590,7 @@
           "source": "crdc",
           "id": "025adabb47",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1488,6 +1604,7 @@
           "source": "crdc",
           "id": "9d1e6fe370",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1501,6 +1618,7 @@
           "source": "crdc",
           "id": "7531b096bc",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1514,6 +1632,7 @@
           "source": "crdc",
           "id": "208ce0d64f",
           "category": "notice",
+          "hack": false,
           "deadline": "2026-11-15",
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1527,6 +1646,7 @@
           "source": "crdc",
           "id": "73127365ae",
           "category": "notice",
+          "hack": false,
           "deadline": "2026-10-30",
           "first_seen": "2026-10-07",
           "is_new": false
@@ -1540,6 +1660,7 @@
           "source": "crdc",
           "id": "cfaae575fa",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1553,6 +1674,7 @@
           "source": "crdc",
           "id": "1701c7f010",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1566,6 +1688,7 @@
           "source": "crdc",
           "id": "19ecf2ae87",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1579,6 +1702,7 @@
           "source": "crdc",
           "id": "e1f379b303",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1592,6 +1716,7 @@
           "source": "crdc",
           "id": "cfd18a7f09",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1605,6 +1730,7 @@
           "source": "crdc",
           "id": "412d8fc676",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1618,6 +1744,7 @@
           "source": "crdc",
           "id": "eb691a2366",
           "category": "job",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1631,6 +1758,7 @@
           "source": "crdc",
           "id": "e6e56424c9",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1644,6 +1772,7 @@
           "source": "crdc",
           "id": "624460a80e",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1657,6 +1786,7 @@
           "source": "crdc",
           "id": "1f2125bc84",
           "category": "notice",
+          "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
@@ -1668,10 +1798,783 @@
       "name": "첨단분야 혁신융합대학 (COSS)",
       "url": "https://coss.ac.kr/",
       "kind": "linkonly",
+      "group": "jnu",
       "stale": false,
       "error": null,
       "items": [],
       "linkonly": true
+    },
+    {
+      "key": "linkareer",
+      "name": "링커리어 · IT/과학 공모전",
+      "url": "https://linkareer.com/list/contest?filterType=CATEGORY&filterBy_categoryIDs=35",
+      "kind": "linkareer",
+      "group": "ext",
+      "stale": false,
+      "error": null,
+      "items": [
+        {
+          "title": "2026 크라우드 소싱 데이터 활용 해커톤 (드론 데이터 변화탐지·3D 모델링)",
+          "url": "https://linkareer.com/activity/358224",
+          "date": "",
+          "pinned": false,
+          "author": "연세대학교 산학협력단",
+          "deadline": "2026-10-28",
+          "source": "linkareer",
+          "id": "3812b71810",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "[인천테크노파크] 2026 인천 가상융합산업 모의 해커톤 참여자 모집",
+          "url": "https://linkareer.com/activity/358255",
+          "date": "",
+          "pinned": false,
+          "author": "인천테크노파크",
+          "deadline": "2026-10-28",
+          "source": "linkareer",
+          "id": "2e5e5e2e06",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 AI 신(新) 과거제 온라인 예선(초시) 모집 안내",
+          "url": "https://linkareer.com/activity/357885",
+          "date": "",
+          "pinned": false,
+          "author": "(주)엘비즈코리아",
+          "deadline": "2026-10-29",
+          "source": "linkareer",
+          "id": "5d33cb3b0d",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 제8회 TS 보안 허점을 찾아라!",
+          "url": "https://linkareer.com/activity/357274",
+          "date": "",
+          "pinned": false,
+          "author": "한국교통안전공단",
+          "deadline": "2026-10-30",
+          "source": "linkareer",
+          "id": "195d3af6cb",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026년도 대한민국 SW 기술대상 및 IT 아키텍처대상",
+          "url": "https://linkareer.com/activity/358787",
+          "date": "",
+          "pinned": false,
+          "author": "(사)한국소프트웨어기술진흥협회",
+          "deadline": "2026-10-30",
+          "source": "linkareer",
+          "id": "88e0fa348f",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "젝커톤 2026 | 젝트 X 스위프 AI 해커톤",
+          "url": "https://linkareer.com/activity/358739",
+          "date": "",
+          "pinned": false,
+          "author": "젝트",
+          "deadline": "2026-10-31",
+          "source": "linkareer",
+          "id": "715c8edb1f",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 로보틱스 작품공모전",
+          "url": "https://linkareer.com/activity/356890",
+          "date": "",
+          "pinned": false,
+          "author": "마이스플랜즈",
+          "deadline": "2026-11-02",
+          "source": "linkareer",
+          "id": "c68dad0c9a",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "[참가 모집] 화이트햇 2026 국방 사이버보안 콘테스트 개최! (총상금 4,500만 원)",
+          "url": "https://linkareer.com/activity/357130",
+          "date": "",
+          "pinned": false,
+          "author": "(주)맥앤윕",
+          "deadline": "2026-11-02",
+          "source": "linkareer",
+          "id": "fd48879074",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 청도 바이브코딩 해커톤 with 해커그라운드",
+          "url": "https://linkareer.com/activity/359305",
+          "date": "",
+          "pinned": false,
+          "author": "해커그라운드",
+          "deadline": "2026-11-03",
+          "source": "linkareer",
+          "id": "9e968e90e5",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "[튜토리얼 100% 제공] 2027 상반기취업! 비전공자도 완성하는 AI 헬스케어 해커톤",
+          "url": "https://linkareer.com/activity/359582",
+          "date": "",
+          "pinned": false,
+          "author": "넥스트러너스",
+          "deadline": "2026-11-06",
+          "source": "linkareer",
+          "id": "be54345cbd",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 서울 AI 디지털 배움터 청년 해커톤",
+          "url": "https://linkareer.com/activity/357358",
+          "date": "",
+          "pinned": false,
+          "author": "주식회사 구름",
+          "deadline": "2026-11-08",
+          "source": "linkareer",
+          "id": "9552208e59",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "[엘리스] 과기부 × 엘리스 AI 챌린지 : 일상 속 문제, AI로 해결하다 (전국민 AI 경진대회)",
+          "url": "https://linkareer.com/activity/359552",
+          "date": "",
+          "pinned": false,
+          "author": "엘리스",
+          "deadline": "2026-11-13",
+          "source": "linkareer",
+          "id": "92ebdf4f66",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 대구광역시 기후·환경·탄소중립 공공데이터 AI 활용대회",
+          "url": "https://linkareer.com/activity/356503",
+          "date": "",
+          "pinned": false,
+          "author": "대구광역시 탄소중립지원센터",
+          "deadline": "2026-11-20",
+          "source": "linkareer",
+          "id": "9ec63e206a",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 사회보장 데이터를 활용한 AI 혁신 아이디어 경진대회",
+          "url": "https://linkareer.com/activity/358856",
+          "date": "",
+          "pinned": false,
+          "author": "한국사회보장정보원, 대구가톨릭대학교",
+          "deadline": "2026-11-20",
+          "source": "linkareer",
+          "id": "5202abbdfe",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "[데이콘] 제주 AI·빅데이터 활용 AI Agent 개발 챌린지(~11/20)",
+          "url": "https://linkareer.com/activity/359517",
+          "date": "",
+          "pinned": false,
+          "author": "데이콘 주식회사",
+          "deadline": "2026-11-20",
+          "source": "linkareer",
+          "id": "80ffaa18e1",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 AI 플레이 콘텐츠 제작 공모전 공모전",
+          "url": "https://linkareer.com/activity/358358",
+          "date": "",
+          "pinned": false,
+          "author": "중앙대학교",
+          "deadline": "2026-12-31",
+          "source": "linkareer",
+          "id": "a63734c349",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "key": "wevity",
+      "name": "위비티 · IT/SW/공학 공모전",
+      "url": "https://www.wevity.com/?c=find&s=1&gub=1&cidx=21",
+      "kind": "wevity",
+      "group": "ext",
+      "stale": false,
+      "error": null,
+      "items": [
+        {
+          "title": "2026 POSTECH OIBC 빅데이터 경진대회",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111314",
+          "date": "",
+          "pinned": false,
+          "author": "H에너지, POSTECH, UNIST, KAIST",
+          "deadline": "2026-10-31",
+          "source": "wevity",
+          "id": "5e2128b573",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 양자내성암호 전환 경진대회·해커톤",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111368",
+          "date": "",
+          "pinned": false,
+          "author": "과학기술정보통신부",
+          "deadline": "2026-10-31",
+          "source": "wevity",
+          "id": "8e11239aee",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 제8회 TS 보안 허점을 찾아라 공모전",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111685",
+          "date": "",
+          "pinned": false,
+          "author": "한국교통안전공단",
+          "deadline": "2026-10-31",
+          "source": "wevity",
+          "id": "6031457c04",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 충북글로벌게임센터 AI 게임 개발 공모전",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111767",
+          "date": "",
+          "pinned": false,
+          "author": "청주시문화산업진흥재단",
+          "deadline": "2026-10-31",
+          "source": "wevity",
+          "id": "b668c690d4",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "AI 달인의 꿀팁 챌린지 시즌3",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111747",
+          "date": "",
+          "pinned": false,
+          "author": "과학기술정보통신부",
+          "deadline": "2026-10-31",
+          "source": "wevity",
+          "id": "57affff2a8",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 스페이스 해커톤",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111009",
+          "date": "",
+          "pinned": false,
+          "author": "우주항공청",
+          "deadline": "2026-11-06",
+          "source": "wevity",
+          "id": "c56ecbff4f",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 DATA·AI 분석 경진대회",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=110023",
+          "date": "",
+          "pinned": false,
+          "author": "한국과학기술정보연구원",
+          "deadline": "2026-11-11",
+          "source": "wevity",
+          "id": "85e79e730a",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "[CJ제일제당] 햇반 30주년 AI 공모전 (갓 지은 AI디어)",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111912",
+          "date": "",
+          "pinned": false,
+          "author": "CJ제일제당",
+          "deadline": "2026-11-14",
+          "source": "wevity",
+          "id": "8681109fb5",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "현대자동차그룹 차량용 앱 개발 공모전",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111802",
+          "date": "",
+          "pinned": false,
+          "author": "현대자동차그룹",
+          "deadline": "2026-11-16",
+          "source": "wevity",
+          "id": "fc721e60a4",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 조달청 AI 게임·콘텐츠 공모전",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111628",
+          "date": "",
+          "pinned": false,
+          "author": "조달청",
+          "deadline": "2026-11-23",
+          "source": "wevity",
+          "id": "20f86069dc",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "제2회 2026 대한민국 AI 창조공모대전",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111837",
+          "date": "",
+          "pinned": false,
+          "author": "한국창조미술협회",
+          "deadline": "2026-11-28",
+          "source": "wevity",
+          "id": "c8eff97bf4",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 AI 플레이 콘텐츠 제작 공모전",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111800",
+          "date": "",
+          "pinned": false,
+          "author": "중앙대학교",
+          "deadline": "2027-01-01",
+          "source": "wevity",
+          "id": "f840dfbd4e",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "key": "dacon",
+      "name": "데이콘 · AI 경진대회",
+      "url": "https://dacon.io/competitions",
+      "kind": "dacon",
+      "group": "ext",
+      "stale": false,
+      "error": null,
+      "items": [
+        {
+          "title": "항만 문제해결을 위한 AI 기술 공모전",
+          "url": "https://dacon.io/competitions/official/236771/overview/description",
+          "date": "",
+          "pinned": false,
+          "author": "DACON",
+          "deadline": "2026-11-02",
+          "source": "dacon",
+          "id": "01a4f5f713",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        }
+      ]
+    },
+    {
+      "key": "devpost",
+      "name": "Devpost · 해외 온라인 해커톤",
+      "url": "https://devpost.com/hackathons?status[]=open",
+      "kind": "devpost",
+      "group": "ext",
+      "stale": false,
+      "error": null,
+      "items": [
+        {
+          "title": "Life After Code — DevOps, Machine Learning/AI, Productivity",
+          "url": "https://gitlab-transcend.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "GitLab",
+          "deadline": "2026-10-27",
+          "source": "devpost",
+          "id": "760926964d",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "OpenCV AI Competition 2026, powered by AWS — IoT, Machine Learning/AI, Serverless",
+          "url": "https://opencv26.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "OpenCV",
+          "deadline": "2026-10-27",
+          "source": "devpost",
+          "id": "a1ba74f688",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "2026 International CodeTheCure Hackathon — Beginner Friendly, Education, Health",
+          "url": "https://codethecure-hackathon-26.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "CodeTheCure",
+          "deadline": "2026-10-28",
+          "source": "devpost",
+          "id": "37a00c6234",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon — Communication, Mobile, Machine Learning/AI",
+          "url": "https://aws-cds-partner.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "AWS",
+          "deadline": "2026-10-28",
+          "source": "devpost",
+          "id": "d480667ff8",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "CodeSprint by Elite Coders — Beginner Friendly, Open Ended, Web",
+          "url": "https://codesprint-by-elitecoders.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "elite coders",
+          "deadline": "2026-10-30",
+          "source": "devpost",
+          "id": "50a92fc818",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "Nebius x NVIDIA Global AI Hackathon — Machine Learning/AI, Beginner Friendly, Robotic Process Automation",
+          "url": "https://nebiusglobalaihackathon.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "nebius",
+          "deadline": "2026-10-30",
+          "source": "devpost",
+          "id": "5936563e27",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "Pumpkin Playground — Design, Gaming, Web",
+          "url": "https://pumpkin-playground.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "ACM Long Beach",
+          "deadline": "2026-10-30",
+          "source": "devpost",
+          "id": "fe119aed6c",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "Qloo Agentic Hackathon — Machine Learning/AI",
+          "url": "https://qloo.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Qloo",
+          "deadline": "2026-10-30",
+          "source": "devpost",
+          "id": "58e28f07f9",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "Next Byte Hacks V5 — Beginner Friendly, Low/No Code, Open Ended",
+          "url": "https://next-byte-hacks-v5.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Next Byte Hacks",
+          "deadline": "2026-10-31",
+          "source": "devpost",
+          "id": "f54ad95ee6",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "Codex x TwitchCon Hackathon — Communication, Gaming, Machine Learning/AI",
+          "url": "https://twitchcon-codex.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Twitch",
+          "deadline": "2026-11-02",
+          "source": "devpost",
+          "id": "43a072f82a",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "YouCam API Skin AI & eCommerce VTO Hackathon — AR/VR, E-commerce/Retail, Machine Learning/AI",
+          "url": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Perfect Corp",
+          "deadline": "2026-11-02",
+          "source": "devpost",
+          "id": "7e1db26522",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "Learn AR with SPECS — AR/VR, Machine Learning/AI, Design",
+          "url": "https://learn-specs.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Devpost",
+          "deadline": "2026-11-09",
+          "source": "devpost",
+          "id": "10eeda86a0",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "PayPal AI Hackathon — Low/No Code, Machine Learning/AI, Web",
+          "url": "https://paypalaihackathon.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "PayPal",
+          "deadline": "2026-11-12",
+          "source": "devpost",
+          "id": "a209571743",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "DSH Hacks V2 ($100k+ in prizes!) — Beginner Friendly, Low/No Code, Open Ended",
+          "url": "https://dsh-hacks-v2.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "STEMise",
+          "deadline": "2026-11-15",
+          "source": "devpost",
+          "id": "932508f347",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "UGREEN Hackathon 2026 on AI NAS — Lifehacks, Machine Learning/AI, Productivity",
+          "url": "https://ugreenhackathon.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "UGREEN",
+          "deadline": "2026-11-16",
+          "source": "devpost",
+          "id": "bcb0b6cf43",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "Meta VR Start Developer Competition 2026 — AR/VR, Machine Learning/AI, Web",
+          "url": "https://start-developer-competition-26.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Meta",
+          "deadline": "2026-11-18",
+          "source": "devpost",
+          "id": "289c22d03d",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "LaunchPad Hacks — Beginner Friendly, Open Ended",
+          "url": "https://launchpad-hacks.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Hack4TodayOrg",
+          "deadline": "2026-11-20",
+          "source": "devpost",
+          "id": "cbb5e0ac3e",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "STEM2Connect AI Hackathon — Beginner Friendly, Education, Web",
+          "url": "https://stem2connect-online-hackathon.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "STEM2Connect",
+          "deadline": "2026-11-21",
+          "source": "devpost",
+          "id": "e101467911",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "SafeSpace Hacks — Beginner Friendly, Cybersecurity, Social Good",
+          "url": "https://safespace-hacks.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "SafeSpace",
+          "deadline": "2026-11-22",
+          "source": "devpost",
+          "id": "ac879ac4b6",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "Arbiter Hacks V1 — Beginner Friendly, Machine Learning/AI, Open Ended",
+          "url": "https://arbiter-hacks-v1.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Arbiter ",
+          "deadline": "2026-12-21",
+          "source": "devpost",
+          "id": "b76e93ea2b",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "InnovArt 2027: Art and Technology Hack Day — Music/Art, Beginner Friendly, Open Ended",
+          "url": "https://innovart2027.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Binnovative",
+          "deadline": "2027-01-02",
+          "source": "devpost",
+          "id": "6eee0084f9",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "Syntax Summit — DevOps, Machine Learning/AI, Robotic Process Automation",
+          "url": "https://syntax-summit.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Student Organization",
+          "deadline": "2027-01-14",
+          "source": "devpost",
+          "id": "5e6e792f5c",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "Code for Humanity — Education, Machine Learning/AI, Web",
+          "url": "https://code-for-humanity.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "nill",
+          "deadline": "2027-01-15",
+          "source": "devpost",
+          "id": "b4a910046d",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        }
+      ]
     }
   ]
 }

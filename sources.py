@@ -39,6 +39,20 @@ SOURCES = [
          url="https://crdcnu.jnuac.kr/bbs/board.php?bo_table=0501"),
     dict(key="coss",     name="첨단분야 혁신융합대학 (COSS)",     kind="linkonly",
          url="https://coss.ac.kr/"),
+
+    # ── 외부 공모전·해커톤 (전공 키워드로 거름, 마감일순) ──────────────
+    dict(key="linkareer", name="링커리어 · IT/과학 공모전",       kind="linkareer", group="ext",
+         url="https://linkareer.com/list/contest?filterType=CATEGORY&filterBy_categoryIDs=35"),
+    dict(key="wevity",   name="위비티 · IT/SW/공학 공모전",        kind="wevity",    group="ext",
+         url="https://www.wevity.com/?c=find&s=1&gub=1&cidx=21",
+         urls=["https://www.wevity.com/?c=find&s=1&gub=1&cidx=21",    # 게임/소프트웨어
+               "https://www.wevity.com/?c=find&s=1&gub=1&cidx=20",    # 웹/모바일/IT
+               "https://www.wevity.com/?c=find&s=1&gub=1&cidx=22"]),  # 과학/공학
+    dict(key="dacon",    name="데이콘 · AI 경진대회",              kind="dacon",     group="ext",
+         url="https://dacon.io/competitions"),
+    dict(key="devpost",  name="Devpost · 해외 온라인 해커톤",       kind="devpost",   group="ext",
+         url="https://devpost.com/hackathons?status[]=open",
+         urls=[f"https://devpost.com/api/hackathons?status[]=open&page={n}" for n in (1, 2, 3)]),
 ]
 
 
@@ -239,10 +253,152 @@ def parse_gnuboard(resp, src):
     return out
 
 
+# ─────────────────────────────────────────────────────────────
+# 외부 공모전 사이트 — 전자컴퓨터공학 전공에 맞는 것만 남기는 필터
+# ─────────────────────────────────────────────────────────────
+MAJOR_KW = ("ai", "인공지능", "sw", "소프트웨어", "해커톤", "hackathon", "프로그래밍", "코딩",
+            "알고리즘", "데이터", "개발", "앱", "웹", "보안", "해킹", "ctf", "사이버", "로봇",
+            "로보틱스", "드론", "자율주행", "반도체", "전자", "전기", "회로", "임베디드", "iot",
+            "사물인터넷", "클라우드", "블록체인", "메타버스", "통신", "5g", "6g", "ict", "it ",
+            "정보", "디지털", "공학", "캡스톤", "모빌리티", "스마트", "llm", "머신러닝", "딥러닝",
+            "컴퓨터", "게임 개발", "오픈소스", "챌린지", "challenge", "프로젝트")
+EXCLUDE_KW = ("영상", "숏폼", "ucc", "사진", "슬로건", "네이밍", "디카시", "수기", "웹툰", "미디어파사드",
+              "광고", " cf", "이벤트", "초·중·고", "초중고", "청소년", "어린이", "초등", "중학생", "고등학생",
+              "서포터즈", "기자단", "캐릭터", "노래", "음원", "시나리오", "에세이", "글짓기", "독후감")
+
+def major_match(title, need_kw=True):
+    t = " " + title.lower() + " "
+    if any(k in t for k in EXCLUDE_KW):
+        return False
+    return (not need_kw) or any(k in t for k in MAJOR_KW)
+
+def _in_days(n):
+    return (TODAY + timedelta(days=n)).isoformat()
+
+
+# 링커리어 (Next.js) — __NEXT_DATA__ 의 Apollo 캐시에서 Activity 꺼내기
+def parse_linkareer(resp, src):
+    import json
+    from datetime import datetime, timezone
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', resp.text, re.S)
+    if not m:
+        return []
+    ap = json.loads(m.group(1))["props"]["pageProps"].get("__APOLLO_STATE__", {})
+    kst = timezone(timedelta(hours=9))
+    out = []
+    for k, v in ap.items():
+        if not k.startswith("Activity:") or not v.get("title"):
+            continue
+        title = v["title"].strip()
+        if not major_match(title):
+            continue
+        dl = ""
+        if v.get("recruitCloseAt"):
+            dl = datetime.fromtimestamp(v["recruitCloseAt"] / 1000, kst).date().isoformat()
+        out.append(dict(title=title, url=f"https://linkareer.com/activity/{v['id']}",
+                        date="", pinned=False, author=v.get("organizationName") or "",
+                        deadline=dl or None))
+    return out
+
+
+# 위비티 — ul.list > li (분야 여러 개를 한 번에)
+def parse_wevity(resp, src):
+    soup = _soup(resp)
+    out = []
+    for li in soup.select("ul.list > li"):
+        a = li.select_one("div.tit > a[href]")
+        if not a:
+            continue
+        for sp in a.select("span"):
+            sp.decompose()
+        title = a.get_text(" ", strip=True)
+        day = li.select_one("div.day")
+        dtxt = day.get_text(" ", strip=True) if day else ""
+        if "마감" in dtxt and "임박" not in dtxt:
+            continue
+        dm = re.search(r"D-(\d+)", dtxt)
+        dl = _in_days(int(dm.group(1))) if dm else (_in_days(0) if "D-day" in dtxt.lower() else None)
+        if not major_match(title):
+            continue
+        ix = re.search(r"ix=(\d+)", a["href"])
+        url = (f"https://www.wevity.com/?c=find&s=1&gbn=view&ix={ix.group(1)}"
+               if ix else urljoin("https://www.wevity.com/", a["href"]))
+        organ = li.select_one("div.organ")
+        out.append(dict(title=title, url=url, date="", pinned=False,
+                        author=organ.get_text(strip=True) if organ else "", deadline=dl))
+    return out
+
+
+# 데이콘 (Nuxt) — window.__NUXT__ 안의 compData 를 정규식으로
+def _nuxt_vars(text):
+    """window.__NUXT__=(function(a,b,..){...}(값1,값2,..)) 의 변수 → 값 매핑."""
+    import json
+    m = re.search(r"window\.__NUXT__=\(function\(([^)]*)\)", text)
+    a = re.search(r"\}\((.*)\)\);?\s*</script>", text[m.end():] if m else "", re.S)
+    if not m or not a:
+        return {}
+    try:
+        vals = json.loads("[" + a.group(1).replace("void 0", "null") + "]")
+    except ValueError:
+        return {}
+    return dict(zip(m.group(1).split(","), vals))
+
+def parse_dacon(resp, src):
+    out = []
+    v = _nuxt_vars(resp.text)
+    val = lambda tok: tok[1:-1] if tok.startswith('"') else (v.get(tok) or "")
+    # 한 대회 객체({...}) 안에서만 매칭되도록 [^{}] 사용
+    for m in re.finditer(r'cpt_id:(\d+)[^{}]*?,name:("[^"]*"|\w+)[^{}]*?period_end:("[^"]*"|\w+)',
+                         resp.text):
+        cid, title, end = m.group(1), val(m.group(2)), str(val(m.group(3)))[:10]
+        if not title or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", end) or end < TODAY.isoformat():
+            continue
+        if not major_match(title, need_kw=False):
+            continue
+        out.append(dict(title=title, url=f"https://dacon.io/competitions/official/{cid}/overview/description",
+                        date="", pinned=False, author="DACON", deadline=end))
+    return out
+
+
+# Devpost — 공개 JSON API (마감 임박순)
+_MON = {m: i for i, m in enumerate(
+    ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
+
+def _devpost_end(s):
+    # "Aug 31 - Oct 23, 2026" / "Oct 01 - 23, 2026"
+    m = re.search(r"-\s*(?:([A-Z][a-z]{2})\s+)?(\d{1,2}),\s*(\d{4})", s or "")
+    if not m:
+        return None
+    mon = m.group(1) or re.match(r"([A-Z][a-z]{2})", s).group(1)
+    try:
+        return date(int(m.group(3)), _MON[mon], int(m.group(2))).isoformat()
+    except (KeyError, ValueError):
+        return None
+
+def parse_devpost(resp, src):
+    out = []
+    for h in resp.json().get("hackathons", []):
+        if h.get("open_state") != "open" or h.get("invite_only"):
+            continue
+        loc = (h.get("displayed_location") or {}).get("location", "")
+        if loc and loc.lower() != "online":       # 오프라인 해외 행사는 제외
+            continue
+        themes = ", ".join(t["name"] for t in h.get("themes", []))
+        out.append(dict(title=h["title"] + (f" — {themes}" if themes else ""),
+                        url=h["url"], date="", pinned=False,
+                        author=h.get("organization_name") or "",
+                        deadline=_devpost_end(h.get("submission_period_dates"))))
+    return out
+
+
 PARSERS = {
     "k2web": parse_k2web,
     "jnu": parse_jnu,
     "kboard": parse_kboard,
     "www": parse_www,
     "gnuboard": parse_gnuboard,
+    "linkareer": parse_linkareer,
+    "wevity": parse_wevity,
+    "dacon": parse_dacon,
+    "devpost": parse_devpost,
 }

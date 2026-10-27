@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-27 09:15",
+  "generated_at": "2026-10-27 10:40",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 172,
+  "total": 171,
   "sources": [
     {
       "key": "ece",
@@ -1976,20 +1976,6 @@
           "deadline": "2026-11-13",
           "source": "linkareer",
           "id": "92ebdf4f66",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
-          "title": "2026 대구광역시 기후·환경·탄소중립 공공데이터 AI 활용대회",
-          "url": "https://linkareer.com/activity/356503",
-          "date": "",
-          "pinned": false,
-          "author": "대구광역시 탄소중립지원센터",
-          "deadline": "2026-11-20",
-          "source": "linkareer",
-          "id": "9ec63e206a",
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-27",

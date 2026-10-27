@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27 09:14",
+  "generated_at": "2026-10-27 09:15",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 172,
   "sources": [
@@ -462,8 +462,8 @@
       "url": "https://www.jnu.ac.kr/WebApp/web/HOM/COM/Board/board.aspx?boardID=5",
       "kind": "jnu",
       "group": "jnu",
-      "stale": false,
-      "error": null,
+      "stale": true,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.jnu.ac.kr', port=443): Read timed out. (read timeout=25)",
       "items": [
         {
           "title": "[모집공고] 제24회 2026 전남대학교 창업 아이템 경진대회",

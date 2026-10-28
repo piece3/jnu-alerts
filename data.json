@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-28 10:50",
+  "generated_at": "2026-10-29 00:30",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 173,
+  "total": 169,
   "sources": [
     {
       "key": "ece",
@@ -324,7 +324,7 @@
           "id": "0638936e45",
           "category": "job",
           "hack": false,
-          "deadline": "2026-10-27",
+          "deadline": null,
           "first_seen": "2026-10-08",
           "is_new": false
         },
@@ -838,7 +838,7 @@
           "is_new": false
         },
         {
-          "title": "「AI 도구가 Data Scientist의 업무를 어떻게 변화시키고 있는가」 특강 신청 안내(~10/28)",
+          "title": "「AI 도구가 Data Scientist의 업무를 어떻게 변화시키고 있는가」 특강 신청 안내(~10/30)",
           "url": "https://aicoss.ac.kr/www/notice/view/4125?bd=notice&page=1",
           "date": "2026-10-21",
           "pinned": true,
@@ -847,7 +847,7 @@
           "id": "ae1ca8e8e0",
           "category": "notice",
           "hack": false,
-          "deadline": "2026-10-28",
+          "deadline": "2026-10-30",
           "first_seen": "2026-10-21",
           "is_new": false
         },
@@ -1814,34 +1814,6 @@
       "error": null,
       "items": [
         {
-          "title": "2026 크라우드 소싱 데이터 활용 해커톤 (드론 데이터 변화탐지·3D 모델링)",
-          "url": "https://linkareer.com/activity/358224",
-          "date": "",
-          "pinned": false,
-          "author": "연세대학교 산학협력단",
-          "deadline": "2026-10-28",
-          "source": "linkareer",
-          "id": "3812b71810",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
-          "title": "[인천테크노파크] 2026 인천 가상융합산업 모의 해커톤 참여자 모집",
-          "url": "https://linkareer.com/activity/358255",
-          "date": "",
-          "pinned": false,
-          "author": "인천테크노파크",
-          "deadline": "2026-10-28",
-          "source": "linkareer",
-          "id": "2e5e5e2e06",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
           "title": "2026 AI 신(新) 과거제 온라인 예선(초시) 모집 안내",
           "url": "https://linkareer.com/activity/357885",
           "date": "",
@@ -1884,6 +1856,20 @@
           "is_new": true
         },
         {
+          "title": "[접수 기간 연장] 2026 크라우드 소싱 데이터 활용 해커톤 (드론 데이터 변화탐지·3D 모델링)",
+          "url": "https://linkareer.com/activity/358224",
+          "date": "",
+          "pinned": false,
+          "author": "연세대학교 산학협력단",
+          "deadline": "2026-10-30",
+          "source": "linkareer",
+          "id": "3812b71810",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
           "title": "젝커톤 2026 | 젝트 X 스위프 AI 해커톤",
           "url": "https://linkareer.com/activity/358739",
           "date": "",
@@ -1894,34 +1880,6 @@
           "id": "715c8edb1f",
           "category": "contest",
           "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
-          "title": "2026 로보틱스 작품공모전",
-          "url": "https://linkareer.com/activity/356890",
-          "date": "",
-          "pinned": false,
-          "author": "마이스플랜즈",
-          "deadline": "2026-11-02",
-          "source": "linkareer",
-          "id": "c68dad0c9a",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
-          "title": "[참가 모집] 화이트햇 2026 국방 사이버보안 콘테스트 개최! (총상금 4,500만 원)",
-          "url": "https://linkareer.com/activity/357130",
-          "date": "",
-          "pinned": false,
-          "author": "(주)맥앤윕",
-          "deadline": "2026-11-02",
-          "source": "linkareer",
-          "id": "fd48879074",
-          "category": "contest",
-          "hack": false,
           "first_seen": "2026-10-27",
           "is_new": true
         },
@@ -2119,6 +2077,20 @@
           "is_new": true
         },
         {
+          "title": "2026 로보틱스 작품공모전",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111592",
+          "date": "",
+          "pinned": false,
+          "author": "과학기술정보통신부",
+          "deadline": "2026-11-03",
+          "source": "wevity",
+          "id": "c74569c379",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-29",
+          "is_new": true
+        },
+        {
           "title": "2026 스페이스 해커톤",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111009",
           "date": "",
@@ -2253,34 +2225,6 @@
       "error": null,
       "items": [
         {
-          "title": "2026 International CodeTheCure Hackathon — Beginner Friendly, Education, Health",
-          "url": "https://codethecure-hackathon-26.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "CodeTheCure",
-          "deadline": "2026-10-28",
-          "source": "devpost",
-          "id": "37a00c6234",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
-          "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon — Communication, Mobile, Machine Learning/AI",
-          "url": "https://aws-cds-partner.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "AWS",
-          "deadline": "2026-10-28",
-          "source": "devpost",
-          "id": "d480667ff8",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
           "title": "CodeSprint by Elite Coders — Beginner Friendly, Open Ended, Web",
           "url": "https://codesprint-by-elitecoders.devpost.com/",
           "date": "",
@@ -2384,7 +2328,7 @@
           "date": "",
           "pinned": false,
           "author": "ACM Long Beach",
-          "deadline": "2026-11-05",
+          "deadline": "2026-11-06",
           "source": "devpost",
           "id": "fe119aed6c",
           "category": "contest",

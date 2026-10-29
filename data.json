@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-29 00:30",
+  "generated_at": "2026-10-29 10:59",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 169,
+  "total": 171,
   "sources": [
     {
       "key": "ece",
@@ -1828,20 +1828,6 @@
           "is_new": true
         },
         {
-          "title": "2026 제8회 TS 보안 허점을 찾아라!",
-          "url": "https://linkareer.com/activity/357274",
-          "date": "",
-          "pinned": false,
-          "author": "한국교통안전공단",
-          "deadline": "2026-10-30",
-          "source": "linkareer",
-          "id": "195d3af6cb",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
           "title": "2026년도 대한민국 SW 기술대상 및 IT 아키텍처대상",
           "url": "https://linkareer.com/activity/358787",
           "date": "",
@@ -1965,6 +1951,20 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "하나은행 『하나원픽 CUP AI 게임창작대회』",
+          "url": "https://linkareer.com/activity/360524",
+          "date": "",
+          "pinned": false,
+          "author": "(주)하나은행",
+          "deadline": "2026-11-22",
+          "source": "linkareer",
+          "id": "d7f1f55367",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-29",
           "is_new": true
         },
         {
@@ -2421,6 +2421,20 @@
           "is_new": true
         },
         {
+          "title": "AccessED Hacks — Beginner Friendly, Education, Social Good",
+          "url": "https://accessed-hacks.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "AccessEDnpo",
+          "deadline": "2026-11-20",
+          "source": "devpost",
+          "id": "bac85f4ba9",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-29",
+          "is_new": true
+        },
+        {
           "title": "LaunchPad Hacks — Beginner Friendly, Open Ended",
           "url": "https://launchpad-hacks.devpost.com/",
           "date": "",
@@ -2460,6 +2474,20 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "HackWithAditya — Education, Health, Machine Learning/AI",
+          "url": "https://hackwithaditya.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Aditya University",
+          "deadline": "2026-11-25",
+          "source": "devpost",
+          "id": "777c3b313b",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-29",
           "is_new": true
         },
         {

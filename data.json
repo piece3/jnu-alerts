@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29 10:59",
+  "generated_at": "2026-10-30 00:37",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 171,
   "sources": [
@@ -824,18 +824,18 @@
       "error": null,
       "items": [
         {
-          "title": "2026 AICOSS-UTAS 글로벌 학생프로그램 합격자 발표 일정 안내",
-          "url": "https://aicoss.ac.kr/www/notice/view/4126?bd=notice&page=1",
-          "date": "2026-10-23",
+          "title": "2026학년도 겨울 계절학기 서울시립대학교 학점교류 신청 안내(11/9(월) 9:00까지)",
+          "url": "https://aicoss.ac.kr/www/notice/view/4127?bd=notice&page=1",
+          "date": "2026-10-29",
           "pinned": true,
           "author": "",
           "source": "aicoss",
-          "id": "3090c76495",
-          "category": "notice",
+          "id": "17ce158c23",
+          "category": "academic",
           "hack": false,
           "deadline": null,
-          "first_seen": "2026-10-23",
-          "is_new": false
+          "first_seen": "2026-10-30",
+          "is_new": true
         },
         {
           "title": "「AI 도구가 Data Scientist의 업무를 어떻게 변화시키고 있는가」 특강 신청 안내(~10/30)",
@@ -905,6 +905,34 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
+          "is_new": false
+        },
+        {
+          "title": "2026 CO-SHOW 참관 안내",
+          "url": "https://aicoss.ac.kr/www/notice/view/4128?bd=notice&page=1",
+          "date": "2026-10-29",
+          "pinned": false,
+          "author": "",
+          "source": "aicoss",
+          "id": "f2ba92791b",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-30",
+          "is_new": true
+        },
+        {
+          "title": "2026 AICOSS-UTAS 글로벌 학생프로그램 합격자 발표 일정 안내",
+          "url": "https://aicoss.ac.kr/www/notice/view/4126?bd=notice&page=1",
+          "date": "2026-10-23",
+          "pinned": false,
+          "author": "",
+          "source": "aicoss",
+          "id": "3090c76495",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-23",
           "is_new": false
         },
         {
@@ -1003,34 +1031,6 @@
           "hack": true,
           "deadline": null,
           "first_seen": "2026-09-21",
-          "is_new": false
-        },
-        {
-          "title": "2026 AIM챌린지 본선 진출팀 발표",
-          "url": "https://aicoss.ac.kr/www/notice/view/4114?bd=notice&page=1",
-          "date": "2026-09-21",
-          "pinned": false,
-          "author": "",
-          "source": "aicoss",
-          "id": "64f773682a",
-          "category": "contest",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-09-21",
-          "is_new": false
-        },
-        {
-          "title": "[인공지능 혁신융합대학사업단] 2026 글로벌 파견 프로그램(미국 UNLV) 참여 학생 선발 안내 (~26.09.18 17:00 마감)",
-          "url": "https://aicoss.ac.kr/www/notice/view/4113?bd=notice&page=1",
-          "date": "2026-09-10",
-          "pinned": false,
-          "author": "",
-          "source": "aicoss",
-          "id": "0474a9080f",
-          "category": "academic",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-09-14",
           "is_new": false
         }
       ]
@@ -1814,17 +1814,17 @@
       "error": null,
       "items": [
         {
-          "title": "2026 AI 신(新) 과거제 온라인 예선(초시) 모집 안내",
-          "url": "https://linkareer.com/activity/357885",
+          "title": "2026 제8회 TS 보안 허점을 찾아라!",
+          "url": "https://linkareer.com/activity/357274",
           "date": "",
           "pinned": false,
-          "author": "(주)엘비즈코리아",
-          "deadline": "2026-10-29",
+          "author": "한국교통안전공단",
+          "deadline": "2026-10-30",
           "source": "linkareer",
-          "id": "5d33cb3b0d",
+          "id": "195d3af6cb",
           "category": "contest",
           "hack": false,
-          "first_seen": "2026-10-27",
+          "first_seen": "2026-10-30",
           "is_new": true
         },
         {
@@ -2351,6 +2351,20 @@
           "is_new": true
         },
         {
+          "title": "Herhack — Beginner Friendly, Blockchain, Open Ended",
+          "url": "https://herhack.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Echelon institute of technology",
+          "deadline": "2026-11-10",
+          "source": "devpost",
+          "id": "e7a3dab86e",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-30",
+          "is_new": true
+        },
+        {
           "title": "PayPal AI Hackathon — Low/No Code, Machine Learning/AI, Web",
           "url": "https://paypalaihackathon.devpost.com/",
           "date": "",
@@ -2474,20 +2488,6 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
-          "title": "HackWithAditya — Education, Health, Machine Learning/AI",
-          "url": "https://hackwithaditya.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Aditya University",
-          "deadline": "2026-11-25",
-          "source": "devpost",
-          "id": "777c3b313b",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-29",
           "is_new": true
         },
         {

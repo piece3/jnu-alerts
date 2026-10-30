@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-30 11:11",
+  "generated_at": "2026-10-31 00:22",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 172,
+  "total": 166,
   "sources": [
     {
       "key": "ece",
@@ -164,10 +164,24 @@
       "error": null,
       "items": [
         {
+          "title": "대학원 AI 연구역량 강화 실무 교육 계획 안내",
+          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1059323/artclView.do",
+          "date": "2026-10-30",
+          "pinned": false,
+          "author": "김현희",
+          "source": "eng",
+          "id": "34471e5f2d",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-30",
+          "is_new": true
+        },
+        {
           "title": "2027년도 한국지도자육성장학재단 장학생 선발 안내",
           "url": "https://eng.jnu.ac.kr/bbs/eng/993/1058054/artclView.do",
           "date": "2026-10-20",
-          "pinned": true,
+          "pinned": false,
           "author": "김현희",
           "source": "eng",
           "id": "b0937fb9f2",
@@ -181,7 +195,7 @@
           "title": "2026학년도 2학기 도전장학생(비상) 선발 계획 안내",
           "url": "https://eng.jnu.ac.kr/bbs/eng/993/1058051/artclView.do",
           "date": "2026-10-20",
-          "pinned": true,
+          "pinned": false,
           "author": "김현희",
           "source": "eng",
           "id": "cb5ab61cdf",
@@ -190,20 +204,6 @@
           "deadline": null,
           "first_seen": "2026-10-20",
           "is_new": false
-        },
-        {
-          "title": "대학원 AI 연구역량 강화 실무 교육 계획 안내",
-          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1059323/artclView.do",
-          "date": "2026-10-30",
-          "pinned": false,
-          "author": "김현희",
-          "source": "eng",
-          "id": "34471e5f2d",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-30",
-          "is_new": true
         },
         {
           "title": "2026 동계 GRC (Global Residential College) 프로그램 운영 안내",
@@ -243,7 +243,7 @@
           "id": "3a8d857740",
           "category": "academic",
           "hack": false,
-          "deadline": "2026-10-29",
+          "deadline": null,
           "first_seen": "2026-10-15",
           "is_new": false
         },
@@ -824,6 +824,48 @@
       "error": null,
       "items": [
         {
+          "title": "전남대학교 2026학년도 동계 계절학기 운영 계획 안내(학점교류(초청))",
+          "url": "https://aicoss.ac.kr/www/notice/view/4131?bd=notice&page=1",
+          "date": "2026-10-30",
+          "pinned": true,
+          "author": "",
+          "source": "aicoss",
+          "id": "f1d75937ee",
+          "category": "academic",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-31",
+          "is_new": true
+        },
+        {
+          "title": "2026년도 10월호 AICOSS 레터",
+          "url": "https://aicoss.ac.kr/www/notice/view/4129?bd=notice&page=1",
+          "date": "2026-10-30",
+          "pinned": true,
+          "author": "",
+          "source": "aicoss",
+          "id": "2721aec8f4",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-31",
+          "is_new": true
+        },
+        {
+          "title": "2026 CO-SHOW 단체참관 모집 안내(~11/6까지)",
+          "url": "https://aicoss.ac.kr/www/notice/view/4128?bd=notice&page=1",
+          "date": "2026-10-29",
+          "pinned": true,
+          "author": "",
+          "source": "aicoss",
+          "id": "f2ba92791b",
+          "category": "notice",
+          "hack": false,
+          "deadline": "2026-11-06",
+          "first_seen": "2026-10-30",
+          "is_new": true
+        },
+        {
           "title": "2026학년도 겨울 계절학기 서울시립대학교 학점교류 신청 안내(11/9(월) 9:00까지)",
           "url": "https://aicoss.ac.kr/www/notice/view/4127?bd=notice&page=1",
           "date": "2026-10-29",
@@ -866,20 +908,6 @@
           "is_new": false
         },
         {
-          "title": "2026년도 9월호 AICOSS 레터",
-          "url": "https://aicoss.ac.kr/www/notice/view/4120?bd=notice&page=1",
-          "date": "2026-10-02",
-          "pinned": true,
-          "author": "",
-          "source": "aicoss",
-          "id": "a20887e0ec",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-07",
-          "is_new": false
-        },
-        {
           "title": "「AICOSS Career Compass 2026」 진로실태 설문조사 참여 안내",
           "url": "https://aicoss.ac.kr/www/notice/view/4112?bd=notice&page=1",
           "date": "2026-09-09",
@@ -906,20 +934,6 @@
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
-        },
-        {
-          "title": "2026 CO-SHOW 참관 안내",
-          "url": "https://aicoss.ac.kr/www/notice/view/4128?bd=notice&page=1",
-          "date": "2026-10-29",
-          "pinned": false,
-          "author": "",
-          "source": "aicoss",
-          "id": "f2ba92791b",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-30",
-          "is_new": true
         },
         {
           "title": "2026 AICOSS-UTAS 글로벌 학생프로그램 합격자 발표 일정 안내",
@@ -957,6 +971,20 @@
           "author": "",
           "source": "aicoss",
           "id": "b179bcfd33",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-07",
+          "is_new": false
+        },
+        {
+          "title": "2026년도 9월호 AICOSS 레터",
+          "url": "https://aicoss.ac.kr/www/notice/view/4120?bd=notice&page=1",
+          "date": "2026-10-02",
+          "pinned": false,
+          "author": "",
+          "source": "aicoss",
+          "id": "a20887e0ec",
           "category": "notice",
           "hack": false,
           "deadline": null,
@@ -1003,34 +1031,6 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
-          "is_new": false
-        },
-        {
-          "title": "2026년 2학기 캡스톤디자인 과제 선정 안내",
-          "url": "https://aicoss.ac.kr/www/notice/view/4116?bd=notice&page=1",
-          "date": "2026-09-23",
-          "pinned": false,
-          "author": "",
-          "source": "aicoss",
-          "id": "e1273667d8",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-07",
-          "is_new": false
-        },
-        {
-          "title": "(성균관대)2026년 캡스톤디자인 및 AI해커톤 신청 안내(마감/선정인원 발표)",
-          "url": "https://aicoss.ac.kr/www/notice/view/4115?bd=notice&page=1",
-          "date": "2026-09-21",
-          "pinned": false,
-          "author": "",
-          "source": "aicoss",
-          "id": "4e632379f1",
-          "category": "contest",
-          "hack": true,
-          "deadline": null,
-          "first_seen": "2026-09-21",
           "is_new": false
         }
       ]
@@ -1814,48 +1814,6 @@
       "error": null,
       "items": [
         {
-          "title": "2026 제8회 TS 보안 허점을 찾아라!",
-          "url": "https://linkareer.com/activity/357274",
-          "date": "",
-          "pinned": false,
-          "author": "한국교통안전공단",
-          "deadline": "2026-10-30",
-          "source": "linkareer",
-          "id": "195d3af6cb",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-30",
-          "is_new": true
-        },
-        {
-          "title": "2026년도 대한민국 SW 기술대상 및 IT 아키텍처대상",
-          "url": "https://linkareer.com/activity/358787",
-          "date": "",
-          "pinned": false,
-          "author": "(사)한국소프트웨어기술진흥협회",
-          "deadline": "2026-10-30",
-          "source": "linkareer",
-          "id": "88e0fa348f",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
-          "title": "[접수 기간 연장] 2026 크라우드 소싱 데이터 활용 해커톤 (드론 데이터 변화탐지·3D 모델링)",
-          "url": "https://linkareer.com/activity/358224",
-          "date": "",
-          "pinned": false,
-          "author": "연세대학교 산학협력단",
-          "deadline": "2026-10-30",
-          "source": "linkareer",
-          "id": "3812b71810",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
           "title": "젝커톤 2026 | 젝트 X 스위프 AI 해커톤",
           "url": "https://linkareer.com/activity/358739",
           "date": "",
@@ -1867,6 +1825,20 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "[참가 모집] 화이트햇 2026 국방 사이버보안 콘테스트 개최! (총상금 4,500만 원)",
+          "url": "https://linkareer.com/activity/357130",
+          "date": "",
+          "pinned": false,
+          "author": "(주)맥앤윕",
+          "deadline": "2026-11-02",
+          "source": "linkareer",
+          "id": "fd48879074",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-31",
           "is_new": true
         },
         {
@@ -1940,6 +1912,20 @@
           "is_new": true
         },
         {
+          "title": "2026 성평등 AI 벤치마크 챌린지 참가팀 모집",
+          "url": "https://linkareer.com/activity/361052",
+          "date": "",
+          "pinned": false,
+          "author": "성평등가족부",
+          "deadline": "2026-11-20",
+          "source": "linkareer",
+          "id": "9cdf05424d",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-31",
+          "is_new": true
+        },
+        {
           "title": "[데이콘] 제주 AI·빅데이터 활용 AI Agent 개발 챌린지(~11/20)",
           "url": "https://linkareer.com/activity/359517",
           "date": "",
@@ -2007,76 +1993,6 @@
       "error": null,
       "items": [
         {
-          "title": "2026 POSTECH OIBC 빅데이터 경진대회",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111314",
-          "date": "",
-          "pinned": false,
-          "author": "H에너지, POSTECH, UNIST, KAIST",
-          "deadline": "2026-10-31",
-          "source": "wevity",
-          "id": "5e2128b573",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
-          "title": "2026 양자내성암호 전환 경진대회·해커톤",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111368",
-          "date": "",
-          "pinned": false,
-          "author": "과학기술정보통신부",
-          "deadline": "2026-10-31",
-          "source": "wevity",
-          "id": "8e11239aee",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
-          "title": "2026 제8회 TS 보안 허점을 찾아라 공모전",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111685",
-          "date": "",
-          "pinned": false,
-          "author": "한국교통안전공단",
-          "deadline": "2026-10-31",
-          "source": "wevity",
-          "id": "6031457c04",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
-          "title": "2026 충북글로벌게임센터 AI 게임 개발 공모전",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111767",
-          "date": "",
-          "pinned": false,
-          "author": "청주시문화산업진흥재단",
-          "deadline": "2026-10-31",
-          "source": "wevity",
-          "id": "b668c690d4",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
-          "title": "AI 달인의 꿀팁 챌린지 시즌3",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111747",
-          "date": "",
-          "pinned": false,
-          "author": "과학기술정보통신부",
-          "deadline": "2026-10-31",
-          "source": "wevity",
-          "id": "57affff2a8",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
           "title": "2026 로보틱스 작품공모전",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111592",
           "date": "",
@@ -2088,6 +2004,34 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-29",
+          "is_new": true
+        },
+        {
+          "title": "화이트햇 2026 국방 사이버보안 콘테스트",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111682",
+          "date": "",
+          "pinned": false,
+          "author": "국방부",
+          "deadline": "2026-11-03",
+          "source": "wevity",
+          "id": "126857b342",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-31",
+          "is_new": true
+        },
+        {
+          "title": "LOTTE AX CHALLENGE 2026",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112027",
+          "date": "",
+          "pinned": false,
+          "author": "롯데지주",
+          "deadline": "2026-11-05",
+          "source": "wevity",
+          "id": "0cc27e84c9",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-10-31",
           "is_new": true
         },
         {
@@ -2224,48 +2168,6 @@
       "stale": false,
       "error": null,
       "items": [
-        {
-          "title": "CodeSprint by Elite Coders — Beginner Friendly, Open Ended, Web",
-          "url": "https://codesprint-by-elitecoders.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "elite coders",
-          "deadline": "2026-10-30",
-          "source": "devpost",
-          "id": "50a92fc818",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
-          "title": "Nebius x NVIDIA Global AI Hackathon — Machine Learning/AI, Beginner Friendly, Robotic Process Automation",
-          "url": "https://nebiusglobalaihackathon.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "nebius",
-          "deadline": "2026-10-30",
-          "source": "devpost",
-          "id": "5936563e27",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
-          "title": "Qloo Agentic Hackathon — Machine Learning/AI",
-          "url": "https://qloo.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Qloo",
-          "deadline": "2026-10-30",
-          "source": "devpost",
-          "id": "58e28f07f9",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
         {
           "title": "Next Byte Hacks V5 — Beginner Friendly, Low/No Code, Open Ended",
           "url": "https://next-byte-hacks-v5.devpost.com/",
@@ -2502,6 +2404,20 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "HackWithAditya — Education, Health, Machine Learning/AI",
+          "url": "https://hackwithaditya.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Aditya University",
+          "deadline": "2026-11-25",
+          "source": "devpost",
+          "id": "777c3b313b",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-31",
           "is_new": true
         },
         {

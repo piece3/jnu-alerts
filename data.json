@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-30 00:37",
+  "generated_at": "2026-10-30 11:11",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 171,
+  "total": 172,
   "sources": [
     {
       "key": "ece",
@@ -192,6 +192,20 @@
           "is_new": false
         },
         {
+          "title": "대학원 AI 연구역량 강화 실무 교육 계획 안내",
+          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1059323/artclView.do",
+          "date": "2026-10-30",
+          "pinned": false,
+          "author": "김현희",
+          "source": "eng",
+          "id": "34471e5f2d",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-30",
+          "is_new": true
+        },
+        {
           "title": "2026 동계 GRC (Global Residential College) 프로그램 운영 안내",
           "url": "https://eng.jnu.ac.kr/bbs/eng/993/1057963/artclView.do",
           "date": "2026-10-20",
@@ -283,20 +297,6 @@
           "author": "조은혜",
           "source": "eng",
           "id": "eb6eea1237",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-07",
-          "is_new": false
-        },
-        {
-          "title": "2026학년도 공과대학 해외 단기파견 대상자 선발 안내",
-          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1056051/artclView.do",
-          "date": "2026-09-22",
-          "pinned": false,
-          "author": "김송희",
-          "source": "eng",
-          "id": "ef540d67fa",
           "category": "notice",
           "hack": false,
           "deadline": null,
@@ -2418,6 +2418,20 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
+          "is_new": true
+        },
+        {
+          "title": "Green Shift Hacks — Beginner Friendly, Social Good",
+          "url": "https://green-shift-hacks.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "HackathonForEveryone",
+          "deadline": "2026-11-17",
+          "source": "devpost",
+          "id": "45f227863e",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-30",
           "is_new": true
         },
         {

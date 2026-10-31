@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-31 00:22",
+  "generated_at": "2026-10-31 10:55",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 166,
+  "total": 168,
   "sources": [
     {
       "key": "ece",
@@ -1578,8 +1578,8 @@
       "url": "https://crdcnu.jnuac.kr/bbs/board.php?bo_table=0501",
       "kind": "gnuboard",
       "group": "jnu",
-      "stale": false,
-      "error": null,
+      "stale": true,
+      "error": "ReadTimeout: HTTPSConnectionPool(host='crdcnu.jnuac.kr', port=443): Read timed out. (read timeout=25)",
       "items": [
         {
           "title": "전남대 지역개발연구소 2023 한국연구재단 인문사회연구소 사업 선정",
@@ -2365,6 +2365,20 @@
           "is_new": true
         },
         {
+          "title": "Dakar Bitcoin Hack by BTrust — Blockchain, Fintech, Machine Learning/AI",
+          "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Dakar Bitcoin Days",
+          "deadline": "2026-11-20",
+          "source": "devpost",
+          "id": "1fe9003750",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-31",
+          "is_new": true
+        },
+        {
           "title": "LaunchPad Hacks — Beginner Friendly, Open Ended",
           "url": "https://launchpad-hacks.devpost.com/",
           "date": "",
@@ -2415,6 +2429,20 @@
           "deadline": "2026-11-25",
           "source": "devpost",
           "id": "777c3b313b",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-31",
+          "is_new": true
+        },
+        {
+          "title": "Kiroween 2026 — Beginner Friendly, Machine Learning/AI, Open Ended",
+          "url": "https://kiroween.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Kiro",
+          "deadline": "2026-12-04",
+          "source": "devpost",
+          "id": "c7e9504758",
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-31",

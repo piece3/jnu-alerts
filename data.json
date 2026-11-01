@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-01 10:33",
+  "generated_at": "2026-11-02 00:29",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 170,
+  "total": 168,
   "sources": [
     {
       "key": "ece",
@@ -2007,20 +2007,6 @@
           "is_new": true
         },
         {
-          "title": "화이트햇 2026 국방 사이버보안 콘테스트",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111682",
-          "date": "",
-          "pinned": false,
-          "author": "국방부",
-          "deadline": "2026-11-03",
-          "source": "wevity",
-          "id": "126857b342",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-31",
-          "is_new": true
-        },
-        {
           "title": "LOTTE AX CHALLENGE 2026",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112027",
           "date": "",
@@ -2169,20 +2155,6 @@
       "error": null,
       "items": [
         {
-          "title": "AQX Sports Analytics Data Bowl 4.0 — Beginner Friendly, Databases, Gaming",
-          "url": "https://aqxanalyticsfour.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Devpost",
-          "deadline": "2026-11-01",
-          "source": "devpost",
-          "id": "57d3d05c16",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
           "title": "Codex x TwitchCon Hackathon — Communication, Gaming, Machine Learning/AI",
           "url": "https://twitchcon-codex.devpost.com/",
           "date": "",
@@ -2209,6 +2181,20 @@
           "hack": true,
           "first_seen": "2026-10-27",
           "is_new": false
+        },
+        {
+          "title": "Ostad Presents YUNet AIgnite Buildathon 2026 — Education, Low/No Code, Machine Learning/AI",
+          "url": "https://yunet-aignite26.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Youth Upskill Network - YUNet",
+          "deadline": "2026-11-05",
+          "source": "devpost",
+          "id": "18d8680085",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-02",
+          "is_new": true
         },
         {
           "title": "Pumpkin Playground — Design, Gaming, Web",
@@ -2251,6 +2237,20 @@
           "hack": true,
           "first_seen": "2026-10-27",
           "is_new": false
+        },
+        {
+          "title": "Agentic Hackathon — Machine Learning/AI, Open Ended, Web",
+          "url": "https://agentic-hackathon.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Devin",
+          "deadline": "2026-11-10",
+          "source": "devpost",
+          "id": "3c379e5924",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-02",
+          "is_new": true
         },
         {
           "title": "Herhack — Beginner Friendly, Blockchain, Open Ended",
@@ -2337,20 +2337,6 @@
           "is_new": false
         },
         {
-          "title": "Green Shift Hacks — Beginner Friendly, Social Good",
-          "url": "https://green-shift-hacks.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "HackathonForEveryone",
-          "deadline": "2026-11-17",
-          "source": "devpost",
-          "id": "45f227863e",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-30",
-          "is_new": true
-        },
-        {
           "title": "Meta VR Start Developer Competition 2026 — AR/VR, Machine Learning/AI, Web",
           "url": "https://start-developer-competition-26.devpost.com/",
           "date": "",
@@ -2376,20 +2362,6 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-29",
-          "is_new": true
-        },
-        {
-          "title": "Dakar Bitcoin Hack by BTrust — Blockchain, Fintech, Machine Learning/AI",
-          "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Dakar Bitcoin Days",
-          "deadline": "2026-11-20",
-          "source": "devpost",
-          "id": "1fe9003750",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-01",
           "is_new": true
         },
         {
@@ -2502,7 +2474,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-28",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "InnovArt 2027: Art and Technology Hack Day — Music/Art, Beginner Friendly, Open Ended",

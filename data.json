@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-31 23:49",
+  "generated_at": "2026-11-01 10:33",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 169,
+  "total": 170,
   "sources": [
     {
       "key": "ece",
@@ -889,7 +889,7 @@
           "id": "ae1ca8e8e0",
           "category": "notice",
           "hack": false,
-          "deadline": "2026-10-30",
+          "deadline": null,
           "first_seen": "2026-10-21",
           "is_new": false
         },
@@ -1056,7 +1056,7 @@
           "hack": false,
           "deadline": "2026-11-06",
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 전남대학교 용봉학술제 X 차세대통신혁신융합대학사업단 부스 · 특강 운영 안내",
@@ -1084,7 +1084,7 @@
           "hack": false,
           "deadline": "2026-11-13",
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026년 Quantum-HPC 첨단 기술 세미나 참가 신청 (선착순)",
@@ -1291,7 +1291,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[접수공고] 2026 기초창의설계 경진대회(2학기) 개최 안내",
@@ -1305,7 +1305,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[접수마감] 2026 공학페스티벌 서포터즈 E2메이트 모집",
@@ -1661,7 +1661,7 @@
           "id": "73127365ae",
           "category": "notice",
           "hack": false,
-          "deadline": "2026-10-30",
+          "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
         },
@@ -1814,17 +1814,17 @@
       "error": null,
       "items": [
         {
-          "title": "젝커톤 2026 | 젝트 X 스위프 AI 해커톤",
-          "url": "https://linkareer.com/activity/358739",
+          "title": "[참가 모집] 화이트햇 2026 국방 사이버보안 콘테스트 개최! (총상금 4,500만 원)",
+          "url": "https://linkareer.com/activity/357130",
           "date": "",
           "pinned": false,
-          "author": "젝트",
-          "deadline": "2026-10-31",
+          "author": "(주)맥앤윕",
+          "deadline": "2026-11-02",
           "source": "linkareer",
-          "id": "715c8edb1f",
+          "id": "fd48879074",
           "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
+          "hack": false,
+          "first_seen": "2026-11-01",
           "is_new": true
         },
         {
@@ -1839,7 +1839,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[튜토리얼 100% 제공] 2027 상반기취업! 비전공자도 완성하는 AI 헬스케어 해커톤",
@@ -1853,7 +1853,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 서울 AI 디지털 배움터 청년 해커톤",
@@ -1867,7 +1867,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[엘리스] 과기부 × 엘리스 AI 챌린지 : 일상 속 문제, AI로 해결하다 (전국민 AI 경진대회)",
@@ -1881,7 +1881,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 현장문제 AX 아이디어 해커톤 참가자 모집",
@@ -1909,7 +1909,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 성평등 AI 벤치마크 챌린지 참가팀 모집",
@@ -1937,7 +1937,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "하나은행 『하나원픽 CUP AI 게임창작대회』",
@@ -1965,7 +1965,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 AI 플레이 콘텐츠 제작 공모전 공모전",
@@ -1979,7 +1979,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -1998,7 +1998,7 @@
           "date": "",
           "pinned": false,
           "author": "과학기술정보통신부",
-          "deadline": "2026-11-02",
+          "deadline": "2026-11-03",
           "source": "wevity",
           "id": "c74569c379",
           "category": "contest",
@@ -2012,7 +2012,7 @@
           "date": "",
           "pinned": false,
           "author": "국방부",
-          "deadline": "2026-11-02",
+          "deadline": "2026-11-03",
           "source": "wevity",
           "id": "126857b342",
           "category": "contest",
@@ -2026,7 +2026,7 @@
           "date": "",
           "pinned": false,
           "author": "롯데지주",
-          "deadline": "2026-11-04",
+          "deadline": "2026-11-05",
           "source": "wevity",
           "id": "0cc27e84c9",
           "category": "contest",
@@ -2040,13 +2040,13 @@
           "date": "",
           "pinned": false,
           "author": "우주항공청",
-          "deadline": "2026-11-05",
+          "deadline": "2026-11-06",
           "source": "wevity",
           "id": "c56ecbff4f",
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 DATA·AI 분석 경진대회",
@@ -2054,13 +2054,13 @@
           "date": "",
           "pinned": false,
           "author": "한국과학기술정보연구원",
-          "deadline": "2026-11-10",
+          "deadline": "2026-11-11",
           "source": "wevity",
           "id": "85e79e730a",
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[CJ제일제당] 햇반 30주년 AI 공모전 (갓 지은 AI디어)",
@@ -2068,13 +2068,13 @@
           "date": "",
           "pinned": false,
           "author": "CJ제일제당",
-          "deadline": "2026-11-13",
+          "deadline": "2026-11-14",
           "source": "wevity",
           "id": "8681109fb5",
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "현대자동차그룹 차량용 앱 개발 공모전",
@@ -2082,13 +2082,13 @@
           "date": "",
           "pinned": false,
           "author": "현대자동차그룹",
-          "deadline": "2026-11-15",
+          "deadline": "2026-11-16",
           "source": "wevity",
           "id": "fc721e60a4",
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 조달청 AI 게임·콘텐츠 공모전",
@@ -2096,13 +2096,13 @@
           "date": "",
           "pinned": false,
           "author": "조달청",
-          "deadline": "2026-11-22",
+          "deadline": "2026-11-23",
           "source": "wevity",
           "id": "20f86069dc",
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "제2회 2026 대한민국 AI 창조공모대전",
@@ -2110,13 +2110,13 @@
           "date": "",
           "pinned": false,
           "author": "한국창조미술협회",
-          "deadline": "2026-11-27",
+          "deadline": "2026-11-28",
           "source": "wevity",
           "id": "c8eff97bf4",
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 AI 플레이 콘텐츠 제작 공모전",
@@ -2124,13 +2124,13 @@
           "date": "",
           "pinned": false,
           "author": "중앙대학교",
-          "deadline": "2026-12-31",
+          "deadline": "2027-01-01",
           "source": "wevity",
           "id": "f840dfbd4e",
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -2155,7 +2155,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -2169,20 +2169,6 @@
       "error": null,
       "items": [
         {
-          "title": "Next Byte Hacks V5 — Beginner Friendly, Low/No Code, Open Ended",
-          "url": "https://next-byte-hacks-v5.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Next Byte Hacks",
-          "deadline": "2026-10-31",
-          "source": "devpost",
-          "id": "f54ad95ee6",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": true
-        },
-        {
           "title": "AQX Sports Analytics Data Bowl 4.0 — Beginner Friendly, Databases, Gaming",
           "url": "https://aqxanalyticsfour.devpost.com/",
           "date": "",
@@ -2194,7 +2180,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Codex x TwitchCon Hackathon — Communication, Gaming, Machine Learning/AI",
@@ -2208,7 +2194,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "YouCam API Skin AI & eCommerce VTO Hackathon — AR/VR, E-commerce/Retail, Machine Learning/AI",
@@ -2222,7 +2208,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Pumpkin Playground — Design, Gaming, Web",
@@ -2236,7 +2222,21 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
+        },
+        {
+          "title": "Next Byte Hacks V5 — Beginner Friendly, Low/No Code, Open Ended",
+          "url": "https://next-byte-hacks-v5.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Next Byte Hacks",
+          "deadline": "2026-11-07",
+          "source": "devpost",
+          "id": "f54ad95ee6",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": false
         },
         {
           "title": "Learn AR with SPECS — AR/VR, Machine Learning/AI, Design",
@@ -2250,7 +2250,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Herhack — Beginner Friendly, Blockchain, Open Ended",
@@ -2278,7 +2278,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "DSH Hacks V2 ($100k+ in prizes!) — Beginner Friendly, Low/No Code, Open Ended",
@@ -2292,7 +2292,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Mathematics for systems security — Communication, Cybersecurity, Machine Learning/AI",
@@ -2306,7 +2306,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "STEMergent Hacks 2026 — Low/No Code, Machine Learning/AI, Social Good",
@@ -2334,7 +2334,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Green Shift Hacks — Beginner Friendly, Social Good",
@@ -2362,7 +2362,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AccessED Hacks — Beginner Friendly, Education, Social Good",
@@ -2379,6 +2379,20 @@
           "is_new": true
         },
         {
+          "title": "Dakar Bitcoin Hack by BTrust — Blockchain, Fintech, Machine Learning/AI",
+          "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Dakar Bitcoin Days",
+          "deadline": "2026-11-20",
+          "source": "devpost",
+          "id": "1fe9003750",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-01",
+          "is_new": true
+        },
+        {
           "title": "LaunchPad Hacks — Beginner Friendly, Open Ended",
           "url": "https://launchpad-hacks.devpost.com/",
           "date": "",
@@ -2390,7 +2404,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "STEM2Connect AI Hackathon — Beginner Friendly, Education, Web",
@@ -2404,7 +2418,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "SafeSpace Hacks — Beginner Friendly, Cybersecurity, Social Good",
@@ -2418,7 +2432,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "HackWithAditya — Education, Health, Machine Learning/AI",
@@ -2474,7 +2488,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Codegeist 2026: Build with context. Ship with confidence. — Machine Learning/AI, Enterprise, Productivity",
@@ -2502,7 +2516,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Syntax Summit — DevOps, Machine Learning/AI, Robotic Process Automation",
@@ -2516,7 +2530,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Code for Humanity — Education, Machine Learning/AI, Web",
@@ -2530,7 +2544,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": true
+          "is_new": false
         }
       ]
     }

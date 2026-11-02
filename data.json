@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-02 10:55",
+  "generated_at": "2026-11-03 03:52",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 169,
+  "total": 166,
   "sources": [
     {
       "key": "ece",
@@ -1280,6 +1280,34 @@
           "is_new": false
         },
         {
+          "title": "[외부교육] [접수중] 2026 드론 운영 및 촬영 전문가 양성과정 참가자 모집",
+          "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1059513/artclView.do",
+          "date": "2026-11-02",
+          "pinned": false,
+          "author": "공학교육혁신센터",
+          "source": "icee",
+          "id": "20d8db3499",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-03",
+          "is_new": true
+        },
+        {
+          "title": "[접수중] 2026 공학페스티벌「우리학교에 E²가 숨어있다?! 포스터 인증 이벤트」(~11/12)",
+          "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1059470/artclView.do",
+          "date": "2026-11-02",
+          "pinned": false,
+          "author": "공학교육혁신센터",
+          "source": "icee",
+          "id": "d22fe3908b",
+          "category": "notice",
+          "hack": false,
+          "deadline": "2026-11-12",
+          "first_seen": "2026-11-03",
+          "is_new": true
+        },
+        {
           "title": "[접수중] 2026 공학페스티벌「E²SODE」 공대생 에피소드 쇼츠 공모전",
           "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1058805/artclView.do",
           "date": "2026-10-26",
@@ -1385,34 +1413,6 @@
           "author": "공학교육혁신센터",
           "source": "icee",
           "id": "1958006965",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "[홍보] \"2026 컨소시엄 협업 학생 대상 아카데미 워크숍\" 안내",
-          "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1051131/artclView.do",
-          "date": "2026-08-05",
-          "pinned": false,
-          "author": "공학교육혁신센터",
-          "source": "icee",
-          "id": "82c33a61d4",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "[접수마감] 2026 에너지소재분야 심화 단기교육 참가자 모집",
-          "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1050117/artclView.do",
-          "date": "2026-07-21",
-          "pinned": false,
-          "author": "공학교육혁신센터",
-          "source": "icee",
-          "id": "1af34ccf30",
           "category": "notice",
           "hack": false,
           "deadline": null,
@@ -1814,20 +1814,6 @@
       "error": null,
       "items": [
         {
-          "title": "[참가 모집] 화이트햇 2026 국방 사이버보안 콘테스트 개최! (총상금 4,500만 원)",
-          "url": "https://linkareer.com/activity/357130",
-          "date": "",
-          "pinned": false,
-          "author": "(주)맥앤윕",
-          "deadline": "2026-11-02",
-          "source": "linkareer",
-          "id": "fd48879074",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-11-01",
-          "is_new": true
-        },
-        {
           "title": "2026 청도 바이브코딩 해커톤 with 해커그라운드",
           "url": "https://linkareer.com/activity/359305",
           "date": "",
@@ -1884,7 +1870,7 @@
           "is_new": false
         },
         {
-          "title": "2026 현장문제 AX 아이디어 해커톤 참가자 모집",
+          "title": "2026 현장문제 AX 업무혁신 아이디어 해커톤 참가자 모집",
           "url": "https://linkareer.com/activity/361137",
           "date": "",
           "pinned": false,
@@ -1926,6 +1912,20 @@
           "is_new": true
         },
         {
+          "title": "[과학기술정보통신부] AI 달인 꿀팁 챌린지 시즌4",
+          "url": "https://linkareer.com/activity/361293",
+          "date": "",
+          "pinned": false,
+          "author": "과학기술정보통신부",
+          "deadline": "2026-11-20",
+          "source": "linkareer",
+          "id": "b764102cf1",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-03",
+          "is_new": true
+        },
+        {
           "title": "[데이콘] 제주 AI·빅데이터 활용 AI Agent 개발 챌린지(~11/20)",
           "url": "https://linkareer.com/activity/359517",
           "date": "",
@@ -1951,7 +1951,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-29",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[한국프로세스혁신협회] 2026 AI 서비스 기획 공모전",
@@ -1992,20 +1992,6 @@
       "stale": false,
       "error": null,
       "items": [
-        {
-          "title": "2026 로보틱스 작품공모전",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111592",
-          "date": "",
-          "pinned": false,
-          "author": "과학기술정보통신부",
-          "deadline": "2026-11-03",
-          "source": "wevity",
-          "id": "c74569c379",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-29",
-          "is_new": true
-        },
         {
           "title": "LOTTE AX CHALLENGE 2026",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112027",
@@ -2077,6 +2063,20 @@
           "is_new": false
         },
         {
+          "title": "AI 달인의 꿀팁 챌린지 시즌4",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112049",
+          "date": "",
+          "pinned": false,
+          "author": "과학기술정보통신부",
+          "deadline": "2026-11-21",
+          "source": "wevity",
+          "id": "113740d5a4",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-03",
+          "is_new": true
+        },
+        {
           "title": "2026 조달청 AI 게임·콘텐츠 공모전",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111628",
           "date": "",
@@ -2128,22 +2128,7 @@
       "group": "ext",
       "stale": false,
       "error": null,
-      "items": [
-        {
-          "title": "항만 문제해결을 위한 AI 기술 공모전",
-          "url": "https://dacon.io/competitions/official/236771/overview/description",
-          "date": "",
-          "pinned": false,
-          "author": "DACON",
-          "deadline": "2026-11-02",
-          "source": "dacon",
-          "id": "01a4f5f713",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        }
-      ]
+      "items": []
     },
     {
       "key": "devpost",
@@ -2154,34 +2139,6 @@
       "stale": false,
       "error": null,
       "items": [
-        {
-          "title": "Codex x TwitchCon Hackathon — Communication, Gaming, Machine Learning/AI",
-          "url": "https://twitchcon-codex.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Twitch",
-          "deadline": "2026-11-02",
-          "source": "devpost",
-          "id": "43a072f82a",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
-          "title": "YouCam API Skin AI & eCommerce VTO Hackathon — AR/VR, E-commerce/Retail, Machine Learning/AI",
-          "url": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Perfect Corp",
-          "deadline": "2026-11-02",
-          "source": "devpost",
-          "id": "7e1db26522",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
         {
           "title": "Ostad Presents YUNet AIgnite Buildathon 2026 — Education, Low/No Code, Machine Learning/AI",
           "url": "https://yunet-aignite26.devpost.com/",
@@ -2223,6 +2180,20 @@
           "hack": true,
           "first_seen": "2026-10-27",
           "is_new": false
+        },
+        {
+          "title": "EthnoHack — Databases, Health, Machine Learning/AI",
+          "url": "https://ethnohack2026.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "ETHCSTWIN",
+          "deadline": "2026-11-08",
+          "source": "devpost",
+          "id": "a07f228eb3",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-03",
+          "is_new": true
         },
         {
           "title": "Learn AR with SPECS — AR/VR, Machine Learning/AI, Design",
@@ -2337,20 +2308,6 @@
           "is_new": false
         },
         {
-          "title": "Green Shift Hacks — Beginner Friendly, Social Good",
-          "url": "https://green-shift-hacks.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "HackathonForEveryone",
-          "deadline": "2026-11-17",
-          "source": "devpost",
-          "id": "45f227863e",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-02",
-          "is_new": true
-        },
-        {
           "title": "Meta VR Start Developer Competition 2026 — AR/VR, Machine Learning/AI, Web",
           "url": "https://start-developer-competition-26.devpost.com/",
           "date": "",
@@ -2376,7 +2333,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-29",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "LaunchPad Hacks — Beginner Friendly, Open Ended",
@@ -2421,20 +2378,6 @@
           "is_new": false
         },
         {
-          "title": "HackWithAditya — Education, Health, Machine Learning/AI",
-          "url": "https://hackwithaditya.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Aditya University",
-          "deadline": "2026-11-25",
-          "source": "devpost",
-          "id": "777c3b313b",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-31",
-          "is_new": true
-        },
-        {
           "title": "Build Your First AI App — Education, Machine Learning/AI, Web",
           "url": "https://build-your-first-ai-app.devpost.com/",
           "date": "",
@@ -2460,6 +2403,20 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-31",
+          "is_new": true
+        },
+        {
+          "title": "QNX Global Hackathon — IoT, Machine Learning/AI, Open Ended",
+          "url": "https://qnx.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "QNX",
+          "deadline": "2026-12-15",
+          "source": "devpost",
+          "id": "7d93b31e16",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-03",
           "is_new": true
         },
         {

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04 11:46",
+  "generated_at": "2026-11-05 01:38",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 167,
+  "total": 168,
   "sources": [
     {
       "key": "ece",
@@ -757,6 +757,20 @@
       "error": null,
       "items": [
         {
+          "title": "<인공지능부트캠프사업단-2026학년도 동계 교육과정 참가자 모집>",
+          "url": "https://sojoong.kr/notice/notice-board/?uid=1058&mod=document",
+          "date": "2026-11-04",
+          "pinned": true,
+          "author": "",
+          "source": "sojoong",
+          "id": "a08e07af19",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-05",
+          "is_new": true
+        },
+        {
           "title": "제11회 SW프로그래밍 경진대회 사전 설명회 링크 안내(11/5 17:00)",
           "url": "https://sojoong.kr/notice/notice-board/?uid=1055&mod=document",
           "date": "2026-11-04",
@@ -835,7 +849,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-31",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026년도 10월호 AICOSS 레터",
@@ -849,7 +863,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-31",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 CO-SHOW 단체참관 모집 안내(~11/6까지)",
@@ -1652,7 +1666,7 @@
           "is_new": false
         },
         {
-          "title": "『지역개발연구』2026년 12월호 논문모집 안내(~10.30.))",
+          "title": "[연장]『지역개발연구』2026년 12월호 논문모집 안내(~11.15.))",
           "url": "https://crdcnu.jnuac.kr/bbs/board.php?bo_table=0501&wr_id=204",
           "date": "2026-10-06",
           "pinned": false,
@@ -1661,7 +1675,7 @@
           "id": "73127365ae",
           "category": "notice",
           "hack": false,
-          "deadline": null,
+          "deadline": "2026-11-15",
           "first_seen": "2026-10-07",
           "is_new": false
         },
@@ -1814,18 +1828,32 @@
       "error": null,
       "items": [
         {
-          "title": "2026 서울 AI 디지털 배움터 청년 해커톤",
-          "url": "https://linkareer.com/activity/357358",
+          "title": "[11/6 마감·참가비 0원] AI 헬스케어 미니 데이터 챌린지 | 데이콘 수강권·수료증 제공",
+          "url": "https://linkareer.com/activity/359582",
           "date": "",
           "pinned": false,
-          "author": "주식회사 구름",
-          "deadline": "2026-11-08",
+          "author": "넥스트러너스",
+          "deadline": "2026-11-06",
           "source": "linkareer",
-          "id": "9552208e59",
+          "id": "be54345cbd",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-05",
+          "is_new": true
+        },
+        {
+          "title": "비전공자도 완성하는 의료AI 해커톤 ​",
+          "url": "https://linkareer.com/activity/362194",
+          "date": "",
+          "pinned": false,
+          "author": "넥스트러너스",
+          "deadline": "2026-11-06",
+          "source": "linkareer",
+          "id": "eb33b99ca4",
           "category": "contest",
           "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
+          "first_seen": "2026-11-05",
+          "is_new": true
         },
         {
           "title": "[엘리스] 과기부 × 엘리스 AI 챌린지 : 일상 속 문제, AI로 해결하다 (전국민 AI 경진대회)",
@@ -1867,7 +1895,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-31",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 사회보장 데이터를 활용한 AI 혁신 아이디어 경진대회",
@@ -1895,7 +1923,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-10-31",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[과학기술정보통신부] AI 달인 꿀팁 챌린지 시즌4",
@@ -1954,18 +1982,18 @@
           "is_new": false
         },
         {
-          "title": "2026 AI 플레이 콘텐츠 제작 공모전 공모전",
-          "url": "https://linkareer.com/activity/358358",
+          "title": "[한국체육산업개발(주)] 공공데이터 활용 경진대회",
+          "url": "https://linkareer.com/activity/362183",
           "date": "",
           "pinned": false,
-          "author": "중앙대학교",
-          "deadline": "2026-12-31",
+          "author": "한국체육산업개발(주)",
+          "deadline": "2026-12-01",
           "source": "linkareer",
-          "id": "a63734c349",
+          "id": "526871ce8c",
           "category": "contest",
           "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": false
+          "first_seen": "2026-11-05",
+          "is_new": true
         }
       ]
     },
@@ -1978,20 +2006,6 @@
       "stale": false,
       "error": null,
       "items": [
-        {
-          "title": "LOTTE AX CHALLENGE 2026",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112027",
-          "date": "",
-          "pinned": false,
-          "author": "롯데지주",
-          "deadline": "2026-11-05",
-          "source": "wevity",
-          "id": "0cc27e84c9",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-31",
-          "is_new": true
-        },
         {
           "title": "2026 스페이스 해커톤",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111009",
@@ -2131,7 +2145,7 @@
           "date": "",
           "pinned": false,
           "author": "JNTUH",
-          "deadline": "2026-11-04",
+          "deadline": "2026-11-05",
           "source": "devpost",
           "id": "a974593c13",
           "category": "contest",
@@ -2266,20 +2280,6 @@
           "is_new": false
         },
         {
-          "title": "Mathematics for systems security — Communication, Cybersecurity, Machine Learning/AI",
-          "url": "https://mathematics-systems-security.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Software Engineering Club (DEV)",
-          "deadline": "2026-11-15",
-          "source": "devpost",
-          "id": "fc69d536e2",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
           "title": "STEMergent Hacks 2026 — Low/No Code, Machine Learning/AI, Social Good",
           "url": "https://stemergent-hacks.devpost.com/",
           "date": "",
@@ -2291,7 +2291,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-31",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "UGREEN Hackathon 2026 on AI NAS — Lifehacks, Machine Learning/AI, Productivity",
@@ -2319,20 +2319,6 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
-          "title": "AccessED Hacks — Beginner Friendly, Education, Social Good",
-          "url": "https://accessed-hacks.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "AccessEDnpo",
-          "deadline": "2026-11-20",
-          "source": "devpost",
-          "id": "bac85f4ba9",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-29",
           "is_new": false
         },
         {
@@ -2378,6 +2364,20 @@
           "is_new": false
         },
         {
+          "title": "Taskforge — Beginner Friendly, Quantum",
+          "url": "https://taskforge.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "HackathonForEveryone",
+          "deadline": "2026-11-24",
+          "source": "devpost",
+          "id": "2701f36432",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-05",
+          "is_new": true
+        },
+        {
           "title": "Build Your First AI App — Education, Machine Learning/AI, Web",
           "url": "https://build-your-first-ai-app.devpost.com/",
           "date": "",
@@ -2389,7 +2389,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-31",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Kiroween 2026 — Beginner Friendly, Machine Learning/AI, Open Ended",
@@ -2403,7 +2403,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-31",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AWS MSP AI Hackathon — Machine Learning/AI, Productivity, Web",
@@ -2431,6 +2431,20 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-03",
+          "is_new": true
+        },
+        {
+          "title": "AI Agents for Founders Challenge — HETIC 2026 — Low/No Code, Machine Learning/AI, Productivity",
+          "url": "https://ai-agents-founders-hetic-26.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "HETIC",
+          "deadline": "2026-12-18",
+          "source": "devpost",
+          "id": "da590202ec",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-05",
           "is_new": true
         },
         {

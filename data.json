@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-05 11:55",
+  "generated_at": "2026-11-06 01:53",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 168,
+  "total": 167,
   "sources": [
     {
       "key": "ece",
@@ -822,7 +822,7 @@
           "id": "9d64b953f5",
           "category": "contest",
           "hack": false,
-          "deadline": "2026-11-04",
+          "deadline": null,
           "first_seen": "2026-10-08",
           "is_new": false
         }
@@ -837,6 +837,20 @@
       "stale": false,
       "error": null,
       "items": [
+        {
+          "title": "2026학년도 겨울 계절수업 성균관대학교 학점교류 신청 안내(11/16(월) 9:00까지)",
+          "url": "https://aicoss.ac.kr/www/notice/view/4132?bd=notice&page=1",
+          "date": "2026-11-05",
+          "pinned": true,
+          "author": "",
+          "source": "aicoss",
+          "id": "faed6c905f",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-06",
+          "is_new": true
+        },
         {
           "title": "전남대학교 2026학년도 동계 계절학기 운영 계획 안내(학점교류(초청))",
           "url": "https://aicoss.ac.kr/www/notice/view/4131?bd=notice&page=1",
@@ -1027,20 +1041,6 @@
           "author": "",
           "source": "aicoss",
           "id": "2af4ad03cd",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-07",
-          "is_new": false
-        },
-        {
-          "title": "2026 AICOSS-UTAS 글로벌 학생프로그램 학생 선발 안내",
-          "url": "https://aicoss.ac.kr/www/notice/view/4117?bd=notice&page=1",
-          "date": "2026-09-30",
-          "pinned": false,
-          "author": "",
-          "source": "aicoss",
-          "id": "fa1f6c1317",
           "category": "notice",
           "hack": false,
           "deadline": null,
@@ -2007,20 +2007,6 @@
       "error": null,
       "items": [
         {
-          "title": "2026 스페이스 해커톤",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111009",
-          "date": "",
-          "pinned": false,
-          "author": "우주항공청",
-          "deadline": "2026-11-06",
-          "source": "wevity",
-          "id": "c56ecbff4f",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
           "title": "2026 DATA·AI 분석 경진대회",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=110023",
           "date": "",
@@ -2140,34 +2126,6 @@
       "error": null,
       "items": [
         {
-          "title": "Neural Storm — Beginner Friendly, Machine Learning/AI",
-          "url": "https://neuralstorm.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "JNTUH",
-          "deadline": "2026-11-05",
-          "source": "devpost",
-          "id": "a974593c13",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-04",
-          "is_new": true
-        },
-        {
-          "title": "Ostad Presents YUNet AIgnite Buildathon 2026 — Education, Low/No Code, Machine Learning/AI",
-          "url": "https://yunet-aignite26.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Youth Upskill Network - YUNet",
-          "deadline": "2026-11-05",
-          "source": "devpost",
-          "id": "18d8680085",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-02",
-          "is_new": true
-        },
-        {
           "title": "Pumpkin Playground — Design, Gaming, Web",
           "url": "https://pumpkin-playground.devpost.com/",
           "date": "",
@@ -2280,6 +2238,20 @@
           "is_new": false
         },
         {
+          "title": "Mathematics for systems security — Communication, Cybersecurity, Machine Learning/AI",
+          "url": "https://mathematics-systems-security.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Software Engineering Club (DEV)",
+          "deadline": "2026-11-15",
+          "source": "devpost",
+          "id": "fc69d536e2",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-06",
+          "is_new": true
+        },
+        {
           "title": "STEMergent Hacks 2026 — Low/No Code, Machine Learning/AI, Social Good",
           "url": "https://stemergent-hacks.devpost.com/",
           "date": "",
@@ -2320,6 +2292,20 @@
           "hack": true,
           "first_seen": "2026-10-27",
           "is_new": false
+        },
+        {
+          "title": "AccessED Hacks — Beginner Friendly, Education, Social Good",
+          "url": "https://accessed-hacks.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "AccessEDnpo",
+          "deadline": "2026-11-20",
+          "source": "devpost",
+          "id": "bac85f4ba9",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-06",
+          "is_new": true
         },
         {
           "title": "LaunchPad Hacks — Beginner Friendly, Open Ended",

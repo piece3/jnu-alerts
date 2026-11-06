@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-06 11:55",
+  "generated_at": "2026-11-07 01:21",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 167,
+  "total": 168,
   "sources": [
     {
       "key": "ece",
@@ -1828,31 +1828,17 @@
       "error": null,
       "items": [
         {
-          "title": "[11/6 마감·참가비 0원] AI 헬스케어 미니 데이터 챌린지 | 데이콘 수강권·수료증 제공",
-          "url": "https://linkareer.com/activity/359582",
+          "title": "[데이콘] 국부펀드 KIC, AI 에이전트 공모전",
+          "url": "https://linkareer.com/activity/354705",
           "date": "",
           "pinned": false,
-          "author": "넥스트러너스",
-          "deadline": "2026-11-06",
+          "author": "한국투자공사",
+          "deadline": "2026-11-12",
           "source": "linkareer",
-          "id": "be54345cbd",
+          "id": "9420d9a67a",
           "category": "contest",
           "hack": false,
-          "first_seen": "2026-11-05",
-          "is_new": true
-        },
-        {
-          "title": "비전공자도 완성하는 의료AI 해커톤 ​",
-          "url": "https://linkareer.com/activity/362194",
-          "date": "",
-          "pinned": false,
-          "author": "넥스트러너스",
-          "deadline": "2026-11-06",
-          "source": "linkareer",
-          "id": "eb33b99ca4",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-05",
+          "first_seen": "2026-11-07",
           "is_new": true
         },
         {
@@ -1896,6 +1882,20 @@
           "hack": true,
           "first_seen": "2026-10-31",
           "is_new": false
+        },
+        {
+          "title": "2026 대구광역시 기후·환경·탄소중립 공공데이터 AI 활용대회",
+          "url": "https://linkareer.com/activity/356503",
+          "date": "",
+          "pinned": false,
+          "author": "대구광역시 탄소중립지원센터",
+          "deadline": "2026-11-20",
+          "source": "linkareer",
+          "id": "9ec63e206a",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-07",
+          "is_new": true
         },
         {
           "title": "2026 사회보장 데이터를 활용한 AI 혁신 아이디어 경진대회",
@@ -1993,6 +1993,20 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-05",
+          "is_new": true
+        },
+        {
+          "title": "2026 AI 플레이 콘텐츠 제작 공모전 공모전",
+          "url": "https://linkareer.com/activity/358358",
+          "date": "",
+          "pinned": false,
+          "author": "중앙대학교",
+          "deadline": "2026-12-31",
+          "source": "linkareer",
+          "id": "a63734c349",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-07",
           "is_new": true
         }
       ]
@@ -2126,20 +2140,6 @@
       "error": null,
       "items": [
         {
-          "title": "Pumpkin Playground — Design, Gaming, Web",
-          "url": "https://pumpkin-playground.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "ACM Long Beach",
-          "deadline": "2026-11-06",
-          "source": "devpost",
-          "id": "fe119aed6c",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
           "title": "Next Byte Hacks V5 — Beginner Friendly, Low/No Code, Open Ended",
           "url": "https://next-byte-hacks-v5.devpost.com/",
           "date": "",
@@ -2193,7 +2193,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-02",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Herhack — Beginner Friendly, Blockchain, Open Ended",
@@ -2305,6 +2305,20 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-06",
+          "is_new": true
+        },
+        {
+          "title": "Dakar Bitcoin Hack by BTrust — Blockchain, Fintech, Machine Learning/AI",
+          "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Dakar Bitcoin Days",
+          "deadline": "2026-11-20",
+          "source": "devpost",
+          "id": "1fe9003750",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-07",
           "is_new": true
         },
         {

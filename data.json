@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-07 11:26",
+  "generated_at": "2026-11-08 00:13",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 168,
+  "total": 167,
   "sources": [
     {
       "key": "ece",
@@ -217,7 +217,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-03",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "대학원 AI 연구역량 강화 실무 교육 계획 안내",
@@ -889,7 +889,7 @@
           "id": "f2ba92791b",
           "category": "notice",
           "hack": false,
-          "deadline": "2026-11-06",
+          "deadline": null,
           "first_seen": "2026-10-30",
           "is_new": false
         },
@@ -1068,7 +1068,7 @@
           "id": "fb5ee5e8e3",
           "category": "academic",
           "hack": false,
-          "deadline": "2026-11-06",
+          "deadline": null,
           "first_seen": "2026-10-27",
           "is_new": false
         },
@@ -1305,7 +1305,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-03",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[접수중] 2026 공학페스티벌「우리학교에 E²가 숨어있다?! 포스터 인증 이벤트」(~11/12)",
@@ -1319,7 +1319,7 @@
           "hack": false,
           "deadline": "2026-11-12",
           "first_seen": "2026-11-03",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[접수중] 2026 공학페스티벌「E²SODE」 공대생 에피소드 쇼츠 공모전",
@@ -1937,7 +1937,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-03",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[데이콘] 제주 AI·빅데이터 활용 AI Agent 개발 챌린지(~11/20)",
@@ -2074,7 +2074,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-03",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 조달청 AI 게임·콘텐츠 공모전",
@@ -2140,20 +2140,6 @@
       "error": null,
       "items": [
         {
-          "title": "Next Byte Hacks V5 — Beginner Friendly, Low/No Code, Open Ended",
-          "url": "https://next-byte-hacks-v5.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Next Byte Hacks",
-          "deadline": "2026-11-07",
-          "source": "devpost",
-          "id": "f54ad95ee6",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
           "title": "EthnoHack — Databases, Health, Machine Learning/AI",
           "url": "https://ethnohack2026.devpost.com/",
           "date": "",
@@ -2165,7 +2151,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-03",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Learn AR with SPECS — AR/VR, Machine Learning/AI, Design",
@@ -2308,20 +2294,6 @@
           "is_new": true
         },
         {
-          "title": "Dakar Bitcoin Hack by BTrust — Blockchain, Fintech, Machine Learning/AI",
-          "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Dakar Bitcoin Days",
-          "deadline": "2026-11-20",
-          "source": "devpost",
-          "id": "1fe9003750",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-07",
-          "is_new": true
-        },
-        {
           "title": "LaunchPad Hacks — Beginner Friendly, Open Ended",
           "url": "https://launchpad-hacks.devpost.com/",
           "date": "",
@@ -2417,7 +2389,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-03",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "QNX Global Hackathon — IoT, Machine Learning/AI, Open Ended",
@@ -2431,7 +2403,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-03",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AI Agents for Founders Challenge — HETIC 2026 — Low/No Code, Machine Learning/AI, Productivity",
@@ -2474,6 +2446,20 @@
           "hack": true,
           "first_seen": "2026-10-28",
           "is_new": false
+        },
+        {
+          "title": "GenHacks — Beginner Friendly, IoT, Machine Learning/AI",
+          "url": "https://genhacks-open.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Shail & Sharaf",
+          "deadline": "2026-12-26",
+          "source": "devpost",
+          "id": "ab3d9a75dc",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-08",
+          "is_new": true
         },
         {
           "title": "InnovArt 2027: Art and Technology Hack Day — Music/Art, Beginner Friendly, Open Ended",

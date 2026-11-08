@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08 00:13",
+  "generated_at": "2026-11-08 10:55",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 167,
   "sources": [
@@ -756,6 +756,20 @@
       "stale": false,
       "error": null,
       "items": [
+        {
+          "title": "[모집공고] SW중심대학사업단 2026년 동계 계절학기 인턴십(현장실습) 학생 모집",
+          "url": "https://sojoong.kr/notice/notice-board/?uid=1059&mod=document",
+          "date": "2026-11-08",
+          "pinned": true,
+          "author": "",
+          "source": "sojoong",
+          "id": "8f5b33d4cf",
+          "category": "job",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-08",
+          "is_new": true
+        },
         {
           "title": "<인공지능부트캠프사업단-2026학년도 동계 교육과정 참가자 모집>",
           "url": "https://sojoong.kr/notice/notice-board/?uid=1058&mod=document",
@@ -2222,20 +2236,6 @@
           "hack": true,
           "first_seen": "2026-10-27",
           "is_new": false
-        },
-        {
-          "title": "Mathematics for systems security — Communication, Cybersecurity, Machine Learning/AI",
-          "url": "https://mathematics-systems-security.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Software Engineering Club (DEV)",
-          "deadline": "2026-11-15",
-          "source": "devpost",
-          "id": "fc69d536e2",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-06",
-          "is_new": true
         },
         {
           "title": "STEMergent Hacks 2026 — Low/No Code, Machine Learning/AI, Social Good",

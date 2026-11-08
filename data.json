@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-08 10:55",
+  "generated_at": "2026-11-09 00:37",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 167,
+  "total": 165,
   "sources": [
     {
       "key": "ece",
@@ -175,7 +175,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-04",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[2026.11.9.] 2026 전남대학교 JOB FESTA",
@@ -189,7 +189,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-04",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[2026.11.4.(수) 14:00~15:00] 2026년 조선내화 채용설명회",
@@ -203,7 +203,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-04",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026학년도 해외 파견 프로그램 개선을 위한 재학생 설문조사 안내",
@@ -796,7 +796,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-04",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[모집홍보] 2026 METAmobility 자율주행 자동차 경진대회",
@@ -1881,7 +1881,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-04",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 현장문제 AX 업무혁신 아이디어 해커톤 참가자 모집",
@@ -2153,20 +2153,6 @@
       "stale": false,
       "error": null,
       "items": [
-        {
-          "title": "EthnoHack — Databases, Health, Machine Learning/AI",
-          "url": "https://ethnohack2026.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "ETHCSTWIN",
-          "deadline": "2026-11-08",
-          "source": "devpost",
-          "id": "a07f228eb3",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-03",
-          "is_new": false
-        },
         {
           "title": "Learn AR with SPECS — AR/VR, Machine Learning/AI, Design",
           "url": "https://learn-specs.devpost.com/",
@@ -2446,20 +2432,6 @@
           "hack": true,
           "first_seen": "2026-10-28",
           "is_new": false
-        },
-        {
-          "title": "GenHacks — Beginner Friendly, IoT, Machine Learning/AI",
-          "url": "https://genhacks-open.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Shail & Sharaf",
-          "deadline": "2026-12-26",
-          "source": "devpost",
-          "id": "ab3d9a75dc",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-08",
-          "is_new": true
         },
         {
           "title": "InnovArt 2027: Art and Technology Hack Day — Music/Art, Beginner Friendly, Open Ended",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-09 11:08",
+  "generated_at": "2026-11-10 04:14",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 171,
+  "total": 170,
   "sources": [
     {
       "key": "ece",
@@ -782,7 +782,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-05",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "제11회 SW프로그래밍 경진대회 사전 설명회 링크 안내(11/5 17:00)",
@@ -908,20 +908,6 @@
           "is_new": false
         },
         {
-          "title": "2026학년도 겨울 계절학기 서울시립대학교 학점교류 신청 안내(11/9(월) 9:00까지)",
-          "url": "https://aicoss.ac.kr/www/notice/view/4127?bd=notice&page=1",
-          "date": "2026-10-29",
-          "pinned": true,
-          "author": "",
-          "source": "aicoss",
-          "id": "17ce158c23",
-          "category": "academic",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-30",
-          "is_new": false
-        },
-        {
           "title": "글로벌 AI 역량강화 교육과정(Microsoft AI-901) 교육생 추가 모집 안내",
           "url": "https://aicoss.ac.kr/www/notice/view/4124?bd=notice&page=1",
           "date": "2026-10-19",
@@ -958,6 +944,20 @@
           "source": "aicoss",
           "id": "f2ba92791b",
           "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-30",
+          "is_new": false
+        },
+        {
+          "title": "2026학년도 겨울 계절학기 서울시립대학교 학점교류 신청 안내(11/9(월) 9:00까지)",
+          "url": "https://aicoss.ac.kr/www/notice/view/4127?bd=notice&page=1",
+          "date": "2026-10-29",
+          "pinned": false,
+          "author": "",
+          "source": "aicoss",
+          "id": "17ce158c23",
+          "category": "academic",
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-30",
@@ -1322,6 +1322,20 @@
           "is_new": false
         },
         {
+          "title": "[접수중] 2026 바이오 소재분야 이론 및 실무교육 참가자 모집",
+          "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1060331/artclView.do",
+          "date": "2026-11-09",
+          "pinned": false,
+          "author": "공학교육혁신센터",
+          "source": "icee",
+          "id": "30d746b28c",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-10",
+          "is_new": true
+        },
+        {
           "title": "[외부교육] [접수중] 2026 드론 운영 및 촬영 전문가 양성과정 참가자 모집",
           "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1059513/artclView.do",
           "date": "2026-11-02",
@@ -1442,20 +1456,6 @@
           "source": "icee",
           "id": "efb6ed0e6d",
           "category": "contest",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "[접수마감] 2026 기업가멘토링 및 현장탐방 프로그램(2학기) 참가자 모집",
-          "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1051278/artclView.do",
-          "date": "2026-08-06",
-          "pinned": false,
-          "author": "공학교육혁신센터",
-          "source": "icee",
-          "id": "1958006965",
-          "category": "notice",
           "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
@@ -1856,20 +1856,6 @@
       "error": null,
       "items": [
         {
-          "title": "[데이콘] 국부펀드 KIC, AI 에이전트 공모전",
-          "url": "https://linkareer.com/activity/354705",
-          "date": "",
-          "pinned": false,
-          "author": "한국투자공사",
-          "deadline": "2026-11-12",
-          "source": "linkareer",
-          "id": "9420d9a67a",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-11-07",
-          "is_new": true
-        },
-        {
           "title": "[엘리스] 과기부 × 엘리스 AI 챌린지 : 일상 속 문제, AI로 해결하다 (전국민 AI 경진대회)",
           "url": "https://linkareer.com/activity/359552",
           "date": "",
@@ -1996,6 +1982,20 @@
           "is_new": false
         },
         {
+          "title": "2026 대구 로컬AI그라운드 - 지역문제 해결형 AI활용 경진대회 공모전",
+          "url": "https://linkareer.com/activity/362988",
+          "date": "",
+          "pinned": false,
+          "author": "대구광역시",
+          "deadline": "2026-11-30",
+          "source": "linkareer",
+          "id": "71e5fa3073",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-10",
+          "is_new": true
+        },
+        {
           "title": "[한국프로세스혁신협회] 2026 AI 서비스 기획 공모전",
           "url": "https://linkareer.com/activity/359841",
           "date": "",
@@ -2021,7 +2021,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-05",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 AI 플레이 콘텐츠 제작 공모전 공모전",
@@ -2182,20 +2182,6 @@
       "error": null,
       "items": [
         {
-          "title": "Learn AR with SPECS — AR/VR, Machine Learning/AI, Design",
-          "url": "https://learn-specs.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Devpost",
-          "deadline": "2026-11-09",
-          "source": "devpost",
-          "id": "10eeda86a0",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
           "title": "Agentic Hackathon — Machine Learning/AI, Open Ended, Web",
           "url": "https://agentic-hackathon.devpost.com/",
           "date": "",
@@ -2252,17 +2238,17 @@
           "is_new": false
         },
         {
-          "title": "Mathematics for systems security — Communication, Cybersecurity, Machine Learning/AI",
-          "url": "https://mathematics-systems-security.devpost.com/",
+          "title": "IceHacks — Beginner Friendly, Low/No Code, Open Ended",
+          "url": "https://icehacks.devpost.com/",
           "date": "",
           "pinned": false,
-          "author": "Software Engineering Club (DEV)",
+          "author": "CodeStarters",
           "deadline": "2026-11-15",
           "source": "devpost",
-          "id": "fc69d536e2",
+          "id": "d784f35f51",
           "category": "contest",
           "hack": true,
-          "first_seen": "2026-11-09",
+          "first_seen": "2026-11-10",
           "is_new": true
         },
         {
@@ -2292,20 +2278,6 @@
           "hack": true,
           "first_seen": "2026-10-27",
           "is_new": false
-        },
-        {
-          "title": "Green Shift Hacks — Beginner Friendly, Social Good",
-          "url": "https://green-shift-hacks.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "HackathonForEveryone",
-          "deadline": "2026-11-17",
-          "source": "devpost",
-          "id": "45f227863e",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-09",
-          "is_new": true
         },
         {
           "title": "Meta VR Start Developer Competition 2026 — AR/VR, Machine Learning/AI, Web",
@@ -2403,7 +2375,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-05",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Build Your First AI App — Education, Machine Learning/AI, Web",
@@ -2418,6 +2390,20 @@
           "hack": true,
           "first_seen": "2026-10-31",
           "is_new": false
+        },
+        {
+          "title": "#BuildHybridAI 2026 — Machine Learning/AI, Mobile, Web",
+          "url": "https://firebasehybridaihackathon.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Google",
+          "deadline": "2026-11-30",
+          "source": "devpost",
+          "id": "d2a427375b",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-10",
+          "is_new": true
         },
         {
           "title": "Kiroween 2026 — Beginner Friendly, Machine Learning/AI, Open Ended",
@@ -2473,7 +2459,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-05",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Arbiter Hacks V1 — Beginner Friendly, Machine Learning/AI, Open Ended",

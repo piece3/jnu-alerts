@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-09 00:37",
+  "generated_at": "2026-11-09 11:08",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 165,
+  "total": 171,
   "sources": [
     {
       "key": "ece",
@@ -164,6 +164,20 @@
       "error": null,
       "items": [
         {
+          "title": "[2026.11.30. 19:00~21:00] 코멘토 직무부트캠프 수료자 취업 준비 특강(~11/24)",
+          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1060223/artclView.do",
+          "date": "2026-11-09",
+          "pinned": false,
+          "author": "조은혜",
+          "source": "eng",
+          "id": "5a7df884d1",
+          "category": "job",
+          "hack": false,
+          "deadline": "2026-11-24",
+          "first_seen": "2026-11-09",
+          "is_new": true
+        },
+        {
           "title": "대학원 AI 활용 핵심 교육(온라인) 안내",
           "url": "https://eng.jnu.ac.kr/bbs/eng/993/1059815/artclView.do",
           "date": "2026-11-03",
@@ -284,20 +298,6 @@
           "source": "eng",
           "id": "dcea38d0bd",
           "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-15",
-          "is_new": false
-        },
-        {
-          "title": "[BIXPO 2026 참가] 2026년 글로컬대학사업 「제조 도메인 연계 산업 AI 실무 탐방」(~10/29)",
-          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1057623/artclView.do",
-          "date": "2026-10-15",
-          "pinned": false,
-          "author": "조은혜",
-          "source": "eng",
-          "id": "3a8d857740",
-          "category": "academic",
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-15",
@@ -839,6 +839,20 @@
           "deadline": null,
           "first_seen": "2026-10-08",
           "is_new": false
+        },
+        {
+          "title": "New",
+          "url": "https://sojoong.kr/notice/notice-board/?uid=1060&mod=document",
+          "date": "2026-11-09",
+          "pinned": false,
+          "author": "",
+          "source": "sojoong",
+          "id": "db8e223618",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-09",
+          "is_new": true
         }
       ]
     },
@@ -894,20 +908,6 @@
           "is_new": false
         },
         {
-          "title": "2026 CO-SHOW 단체참관 모집 안내(~11/6까지)",
-          "url": "https://aicoss.ac.kr/www/notice/view/4128?bd=notice&page=1",
-          "date": "2026-10-29",
-          "pinned": true,
-          "author": "",
-          "source": "aicoss",
-          "id": "f2ba92791b",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-30",
-          "is_new": false
-        },
-        {
           "title": "2026학년도 겨울 계절학기 서울시립대학교 학점교류 신청 안내(11/9(월) 9:00까지)",
           "url": "https://aicoss.ac.kr/www/notice/view/4127?bd=notice&page=1",
           "date": "2026-10-29",
@@ -919,20 +919,6 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-30",
-          "is_new": false
-        },
-        {
-          "title": "「AI 도구가 Data Scientist의 업무를 어떻게 변화시키고 있는가」 특강 신청 안내",
-          "url": "https://aicoss.ac.kr/www/notice/view/4125?bd=notice&page=1",
-          "date": "2026-10-21",
-          "pinned": true,
-          "author": "",
-          "source": "aicoss",
-          "id": "ae1ca8e8e0",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-21",
           "is_new": false
         },
         {
@@ -950,20 +936,6 @@
           "is_new": false
         },
         {
-          "title": "「AICOSS Career Compass 2026」 진로실태 설문조사 참여 안내",
-          "url": "https://aicoss.ac.kr/www/notice/view/4112?bd=notice&page=1",
-          "date": "2026-09-09",
-          "pinned": true,
-          "author": "",
-          "source": "aicoss",
-          "id": "84b534ac52",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-09-09",
-          "is_new": false
-        },
-        {
           "title": "인공지능혁신융합대학사업단 실험실습 기자재 대여 안내(2026년 2학기)",
           "url": "https://aicoss.ac.kr/www/notice/view/4093?bd=notice&page=1",
           "date": "2026-08-19",
@@ -978,6 +950,20 @@
           "is_new": false
         },
         {
+          "title": "2026 CO-SHOW 단체참관 모집 안내(~11/6까지)",
+          "url": "https://aicoss.ac.kr/www/notice/view/4128?bd=notice&page=1",
+          "date": "2026-10-29",
+          "pinned": false,
+          "author": "",
+          "source": "aicoss",
+          "id": "f2ba92791b",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-30",
+          "is_new": false
+        },
+        {
           "title": "2026 AICOSS-UTAS 글로벌 학생프로그램 합격자 발표 일정 안내",
           "url": "https://aicoss.ac.kr/www/notice/view/4126?bd=notice&page=1",
           "date": "2026-10-23",
@@ -989,6 +975,20 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-23",
+          "is_new": false
+        },
+        {
+          "title": "「AI 도구가 Data Scientist의 업무를 어떻게 변화시키고 있는가」 특강 신청 안내",
+          "url": "https://aicoss.ac.kr/www/notice/view/4125?bd=notice&page=1",
+          "date": "2026-10-21",
+          "pinned": false,
+          "author": "",
+          "source": "aicoss",
+          "id": "ae1ca8e8e0",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-21",
           "is_new": false
         },
         {
@@ -1059,6 +1059,20 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
+          "is_new": false
+        },
+        {
+          "title": "2026 AICOSS-UTAS 글로벌 학생프로그램 학생 선발 안내",
+          "url": "https://aicoss.ac.kr/www/notice/view/4117?bd=notice&page=1",
+          "date": "2026-09-30",
+          "pinned": false,
+          "author": "",
+          "source": "aicoss",
+          "id": "fa1f6c1317",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-09",
           "is_new": false
         }
       ]
@@ -1350,7 +1364,7 @@
           "is_new": false
         },
         {
-          "title": "[접수공고] 2026 기초창의설계 경진대회(2학기) 개최 안내",
+          "title": "[접수중] 2026 기초창의설계 경진대회(2학기) 개최 안내",
           "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1058683/artclView.do",
           "date": "2026-10-26",
           "pinned": false,
@@ -2119,6 +2133,20 @@
           "is_new": false
         },
         {
+          "title": "2026 대구 로컬AI그라운드 - 지역문제 해결형 AI활용 경진대회",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112236",
+          "date": "",
+          "pinned": false,
+          "author": "대구광역시,대구창조경제혁신센터",
+          "deadline": "2026-12-01",
+          "source": "wevity",
+          "id": "84898d8a62",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-09",
+          "is_new": true
+        },
+        {
           "title": "2026 AI 플레이 콘텐츠 제작 공모전",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111800",
           "date": "",
@@ -2224,6 +2252,20 @@
           "is_new": false
         },
         {
+          "title": "Mathematics for systems security — Communication, Cybersecurity, Machine Learning/AI",
+          "url": "https://mathematics-systems-security.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Software Engineering Club (DEV)",
+          "deadline": "2026-11-15",
+          "source": "devpost",
+          "id": "fc69d536e2",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-09",
+          "is_new": true
+        },
+        {
           "title": "STEMergent Hacks 2026 — Low/No Code, Machine Learning/AI, Social Good",
           "url": "https://stemergent-hacks.devpost.com/",
           "date": "",
@@ -2252,6 +2294,20 @@
           "is_new": false
         },
         {
+          "title": "Green Shift Hacks — Beginner Friendly, Social Good",
+          "url": "https://green-shift-hacks.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "HackathonForEveryone",
+          "deadline": "2026-11-17",
+          "source": "devpost",
+          "id": "45f227863e",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-09",
+          "is_new": true
+        },
+        {
           "title": "Meta VR Start Developer Competition 2026 — AR/VR, Machine Learning/AI, Web",
           "url": "https://start-developer-competition-26.devpost.com/",
           "date": "",
@@ -2277,6 +2333,20 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-06",
+          "is_new": true
+        },
+        {
+          "title": "Dakar Bitcoin Hack by BTrust — Blockchain, Fintech, Machine Learning/AI",
+          "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Dakar Bitcoin Days",
+          "deadline": "2026-11-20",
+          "source": "devpost",
+          "id": "1fe9003750",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-09",
           "is_new": true
         },
         {
@@ -2432,6 +2502,20 @@
           "hack": true,
           "first_seen": "2026-10-28",
           "is_new": false
+        },
+        {
+          "title": "GenHacks — Beginner Friendly, IoT, Machine Learning/AI",
+          "url": "https://genhacks-open.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Shail & Sharaf",
+          "deadline": "2026-12-26",
+          "source": "devpost",
+          "id": "ab3d9a75dc",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-09",
+          "is_new": true
         },
         {
           "title": "InnovArt 2027: Art and Technology Hack Day — Music/Art, Beginner Friendly, Open Ended",

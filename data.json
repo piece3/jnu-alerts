@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10 04:14",
+  "generated_at": "2026-11-10 13:24",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 170,
   "sources": [
@@ -839,20 +839,6 @@
           "deadline": null,
           "first_seen": "2026-10-08",
           "is_new": false
-        },
-        {
-          "title": "New",
-          "url": "https://sojoong.kr/notice/notice-board/?uid=1060&mod=document",
-          "date": "2026-11-09",
-          "pinned": false,
-          "author": "",
-          "source": "sojoong",
-          "id": "db8e223618",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-11-09",
-          "is_new": true
         }
       ]
     },
@@ -908,6 +894,20 @@
           "is_new": false
         },
         {
+          "title": "[추가모집] 2026 CO-SHOW 단체참관 모집 안내(~11/11까지)",
+          "url": "https://aicoss.ac.kr/www/notice/view/4128?bd=notice&page=1",
+          "date": "2026-10-29",
+          "pinned": true,
+          "author": "",
+          "source": "aicoss",
+          "id": "f2ba92791b",
+          "category": "notice",
+          "hack": false,
+          "deadline": "2026-11-11",
+          "first_seen": "2026-10-30",
+          "is_new": false
+        },
+        {
           "title": "글로벌 AI 역량강화 교육과정(Microsoft AI-901) 교육생 추가 모집 안내",
           "url": "https://aicoss.ac.kr/www/notice/view/4124?bd=notice&page=1",
           "date": "2026-10-19",
@@ -933,20 +933,6 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "2026 CO-SHOW 단체참관 모집 안내(~11/6까지)",
-          "url": "https://aicoss.ac.kr/www/notice/view/4128?bd=notice&page=1",
-          "date": "2026-10-29",
-          "pinned": false,
-          "author": "",
-          "source": "aicoss",
-          "id": "f2ba92791b",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-30",
           "is_new": false
         },
         {
@@ -2054,7 +2040,7 @@
           "date": "",
           "pinned": false,
           "author": "한국과학기술정보연구원",
-          "deadline": "2026-11-11",
+          "deadline": "2026-11-10",
           "source": "wevity",
           "id": "85e79e730a",
           "category": "contest",
@@ -2068,7 +2054,7 @@
           "date": "",
           "pinned": false,
           "author": "CJ제일제당",
-          "deadline": "2026-11-14",
+          "deadline": "2026-11-13",
           "source": "wevity",
           "id": "8681109fb5",
           "category": "contest",
@@ -2082,7 +2068,7 @@
           "date": "",
           "pinned": false,
           "author": "현대자동차그룹",
-          "deadline": "2026-11-16",
+          "deadline": "2026-11-15",
           "source": "wevity",
           "id": "fc721e60a4",
           "category": "contest",
@@ -2096,7 +2082,7 @@
           "date": "",
           "pinned": false,
           "author": "과학기술정보통신부",
-          "deadline": "2026-11-21",
+          "deadline": "2026-11-20",
           "source": "wevity",
           "id": "113740d5a4",
           "category": "contest",
@@ -2110,7 +2096,7 @@
           "date": "",
           "pinned": false,
           "author": "조달청",
-          "deadline": "2026-11-23",
+          "deadline": "2026-11-22",
           "source": "wevity",
           "id": "20f86069dc",
           "category": "contest",
@@ -2124,7 +2110,7 @@
           "date": "",
           "pinned": false,
           "author": "한국창조미술협회",
-          "deadline": "2026-11-28",
+          "deadline": "2026-11-27",
           "source": "wevity",
           "id": "c8eff97bf4",
           "category": "contest",
@@ -2138,7 +2124,7 @@
           "date": "",
           "pinned": false,
           "author": "대구광역시,대구창조경제혁신센터",
-          "deadline": "2026-12-01",
+          "deadline": "2026-11-30",
           "source": "wevity",
           "id": "84898d8a62",
           "category": "contest",
@@ -2152,7 +2138,7 @@
           "date": "",
           "pinned": false,
           "author": "중앙대학교",
-          "deadline": "2027-01-01",
+          "deadline": "2026-12-31",
           "source": "wevity",
           "id": "f840dfbd4e",
           "category": "contest",
@@ -2194,6 +2180,20 @@
           "hack": true,
           "first_seen": "2026-11-02",
           "is_new": false
+        },
+        {
+          "title": "Ctrl+V Hackathon — Beginner Friendly, Machine Learning/AI, Social Good",
+          "url": "https://ctrl-v-hackathon-31831.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "ADHAYAN",
+          "deadline": "2026-11-10",
+          "source": "devpost",
+          "id": "36dff9bdb9",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-10",
+          "is_new": true
         },
         {
           "title": "Herhack — Beginner Friendly, Blockchain, Open Ended",
@@ -2246,6 +2246,20 @@
           "deadline": "2026-11-15",
           "source": "devpost",
           "id": "d784f35f51",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-10",
+          "is_new": true
+        },
+        {
+          "title": "Mathematics for systems security — Communication, Cybersecurity, Machine Learning/AI",
+          "url": "https://mathematics-systems-security.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Software Engineering Club (DEV)",
+          "deadline": "2026-11-15",
+          "source": "devpost",
+          "id": "fc69d536e2",
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-10",
@@ -2322,20 +2336,6 @@
           "is_new": true
         },
         {
-          "title": "LaunchPad Hacks — Beginner Friendly, Open Ended",
-          "url": "https://launchpad-hacks.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Hack4TodayOrg",
-          "deadline": "2026-11-20",
-          "source": "devpost",
-          "id": "cbb5e0ac3e",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
           "title": "STEM2Connect AI Hackathon — Beginner Friendly, Education, Web",
           "url": "https://stem2connect-online-hackathon.devpost.com/",
           "date": "",
@@ -2392,20 +2392,6 @@
           "is_new": false
         },
         {
-          "title": "#BuildHybridAI 2026 — Machine Learning/AI, Mobile, Web",
-          "url": "https://firebasehybridaihackathon.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Google",
-          "deadline": "2026-11-30",
-          "source": "devpost",
-          "id": "d2a427375b",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-10",
-          "is_new": true
-        },
-        {
           "title": "Kiroween 2026 — Beginner Friendly, Machine Learning/AI, Open Ended",
           "url": "https://kiroween.devpost.com/",
           "date": "",
@@ -2417,6 +2403,20 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-31",
+          "is_new": false
+        },
+        {
+          "title": "LaunchPad Hacks (Judges + Sponsors Needed) — Beginner Friendly, Open Ended",
+          "url": "https://launchpad-hacks.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Hack4TodayOrg",
+          "deadline": "2026-12-04",
+          "source": "devpost",
+          "id": "cbb5e0ac3e",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
           "is_new": false
         },
         {

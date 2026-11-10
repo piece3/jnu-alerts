@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10 13:24",
+  "generated_at": "2026-11-11 01:38",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 170,
+  "total": 168,
   "sources": [
     {
       "key": "ece",
@@ -863,7 +863,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-06",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "전남대학교 2026학년도 동계 계절학기 운영 계획 안내(학점교류(초청))",
@@ -1073,10 +1073,24 @@
       "error": null,
       "items": [
         {
+          "title": "2026학년도 동계 계절학기 국민대학교 차세대통신혁신융합대학사업단 학점교류 (~ 11.20.(금) 15:00)",
+          "url": "https://jnu.nccoss.kr/www/notice/view/389?bd=notice&page=1",
+          "date": "2026-11-10",
+          "pinned": true,
+          "author": "",
+          "source": "nccoss",
+          "id": "fe06adde30",
+          "category": "academic",
+          "hack": false,
+          "deadline": "2026-11-20",
+          "first_seen": "2026-11-11",
+          "is_new": true
+        },
+        {
           "title": "2026학년도 서울시립대학교 차세대통신혁신융합대학사업단 동계 계절학기 학점교류(~ 11.06.(금))",
           "url": "https://jnu.nccoss.kr/www/notice/view/388?bd=notice&page=1",
           "date": "2026-10-26",
-          "pinned": true,
+          "pinned": false,
           "author": "",
           "source": "nccoss",
           "id": "fb5ee5e8e3",
@@ -1084,20 +1098,6 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
-          "title": "2026 전남대학교 용봉학술제 X 차세대통신혁신융합대학사업단 부스 · 특강 운영 안내",
-          "url": "https://jnu.nccoss.kr/www/notice/view/386?bd=notice&page=1",
-          "date": "2026-10-22",
-          "pinned": true,
-          "author": "",
-          "source": "nccoss",
-          "id": "1a61415987",
-          "category": "academic",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-22",
           "is_new": false
         },
         {
@@ -1112,6 +1112,20 @@
           "hack": false,
           "deadline": "2026-11-13",
           "first_seen": "2026-10-27",
+          "is_new": false
+        },
+        {
+          "title": "2026 전남대학교 용봉학술제 X 차세대통신혁신융합대학사업단 부스 · 특강 운영 안내",
+          "url": "https://jnu.nccoss.kr/www/notice/view/386?bd=notice&page=1",
+          "date": "2026-10-22",
+          "pinned": false,
+          "author": "",
+          "source": "nccoss",
+          "id": "1a61415987",
+          "category": "academic",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-22",
           "is_new": false
         },
         {
@@ -1262,20 +1276,6 @@
           "author": "",
           "source": "nccoss",
           "id": "0dce73febc",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "2026학년도 1학기 차세대통신 분야 교과목 이수자 만족도 조사",
-          "url": "https://jnu.nccoss.kr/www/notice/view/370?bd=notice&page=1",
-          "date": "2026-07-13",
-          "pinned": false,
-          "author": "",
-          "source": "nccoss",
-          "id": "10cd028d74",
           "category": "notice",
           "hack": false,
           "deadline": null,
@@ -2035,26 +2035,12 @@
       "error": null,
       "items": [
         {
-          "title": "2026 DATA·AI 분석 경진대회",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=110023",
-          "date": "",
-          "pinned": false,
-          "author": "한국과학기술정보연구원",
-          "deadline": "2026-11-10",
-          "source": "wevity",
-          "id": "85e79e730a",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
           "title": "[CJ제일제당] 햇반 30주년 AI 공모전 (갓 지은 AI디어)",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111912",
           "date": "",
           "pinned": false,
           "author": "CJ제일제당",
-          "deadline": "2026-11-13",
+          "deadline": "2026-11-14",
           "source": "wevity",
           "id": "8681109fb5",
           "category": "contest",
@@ -2068,7 +2054,7 @@
           "date": "",
           "pinned": false,
           "author": "현대자동차그룹",
-          "deadline": "2026-11-15",
+          "deadline": "2026-11-16",
           "source": "wevity",
           "id": "fc721e60a4",
           "category": "contest",
@@ -2082,7 +2068,7 @@
           "date": "",
           "pinned": false,
           "author": "과학기술정보통신부",
-          "deadline": "2026-11-20",
+          "deadline": "2026-11-21",
           "source": "wevity",
           "id": "113740d5a4",
           "category": "contest",
@@ -2096,7 +2082,7 @@
           "date": "",
           "pinned": false,
           "author": "조달청",
-          "deadline": "2026-11-22",
+          "deadline": "2026-11-23",
           "source": "wevity",
           "id": "20f86069dc",
           "category": "contest",
@@ -2110,7 +2096,7 @@
           "date": "",
           "pinned": false,
           "author": "한국창조미술협회",
-          "deadline": "2026-11-27",
+          "deadline": "2026-11-28",
           "source": "wevity",
           "id": "c8eff97bf4",
           "category": "contest",
@@ -2124,7 +2110,7 @@
           "date": "",
           "pinned": false,
           "author": "대구광역시,대구창조경제혁신센터",
-          "deadline": "2026-11-30",
+          "deadline": "2026-12-01",
           "source": "wevity",
           "id": "84898d8a62",
           "category": "contest",
@@ -2133,12 +2119,26 @@
           "is_new": true
         },
         {
+          "title": "세종사이버대학교 전국민 AI 공모전 (AI 불씨)",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112285",
+          "date": "",
+          "pinned": false,
+          "author": "세종사이버대학교",
+          "deadline": "2026-12-21",
+          "source": "wevity",
+          "id": "75f2ecc9ee",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-11",
+          "is_new": true
+        },
+        {
           "title": "2026 AI 플레이 콘텐츠 제작 공모전",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111800",
           "date": "",
           "pinned": false,
           "author": "중앙대학교",
-          "deadline": "2026-12-31",
+          "deadline": "2027-01-01",
           "source": "wevity",
           "id": "f840dfbd4e",
           "category": "contest",
@@ -2173,40 +2173,12 @@
           "date": "",
           "pinned": false,
           "author": "Devin",
-          "deadline": "2026-11-10",
+          "deadline": "2026-11-11",
           "source": "devpost",
           "id": "3c379e5924",
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-02",
-          "is_new": false
-        },
-        {
-          "title": "Ctrl+V Hackathon — Beginner Friendly, Machine Learning/AI, Social Good",
-          "url": "https://ctrl-v-hackathon-31831.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "ADHAYAN",
-          "deadline": "2026-11-10",
-          "source": "devpost",
-          "id": "36dff9bdb9",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-10",
-          "is_new": true
-        },
-        {
-          "title": "Herhack — Beginner Friendly, Blockchain, Open Ended",
-          "url": "https://herhack.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Echelon institute of technology",
-          "deadline": "2026-11-10",
-          "source": "devpost",
-          "id": "e7a3dab86e",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-30",
           "is_new": false
         },
         {
@@ -2246,20 +2218,6 @@
           "deadline": "2026-11-15",
           "source": "devpost",
           "id": "d784f35f51",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-10",
-          "is_new": true
-        },
-        {
-          "title": "Mathematics for systems security — Communication, Cybersecurity, Machine Learning/AI",
-          "url": "https://mathematics-systems-security.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Software Engineering Club (DEV)",
-          "deadline": "2026-11-15",
-          "source": "devpost",
-          "id": "fc69d536e2",
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-10",
@@ -2319,7 +2277,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-06",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Dakar Bitcoin Hack by BTrust — Blockchain, Fintech, Machine Learning/AI",
@@ -2418,6 +2376,20 @@
           "hack": true,
           "first_seen": "2026-10-27",
           "is_new": false
+        },
+        {
+          "title": "Deck the Pixels — Design, Machine Learning/AI, Low/No Code",
+          "url": "https://deckthepixels.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Google",
+          "deadline": "2026-12-07",
+          "source": "devpost",
+          "id": "5ddef6f10d",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-11",
+          "is_new": true
         },
         {
           "title": "AWS MSP AI Hackathon — Machine Learning/AI, Productivity, Web",

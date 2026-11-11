@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-11 11:19",
+  "generated_at": "2026-11-12 01:39",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 169,
+  "total": 168,
   "sources": [
     {
       "key": "ece",
@@ -164,6 +164,20 @@
       "error": null,
       "items": [
         {
+          "title": "CJ올리브네트웍스 AI Campus 2기 교육생 모집 (~11.29/교육비 무료/신입공채 서류면제)",
+          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1060595/artclView.do",
+          "date": "2026-11-11",
+          "pinned": false,
+          "author": "조은혜",
+          "source": "eng",
+          "id": "cc95ddb7fd",
+          "category": "notice",
+          "hack": false,
+          "deadline": "2026-11-29",
+          "first_seen": "2026-11-12",
+          "is_new": true
+        },
+        {
           "title": "2026학년도 동계방학 ‘취업아카데미’(~12/11)",
           "url": "https://eng.jnu.ac.kr/bbs/eng/993/1060556/artclView.do",
           "date": "2026-11-11",
@@ -284,20 +298,6 @@
           "source": "eng",
           "id": "cb5ab61cdf",
           "category": "academic",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-20",
-          "is_new": false
-        },
-        {
-          "title": "2026 동계 GRC (Global Residential College) 프로그램 운영 안내",
-          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1057963/artclView.do",
-          "date": "2026-10-20",
-          "pinned": false,
-          "author": "김송희",
-          "source": "eng",
-          "id": "b348b633c5",
-          "category": "notice",
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-20",
@@ -1073,6 +1073,20 @@
       "error": null,
       "items": [
         {
+          "title": "2026년 한국전자통신연구원(ETRI) 견학 (★선착순 모집★)",
+          "url": "https://jnu.nccoss.kr/www/notice/view/390?bd=notice&page=1",
+          "date": "2026-11-11",
+          "pinned": true,
+          "author": "",
+          "source": "nccoss",
+          "id": "96964e69f1",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-12",
+          "is_new": true
+        },
+        {
           "title": "2026학년도 동계 계절학기 국민대학교 차세대통신혁신융합대학사업단 학점교류 (~ 11.20.(금) 15:00)",
           "url": "https://jnu.nccoss.kr/www/notice/view/389?bd=notice&page=1",
           "date": "2026-11-10",
@@ -1262,20 +1276,6 @@
           "author": "",
           "source": "nccoss",
           "id": "3b6e51df4f",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "2026년도 하계 6G AI 통신 실습 및 프로젝트 신청 (~2026. 8. 11.(화) 15:00) 기간연장 ★",
-          "url": "https://jnu.nccoss.kr/www/notice/view/371?bd=notice&page=1",
-          "date": "2026-07-14",
-          "pinned": false,
-          "author": "",
-          "source": "nccoss",
-          "id": "0dce73febc",
           "category": "notice",
           "hack": false,
           "deadline": null,
@@ -1884,20 +1884,6 @@
           "is_new": false
         },
         {
-          "title": "2026 대구광역시 기후·환경·탄소중립 공공데이터 AI 활용대회",
-          "url": "https://linkareer.com/activity/356503",
-          "date": "",
-          "pinned": false,
-          "author": "대구광역시 탄소중립지원센터",
-          "deadline": "2026-11-20",
-          "source": "linkareer",
-          "id": "9ec63e206a",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-11-07",
-          "is_new": true
-        },
-        {
           "title": "2026 사회보장 데이터를 활용한 AI 혁신 아이디어 경진대회",
           "url": "https://linkareer.com/activity/358856",
           "date": "",
@@ -2021,7 +2007,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-07",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -2167,20 +2153,6 @@
       "stale": false,
       "error": null,
       "items": [
-        {
-          "title": "Agentic Hackathon — Machine Learning/AI, Open Ended, Web",
-          "url": "https://agentic-hackathon.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Devin",
-          "deadline": "2026-11-11",
-          "source": "devpost",
-          "id": "3c379e5924",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-02",
-          "is_new": false
-        },
         {
           "title": "PayPal AI Hackathon — Low/No Code, Machine Learning/AI, Web",
           "url": "https://paypalaihackathon.devpost.com/",
@@ -2403,6 +2375,20 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-11",
+          "is_new": true
+        },
+        {
+          "title": "Learn AR with SPECS — AR/VR, Design, Machine Learning/AI",
+          "url": "https://learn-specs.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Devpost",
+          "deadline": "2026-12-07",
+          "source": "devpost",
+          "id": "10eeda86a0",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-12",
           "is_new": true
         },
         {

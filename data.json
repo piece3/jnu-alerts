@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-11 01:38",
+  "generated_at": "2026-11-11 11:19",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 168,
+  "total": 169,
   "sources": [
     {
       "key": "ece",
@@ -164,6 +164,20 @@
       "error": null,
       "items": [
         {
+          "title": "2026학년도 동계방학 ‘취업아카데미’(~12/11)",
+          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1060556/artclView.do",
+          "date": "2026-11-11",
+          "pinned": false,
+          "author": "조은혜",
+          "source": "eng",
+          "id": "89c83e468e",
+          "category": "job",
+          "hack": false,
+          "deadline": "2026-12-11",
+          "first_seen": "2026-11-11",
+          "is_new": true
+        },
+        {
           "title": "[2026.11.30. 19:00~21:00] 코멘토 직무부트캠프 수료자 취업 준비 특강(~11/24)",
           "url": "https://eng.jnu.ac.kr/bbs/eng/993/1060223/artclView.do",
           "date": "2026-11-09",
@@ -287,20 +301,6 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-20",
-          "is_new": false
-        },
-        {
-          "title": "2026학년도 공과대학 해외 단기 파견 대상자 확정 공고",
-          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1057625/artclView.do",
-          "date": "2026-10-15",
-          "pinned": false,
-          "author": "김송희",
-          "source": "eng",
-          "id": "dcea38d0bd",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-15",
           "is_new": false
         }
       ]
@@ -2221,6 +2221,20 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-10",
+          "is_new": true
+        },
+        {
+          "title": "Mathematics for systems security — Communication, Cybersecurity, Machine Learning/AI",
+          "url": "https://mathematics-systems-security.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Software Engineering Club (DEV)",
+          "deadline": "2026-11-15",
+          "source": "devpost",
+          "id": "fc69d536e2",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-11",
           "is_new": true
         },
         {

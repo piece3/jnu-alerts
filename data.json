@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-12 12:28",
+  "generated_at": "2026-11-13 02:08",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 169,
+  "total": 168,
   "sources": [
     {
       "key": "ece",
@@ -768,7 +768,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-08",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "<인공지능부트캠프사업단-2026학년도 동계 교육과정 참가자 모집>",
@@ -903,7 +903,7 @@
           "id": "f2ba92791b",
           "category": "notice",
           "hack": false,
-          "deadline": "2026-11-11",
+          "deadline": null,
           "first_seen": "2026-10-30",
           "is_new": false
         },
@@ -2026,7 +2026,7 @@
           "date": "",
           "pinned": false,
           "author": "CJ제일제당",
-          "deadline": "2026-11-13",
+          "deadline": "2026-11-14",
           "source": "wevity",
           "id": "8681109fb5",
           "category": "contest",
@@ -2040,7 +2040,7 @@
           "date": "",
           "pinned": false,
           "author": "현대자동차그룹",
-          "deadline": "2026-11-15",
+          "deadline": "2026-11-16",
           "source": "wevity",
           "id": "fc721e60a4",
           "category": "contest",
@@ -2054,7 +2054,7 @@
           "date": "",
           "pinned": false,
           "author": "과학기술정보통신부",
-          "deadline": "2026-11-20",
+          "deadline": "2026-11-21",
           "source": "wevity",
           "id": "113740d5a4",
           "category": "contest",
@@ -2068,7 +2068,7 @@
           "date": "",
           "pinned": false,
           "author": "조달청",
-          "deadline": "2026-11-22",
+          "deadline": "2026-11-23",
           "source": "wevity",
           "id": "20f86069dc",
           "category": "contest",
@@ -2082,7 +2082,7 @@
           "date": "",
           "pinned": false,
           "author": "한국창조미술협회",
-          "deadline": "2026-11-27",
+          "deadline": "2026-11-28",
           "source": "wevity",
           "id": "c8eff97bf4",
           "category": "contest",
@@ -2096,7 +2096,7 @@
           "date": "",
           "pinned": false,
           "author": "대구광역시,대구창조경제혁신센터",
-          "deadline": "2026-11-30",
+          "deadline": "2026-12-01",
           "source": "wevity",
           "id": "84898d8a62",
           "category": "contest",
@@ -2105,32 +2105,32 @@
           "is_new": true
         },
         {
+          "title": "2026 saaskr 게임 어워드 - AI로 만든 웹게임 연말 시상",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112277",
+          "date": "",
+          "pinned": false,
+          "author": "saaskr",
+          "deadline": "2026-12-21",
+          "source": "wevity",
+          "id": "b78212a6c4",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-13",
+          "is_new": true
+        },
+        {
           "title": "세종사이버대학교 전국민 AI 공모전 (AI 불씨)",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112285",
           "date": "",
           "pinned": false,
           "author": "세종사이버대학교",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "75f2ecc9ee",
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-11",
           "is_new": true
-        },
-        {
-          "title": "2026 AI 플레이 콘텐츠 제작 공모전",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111800",
-          "date": "",
-          "pinned": false,
-          "author": "중앙대학교",
-          "deadline": "2026-12-31",
-          "source": "wevity",
-          "id": "f840dfbd4e",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": false
         }
       ]
     },
@@ -2153,20 +2153,6 @@
       "stale": false,
       "error": null,
       "items": [
-        {
-          "title": "PayPal AI Hackathon — Low/No Code, Machine Learning/AI, Web",
-          "url": "https://paypalaihackathon.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "PayPal",
-          "deadline": "2026-11-12",
-          "source": "devpost",
-          "id": "a209571743",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
         {
           "title": "DSH Hacks V2 ($100k+ in prizes!) — Beginner Friendly, Low/No Code, Open Ended",
           "url": "https://dsh-hacks-v2.devpost.com/",
@@ -2291,20 +2277,6 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
-          "title": "Taskforge — Beginner Friendly, Quantum",
-          "url": "https://taskforge.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "HackathonForEveryone",
-          "deadline": "2026-11-24",
-          "source": "devpost",
-          "id": "2701f36432",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-05",
           "is_new": false
         },
         {
@@ -2502,6 +2474,20 @@
           "hack": true,
           "first_seen": "2026-10-27",
           "is_new": false
+        },
+        {
+          "title": "Open Agentic Web Challenge — Machine Learning/AI, Web, Social Good",
+          "url": "https://cognizant-agenticweb.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Cognizant",
+          "deadline": "2027-01-11",
+          "source": "devpost",
+          "id": "b016995df3",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-13",
+          "is_new": true
         },
         {
           "title": "Syntax Summit — DevOps, Machine Learning/AI, Robotic Process Automation",

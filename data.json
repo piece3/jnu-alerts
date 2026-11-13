@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13 02:08",
+  "generated_at": "2026-11-13 11:59",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 168,
+  "total": 170,
   "sources": [
     {
       "key": "ece",
@@ -2131,6 +2131,20 @@
           "hack": false,
           "first_seen": "2026-11-11",
           "is_new": true
+        },
+        {
+          "title": "2026 AI 플레이 콘텐츠 제작 공모전",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111800",
+          "date": "",
+          "pinned": false,
+          "author": "중앙대학교",
+          "deadline": "2027-01-01",
+          "source": "wevity",
+          "id": "f840dfbd4e",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-13",
+          "is_new": true
         }
       ]
     },
@@ -2390,6 +2404,20 @@
           "hack": true,
           "first_seen": "2026-11-03",
           "is_new": false
+        },
+        {
+          "title": "Relate by Neo4j Hackathon — Databases, Machine Learning/AI, Productivity",
+          "url": "https://relate.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Neo4j",
+          "deadline": "2026-12-11",
+          "source": "devpost",
+          "id": "13294d951c",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-13",
+          "is_new": true
         },
         {
           "title": "QNX Global Hackathon — IoT, Machine Learning/AI, Open Ended",

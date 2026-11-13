@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13 11:59",
+  "generated_at": "2026-11-14 01:46",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 170,
+  "total": 169,
   "sources": [
     {
       "key": "ece",
@@ -203,7 +203,7 @@
           "hack": false,
           "deadline": "2026-11-24",
           "first_seen": "2026-11-09",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "대학원 AI 활용 핵심 교육(온라인) 안내",
@@ -757,6 +757,34 @@
       "error": null,
       "items": [
         {
+          "title": "[학생모집] (해외취업박람회) 2026 전남광주 글로벌 커리어 박람회 참여 신청 안내 ( ~ 11월 17일 18:00까지 )",
+          "url": "https://sojoong.kr/notice/notice-board/?uid=1063&mod=document",
+          "date": "2026-11-13",
+          "pinned": true,
+          "author": "",
+          "source": "sojoong",
+          "id": "2315bad2e8",
+          "category": "job",
+          "hack": false,
+          "deadline": "2026-11-17",
+          "first_seen": "2026-11-14",
+          "is_new": true
+        },
+        {
+          "title": "[학생모집] 2026년 동계 계절학기 해외 인턴십(필리핀) 참여학생 모집_4주 과정",
+          "url": "https://sojoong.kr/notice/notice-board/?uid=1062&mod=document",
+          "date": "2026-11-13",
+          "pinned": true,
+          "author": "",
+          "source": "sojoong",
+          "id": "e48f7cbc4e",
+          "category": "job",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-14",
+          "is_new": true
+        },
+        {
           "title": "[모집공고] SW중심대학사업단 2026년 동계 계절학기 인턴십(현장실습) 학생 모집",
           "url": "https://sojoong.kr/notice/notice-board/?uid=1059&mod=document",
           "date": "2026-11-08",
@@ -785,20 +813,6 @@
           "is_new": false
         },
         {
-          "title": "제11회 SW프로그래밍 경진대회 사전 설명회 링크 안내(11/5 17:00)",
-          "url": "https://sojoong.kr/notice/notice-board/?uid=1055&mod=document",
-          "date": "2026-11-04",
-          "pinned": true,
-          "author": "",
-          "source": "sojoong",
-          "id": "ac8cbecb29",
-          "category": "contest",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-11-04",
-          "is_new": false
-        },
-        {
           "title": "[모집홍보] 2026 METAmobility 자율주행 자동차 경진대회",
           "url": "https://sojoong.kr/notice/notice-board/?uid=1048&mod=document",
           "date": "2026-10-19",
@@ -824,20 +838,6 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-16",
-          "is_new": false
-        },
-        {
-          "title": "[홍보] 제11회 SW프로그래밍 경진대회(호남·제주권) 참가자 모집(~ 11. 4.(수)까지)",
-          "url": "https://sojoong.kr/notice/notice-board/?uid=1044&mod=document",
-          "date": "2026-10-06",
-          "pinned": true,
-          "author": "",
-          "source": "sojoong",
-          "id": "9d64b953f5",
-          "category": "contest",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-08",
           "is_new": false
         }
       ]
@@ -1345,7 +1345,7 @@
           "id": "d22fe3908b",
           "category": "notice",
           "hack": false,
-          "deadline": "2026-11-12",
+          "deadline": null,
           "first_seen": "2026-11-03",
           "is_new": false
         },
@@ -1842,20 +1842,6 @@
       "error": null,
       "items": [
         {
-          "title": "[엘리스] 과기부 × 엘리스 AI 챌린지 : 일상 속 문제, AI로 해결하다 (전국민 AI 경진대회)",
-          "url": "https://linkareer.com/activity/359552",
-          "date": "",
-          "pinned": false,
-          "author": "엘리스",
-          "deadline": "2026-11-13",
-          "source": "linkareer",
-          "id": "92ebdf4f66",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
           "title": "조코딩 AX인재전쟁 온라인 x 삼일PwC: 스펙·학력 없이 AI 역량으로 채용까지",
           "url": "https://linkareer.com/activity/361452",
           "date": "",
@@ -2021,20 +2007,6 @@
       "error": null,
       "items": [
         {
-          "title": "[CJ제일제당] 햇반 30주년 AI 공모전 (갓 지은 AI디어)",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111912",
-          "date": "",
-          "pinned": false,
-          "author": "CJ제일제당",
-          "deadline": "2026-11-14",
-          "source": "wevity",
-          "id": "8681109fb5",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
           "title": "현대자동차그룹 차량용 앱 개발 공모전",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111802",
           "date": "",
@@ -2047,6 +2019,20 @@
           "hack": false,
           "first_seen": "2026-10-27",
           "is_new": false
+        },
+        {
+          "title": "2026 대구광역시 기후·환경·탄소중립 공공 데이터 AI 활용대회",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111567",
+          "date": "",
+          "pinned": false,
+          "author": "대구광역시 탄소중립지원센",
+          "deadline": "2026-11-21",
+          "source": "wevity",
+          "id": "b9c1f5b229",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-14",
+          "is_new": true
         },
         {
           "title": "AI 달인의 꿀팁 챌린지 시즌4",
@@ -2102,7 +2088,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-09",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 saaskr 게임 어워드 - AI로 만든 웹게임 연말 시상",
@@ -2263,7 +2249,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-09",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "STEM2Connect AI Hackathon — Beginner Friendly, Education, Web",
@@ -2487,7 +2473,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-09",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "InnovArt 2027: Art and Technology Hack Day — Music/Art, Beginner Friendly, Open Ended",

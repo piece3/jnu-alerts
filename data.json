@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-14 01:46",
+  "generated_at": "2026-11-14 11:46",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 169,
+  "total": 168,
   "sources": [
     {
       "key": "ece",
@@ -2235,20 +2235,6 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-06",
-          "is_new": false
-        },
-        {
-          "title": "Dakar Bitcoin Hack by BTrust — Blockchain, Fintech, Machine Learning/AI",
-          "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Dakar Bitcoin Days",
-          "deadline": "2026-11-20",
-          "source": "devpost",
-          "id": "1fe9003750",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-09",
           "is_new": false
         },
         {

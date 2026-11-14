@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14 11:46",
+  "generated_at": "2026-11-15 00:23",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 168,
   "sources": [
@@ -338,7 +338,7 @@
           "id": "e706ca67d5",
           "category": "job",
           "hack": false,
-          "deadline": "2026-11-13",
+          "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
         },
@@ -1124,7 +1124,7 @@
           "id": "5d7cda40e6",
           "category": "contest",
           "hack": false,
-          "deadline": "2026-11-13",
+          "deadline": null,
           "first_seen": "2026-10-27",
           "is_new": false
         },
@@ -1319,7 +1319,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-10",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[외부교육] [접수중] 2026 드론 운영 및 촬영 전문가 양성과정 참가자 모집",
@@ -1870,6 +1870,20 @@
           "is_new": false
         },
         {
+          "title": "2026 대구광역시 기후·환경·탄소중립 공공데이터 AI 활용대회",
+          "url": "https://linkareer.com/activity/356503",
+          "date": "",
+          "pinned": false,
+          "author": "대구광역시 탄소중립지원센터",
+          "deadline": "2026-11-20",
+          "source": "linkareer",
+          "id": "9ec63e206a",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-15",
+          "is_new": true
+        },
+        {
           "title": "2026 사회보장 데이터를 활용한 AI 혁신 아이디어 경진대회",
           "url": "https://linkareer.com/activity/358856",
           "date": "",
@@ -1951,7 +1965,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-10",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[한국프로세스혁신협회] 2026 AI 서비스 기획 공모전",
@@ -2019,20 +2033,6 @@
           "hack": false,
           "first_seen": "2026-10-27",
           "is_new": false
-        },
-        {
-          "title": "2026 대구광역시 기후·환경·탄소중립 공공 데이터 AI 활용대회",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111567",
-          "date": "",
-          "pinned": false,
-          "author": "대구광역시 탄소중립지원센",
-          "deadline": "2026-11-21",
-          "source": "wevity",
-          "id": "b9c1f5b229",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-11-14",
-          "is_new": true
         },
         {
           "title": "AI 달인의 꿀팁 챌린지 시즌4",
@@ -2179,7 +2179,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-10",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "STEMergent Hacks 2026 — Low/No Code, Machine Learning/AI, Social Good",

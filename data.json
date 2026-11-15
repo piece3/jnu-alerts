@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15 11:13",
+  "generated_at": "2026-11-16 00:54",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 167,
+  "total": 163,
   "sources": [
     {
       "key": "ece",
@@ -189,7 +189,7 @@
           "hack": false,
           "deadline": "2026-12-11",
           "first_seen": "2026-11-11",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[2026.11.30. 19:00~21:00] 코멘토 직무부트캠프 수료자 취업 준비 특강(~11/24)",
@@ -1098,7 +1098,7 @@
           "hack": false,
           "deadline": "2026-11-20",
           "first_seen": "2026-11-11",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026학년도 서울시립대학교 차세대통신혁신융합대학사업단 동계 계절학기 학점교류(~ 11.06.(금))",
@@ -1842,20 +1842,6 @@
       "error": null,
       "items": [
         {
-          "title": "조코딩 AX인재전쟁 온라인 x 삼일PwC: 스펙·학력 없이 AI 역량으로 채용까지",
-          "url": "https://linkareer.com/activity/361452",
-          "date": "",
-          "pinned": false,
-          "author": "조코딩AX파트너스",
-          "deadline": "2026-11-15",
-          "source": "linkareer",
-          "id": "30100e983c",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-11-04",
-          "is_new": false
-        },
-        {
           "title": "2026 현장문제 AX 업무혁신 아이디어 해커톤 참가자 모집",
           "url": "https://linkareer.com/activity/361137",
           "date": "",
@@ -2021,20 +2007,6 @@
       "error": null,
       "items": [
         {
-          "title": "현대자동차그룹 차량용 앱 개발 공모전",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111802",
-          "date": "",
-          "pinned": false,
-          "author": "현대자동차그룹",
-          "deadline": "2026-11-16",
-          "source": "wevity",
-          "id": "fc721e60a4",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
           "title": "AI 달인의 꿀팁 챌린지 시즌4",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112049",
           "date": "",
@@ -2116,7 +2088,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-11",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 AI 플레이 콘텐츠 제작 공모전",
@@ -2154,48 +2126,6 @@
       "error": null,
       "items": [
         {
-          "title": "DSH Hacks V2 ($100k+ in prizes!) — Beginner Friendly, Low/No Code, Open Ended",
-          "url": "https://dsh-hacks-v2.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "STEMise",
-          "deadline": "2026-11-15",
-          "source": "devpost",
-          "id": "932508f347",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
-          "title": "IceHacks — Beginner Friendly, Low/No Code, Open Ended",
-          "url": "https://icehacks.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "CodeStarters",
-          "deadline": "2026-11-15",
-          "source": "devpost",
-          "id": "d784f35f51",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-10",
-          "is_new": false
-        },
-        {
-          "title": "STEMergent Hacks 2026 — Low/No Code, Machine Learning/AI, Social Good",
-          "url": "https://stemergent-hacks.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "STEMergent",
-          "deadline": "2026-11-15",
-          "source": "devpost",
-          "id": "7e16159a31",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-31",
-          "is_new": false
-        },
-        {
           "title": "UGREEN Hackathon 2026 on AI NAS — Lifehacks, Machine Learning/AI, Productivity",
           "url": "https://ugreenhackathon.devpost.com/",
           "date": "",
@@ -2222,6 +2152,20 @@
           "hack": true,
           "first_seen": "2026-10-27",
           "is_new": false
+        },
+        {
+          "title": "Dakar Bitcoin Hack by BTrust — Blockchain, Fintech, Machine Learning/AI",
+          "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Dakar Bitcoin Days",
+          "deadline": "2026-11-20",
+          "source": "devpost",
+          "id": "1fe9003750",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-16",
+          "is_new": true
         },
         {
           "title": "STEM2Connect AI Hackathon — Beginner Friendly, Education, Web",
@@ -2319,7 +2263,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-11",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Learn AR with SPECS — AR/VR, Design, Machine Learning/AI",

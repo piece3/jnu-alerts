@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15 00:23",
+  "generated_at": "2026-11-15 11:13",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 168,
+  "total": 167,
   "sources": [
     {
       "key": "ece",
@@ -2221,20 +2221,6 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
-          "title": "AccessED Hacks — Beginner Friendly, Education, Social Good",
-          "url": "https://accessed-hacks.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "AccessEDnpo",
-          "deadline": "2026-11-20",
-          "source": "devpost",
-          "id": "bac85f4ba9",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-06",
           "is_new": false
         },
         {

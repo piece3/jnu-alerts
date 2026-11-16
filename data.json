@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16 00:54",
+  "generated_at": "2026-11-16 11:26",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 163,
+  "total": 166,
   "sources": [
     {
       "key": "ece",
@@ -852,20 +852,6 @@
       "error": null,
       "items": [
         {
-          "title": "2026학년도 겨울 계절수업 성균관대학교 학점교류 신청 안내(11/16(월) 9:00까지)",
-          "url": "https://aicoss.ac.kr/www/notice/view/4132?bd=notice&page=1",
-          "date": "2026-11-05",
-          "pinned": true,
-          "author": "",
-          "source": "aicoss",
-          "id": "faed6c905f",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-11-06",
-          "is_new": false
-        },
-        {
           "title": "전남대학교 2026학년도 동계 계절학기 운영 계획 안내(학점교류(초청))",
           "url": "https://aicoss.ac.kr/www/notice/view/4131?bd=notice&page=1",
           "date": "2026-10-30",
@@ -933,6 +919,20 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
+          "is_new": false
+        },
+        {
+          "title": "2026학년도 겨울 계절수업 성균관대학교 학점교류 신청 안내(11/16(월) 9:00까지)",
+          "url": "https://aicoss.ac.kr/www/notice/view/4132?bd=notice&page=1",
+          "date": "2026-11-05",
+          "pinned": false,
+          "author": "",
+          "source": "aicoss",
+          "id": "faed6c905f",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-06",
           "is_new": false
         },
         {
@@ -1336,7 +1336,7 @@
           "is_new": false
         },
         {
-          "title": "[접수중] 2026 공학페스티벌「우리학교에 E²가 숨어있다?! 포스터 인증 이벤트」(~11/12)",
+          "title": "[접수중] (기간연장)2026 공학페스티벌「우리학교에 E²가 숨어있다?! 포스터 인증 이벤트」(~11",
           "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1059470/artclView.do",
           "date": "2026-11-02",
           "pinned": false,
@@ -1350,7 +1350,7 @@
           "is_new": false
         },
         {
-          "title": "[접수중] 2026 공학페스티벌「E²SODE」 공대생 에피소드 쇼츠 공모전",
+          "title": "[접수마감] 2026 공학페스티벌「E²SODE」 공대생 에피소드 쇼츠 공모전",
           "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1058805/artclView.do",
           "date": "2026-10-26",
           "pinned": false,
@@ -1982,6 +1982,20 @@
           "is_new": false
         },
         {
+          "title": "2027 MOBIS Robotics Challenge 현대모비스 로보틱스 경진대회",
+          "url": "https://linkareer.com/activity/364594",
+          "date": "",
+          "pinned": false,
+          "author": "현대모비스",
+          "deadline": "2026-12-04",
+          "source": "linkareer",
+          "id": "4bd4f13501",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-16",
+          "is_new": true
+        },
+        {
           "title": "2026 AI 플레이 콘텐츠 제작 공모전 공모전",
           "url": "https://linkareer.com/activity/358358",
           "date": "",
@@ -2154,6 +2168,20 @@
           "is_new": false
         },
         {
+          "title": "AccessED Hacks — Beginner Friendly, Education, Social Good",
+          "url": "https://accessed-hacks.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "AccessEDnpo",
+          "deadline": "2026-11-20",
+          "source": "devpost",
+          "id": "bac85f4ba9",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-16",
+          "is_new": true
+        },
+        {
           "title": "Dakar Bitcoin Hack by BTrust — Blockchain, Fintech, Machine Learning/AI",
           "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
           "date": "",
@@ -2277,6 +2305,20 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-12",
+          "is_new": true
+        },
+        {
+          "title": "SLAY HACKS — Beginner Friendly, Open Ended, Machine Learning/AI",
+          "url": "https://slayy-hacks.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "cite & slayy",
+          "deadline": "2026-12-07",
+          "source": "devpost",
+          "id": "e7c745ffe0",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-16",
           "is_new": true
         },
         {

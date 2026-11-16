@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16 11:26",
+  "generated_at": "2026-11-17 03:57",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 166,
+  "total": 170,
   "sources": [
     {
       "key": "ece",
@@ -164,6 +164,20 @@
       "error": null,
       "items": [
         {
+          "title": "로컬 AI 메이커스랩 - 현직자와 AI로 실무 문제 해결(~12/6)",
+          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1060936/artclView.do",
+          "date": "2026-11-16",
+          "pinned": false,
+          "author": "조은혜",
+          "source": "eng",
+          "id": "44a4dd80d2",
+          "category": "notice",
+          "hack": false,
+          "deadline": "2026-12-06",
+          "first_seen": "2026-11-17",
+          "is_new": true
+        },
+        {
           "title": "CJ올리브네트웍스 AI Campus 2기 교육생 모집 (~11.29/교육비 무료/신입공채 서류면제)",
           "url": "https://eng.jnu.ac.kr/bbs/eng/993/1060595/artclView.do",
           "date": "2026-11-11",
@@ -175,7 +189,7 @@
           "hack": false,
           "deadline": "2026-11-29",
           "first_seen": "2026-11-12",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026학년도 동계방학 ‘취업아카데미’(~12/11)",
@@ -283,20 +297,6 @@
           "author": "김현희",
           "source": "eng",
           "id": "b0937fb9f2",
-          "category": "academic",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-20",
-          "is_new": false
-        },
-        {
-          "title": "2026학년도 2학기 도전장학생(비상) 선발 계획 안내",
-          "url": "https://eng.jnu.ac.kr/bbs/eng/993/1058051/artclView.do",
-          "date": "2026-10-20",
-          "pinned": false,
-          "author": "김현희",
-          "source": "eng",
-          "id": "cb5ab61cdf",
           "category": "academic",
           "hack": false,
           "deadline": null,
@@ -757,6 +757,20 @@
       "error": null,
       "items": [
         {
+          "title": "[공지] 제11회 SW프로그래밍 경진대회(호남·제주) 수상자 발표",
+          "url": "https://sojoong.kr/notice/notice-board/?uid=1078&mod=document",
+          "date": "2026-11-16",
+          "pinned": true,
+          "author": "",
+          "source": "sojoong",
+          "id": "d4d0bd8852",
+          "category": "contest",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-17",
+          "is_new": true
+        },
+        {
           "title": "[학생모집] (해외취업박람회) 2026 전남광주 글로벌 커리어 박람회 참여 신청 안내 ( ~ 11월 17일 18:00까지 )",
           "url": "https://sojoong.kr/notice/notice-board/?uid=1063&mod=document",
           "date": "2026-11-13",
@@ -852,6 +866,20 @@
       "error": null,
       "items": [
         {
+          "title": "「2026 동계 비교과 자격증 취득 프로그램」사전 수요조사 안내(~11/22(일))",
+          "url": "https://aicoss.ac.kr/www/notice/view/4133?bd=notice&page=1",
+          "date": "2026-11-16",
+          "pinned": true,
+          "author": "",
+          "source": "aicoss",
+          "id": "8278ebab99",
+          "category": "notice",
+          "hack": false,
+          "deadline": "2026-11-22",
+          "first_seen": "2026-11-17",
+          "is_new": true
+        },
+        {
           "title": "전남대학교 2026학년도 동계 계절학기 운영 계획 안내(학점교류(초청))",
           "url": "https://aicoss.ac.kr/www/notice/view/4131?bd=notice&page=1",
           "date": "2026-10-30",
@@ -877,20 +905,6 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-31",
-          "is_new": false
-        },
-        {
-          "title": "[추가모집] 2026 CO-SHOW 단체참관 모집 안내(~11/11까지)",
-          "url": "https://aicoss.ac.kr/www/notice/view/4128?bd=notice&page=1",
-          "date": "2026-10-29",
-          "pinned": true,
-          "author": "",
-          "source": "aicoss",
-          "id": "f2ba92791b",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-30",
           "is_new": false
         },
         {
@@ -933,6 +947,20 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-06",
+          "is_new": false
+        },
+        {
+          "title": "[추가모집] 2026 CO-SHOW 단체참관 모집 안내(~11/11까지)",
+          "url": "https://aicoss.ac.kr/www/notice/view/4128?bd=notice&page=1",
+          "date": "2026-10-29",
+          "pinned": false,
+          "author": "",
+          "source": "aicoss",
+          "id": "f2ba92791b",
+          "category": "notice",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-10-30",
           "is_new": false
         },
         {
@@ -1046,20 +1074,6 @@
           "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
-        },
-        {
-          "title": "2026 AICOSS-UTAS 글로벌 학생프로그램 학생 선발 안내",
-          "url": "https://aicoss.ac.kr/www/notice/view/4117?bd=notice&page=1",
-          "date": "2026-09-30",
-          "pinned": false,
-          "author": "",
-          "source": "aicoss",
-          "id": "fa1f6c1317",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-11-09",
-          "is_new": false
         }
       ]
     },
@@ -1073,6 +1087,20 @@
       "error": null,
       "items": [
         {
+          "title": "「2026 차세대통신 X 융합 창업 아이디어 경진대회」참가 신청",
+          "url": "https://jnu.nccoss.kr/www/notice/view/391?bd=notice&page=1",
+          "date": "2026-11-16",
+          "pinned": true,
+          "author": "",
+          "source": "nccoss",
+          "id": "f6bad40fcd",
+          "category": "contest",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-17",
+          "is_new": true
+        },
+        {
           "title": "2026년 한국전자통신연구원(ETRI) 견학 (★선착순 모집★)",
           "url": "https://jnu.nccoss.kr/www/notice/view/390?bd=notice&page=1",
           "date": "2026-11-11",
@@ -1084,7 +1112,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-12",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026학년도 동계 계절학기 국민대학교 차세대통신혁신융합대학사업단 학점교류 (~ 11.20.(금) 15:00)",
@@ -1263,20 +1291,6 @@
           "source": "nccoss",
           "id": "b498319074",
           "category": "academic",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "2026년 하계 한국전파진흥협회(RAPA) 차세대통신 아카데미 참가 신청 (선착순)",
-          "url": "https://jnu.nccoss.kr/www/notice/view/372?bd=notice&page=1",
-          "date": "2026-07-15",
-          "pinned": false,
-          "author": "",
-          "source": "nccoss",
-          "id": "3b6e51df4f",
-          "category": "notice",
           "hack": false,
           "deadline": null,
           "first_seen": "2026-09-08",
@@ -1675,12 +1689,12 @@
           "id": "208ce0d64f",
           "category": "notice",
           "hack": false,
-          "deadline": "2026-11-15",
+          "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
         },
         {
-          "title": "[연장]『지역개발연구』2026년 12월호 논문모집 안내(~11.15.))",
+          "title": "[연장]『지역개발연구』2026년 12월호 논문모집 안내(~11.15.)(접수마감)",
           "url": "https://crdcnu.jnuac.kr/bbs/board.php?bo_table=0501&wr_id=204",
           "date": "2026-10-06",
           "pinned": false,
@@ -1689,7 +1703,7 @@
           "id": "73127365ae",
           "category": "notice",
           "hack": false,
-          "deadline": "2026-11-15",
+          "deadline": null,
           "first_seen": "2026-10-07",
           "is_new": false
         },
@@ -1856,20 +1870,6 @@
           "is_new": false
         },
         {
-          "title": "2026 대구광역시 기후·환경·탄소중립 공공데이터 AI 활용대회",
-          "url": "https://linkareer.com/activity/356503",
-          "date": "",
-          "pinned": false,
-          "author": "대구광역시 탄소중립지원센터",
-          "deadline": "2026-11-20",
-          "source": "linkareer",
-          "id": "9ec63e206a",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-11-15",
-          "is_new": true
-        },
-        {
           "title": "2026 사회보장 데이터를 활용한 AI 혁신 아이디어 경진대회",
           "url": "https://linkareer.com/activity/358856",
           "date": "",
@@ -1996,6 +1996,20 @@
           "is_new": true
         },
         {
+          "title": "현대모비스 로보틱스 경진대회 참가자 모집(2027 MOBIS Robotics Challenge)",
+          "url": "https://linkareer.com/activity/364802",
+          "date": "",
+          "pinned": false,
+          "author": "현대모비스",
+          "deadline": "2026-12-04",
+          "source": "linkareer",
+          "id": "30cc446f99",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-17",
+          "is_new": true
+        },
+        {
           "title": "2026 AI 플레이 콘텐츠 제작 공모전 공모전",
           "url": "https://linkareer.com/activity/358358",
           "date": "",
@@ -2020,6 +2034,20 @@
       "stale": false,
       "error": null,
       "items": [
+        {
+          "title": "2026 대구광역시 기후·환경·탄소중립 공공 데이터 AI 활용대회",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111567",
+          "date": "",
+          "pinned": false,
+          "author": "대구광역시 탄소중립지원센",
+          "deadline": "2026-11-21",
+          "source": "wevity",
+          "id": "b9c1f5b229",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-17",
+          "is_new": true
+        },
         {
           "title": "AI 달인의 꿀팁 챌린지 시즌4",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112049",
@@ -2075,6 +2103,20 @@
           "hack": false,
           "first_seen": "2026-11-09",
           "is_new": false
+        },
+        {
+          "title": "2026 국가시범도시 AI 아이디어 · 기술 공모전",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112299",
+          "date": "",
+          "pinned": false,
+          "author": "국토교통부",
+          "deadline": "2026-12-15",
+          "source": "wevity",
+          "id": "5382e3dbd9",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-17",
+          "is_new": true
         },
         {
           "title": "2026 saaskr 게임 어워드 - AI로 만든 웹게임 연말 시상",
@@ -2140,20 +2182,6 @@
       "error": null,
       "items": [
         {
-          "title": "UGREEN Hackathon 2026 on AI NAS — Lifehacks, Machine Learning/AI, Productivity",
-          "url": "https://ugreenhackathon.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "UGREEN",
-          "deadline": "2026-11-16",
-          "source": "devpost",
-          "id": "bcb0b6cf43",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
           "title": "Meta VR Start Developer Competition 2026 — AR/VR, Machine Learning/AI, Web",
           "url": "https://start-developer-competition-26.devpost.com/",
           "date": "",
@@ -2166,20 +2194,6 @@
           "hack": true,
           "first_seen": "2026-10-27",
           "is_new": false
-        },
-        {
-          "title": "AccessED Hacks — Beginner Friendly, Education, Social Good",
-          "url": "https://accessed-hacks.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "AccessEDnpo",
-          "deadline": "2026-11-20",
-          "source": "devpost",
-          "id": "bac85f4ba9",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-16",
-          "is_new": true
         },
         {
           "title": "Dakar Bitcoin Hack by BTrust — Blockchain, Fintech, Machine Learning/AI",
@@ -2210,18 +2224,18 @@
           "is_new": false
         },
         {
-          "title": "SafeSpace Hacks — Beginner Friendly, Cybersecurity, Social Good",
-          "url": "https://safespace-hacks.devpost.com/",
+          "title": "Taskforge — Beginner Friendly, Quantum",
+          "url": "https://taskforge.devpost.com/",
           "date": "",
           "pinned": false,
-          "author": "SafeSpace",
-          "deadline": "2026-11-22",
+          "author": "HackathonForEveryone",
+          "deadline": "2026-11-24",
           "source": "devpost",
-          "id": "ac879ac4b6",
+          "id": "2701f36432",
           "category": "contest",
           "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
+          "first_seen": "2026-11-17",
+          "is_new": true
         },
         {
           "title": "Build Your First AI App — Education, Machine Learning/AI, Web",
@@ -2249,7 +2263,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-12",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Kiroween 2026 — Beginner Friendly, Machine Learning/AI, Open Ended",
@@ -2266,7 +2280,7 @@
           "is_new": false
         },
         {
-          "title": "LaunchPad Hacks (Judges + Sponsors Needed) — Beginner Friendly, Open Ended",
+          "title": "LaunchPad Hacks (580k In Prizes!) — Beginner Friendly, Open Ended",
           "url": "https://launchpad-hacks.devpost.com/",
           "date": "",
           "pinned": false,
@@ -2305,7 +2319,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-12",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "SLAY HACKS — Beginner Friendly, Open Ended, Machine Learning/AI",
@@ -2333,6 +2347,34 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-12",
+          "is_new": false
+        },
+        {
+          "title": "SafeSpace Hacks - Judges Needed — Beginner Friendly, Cybersecurity, Social Good",
+          "url": "https://safespace-hacks.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "SafeSpace",
+          "deadline": "2026-12-09",
+          "source": "devpost",
+          "id": "ac879ac4b6",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
+          "is_new": false
+        },
+        {
+          "title": "Green Shift Hacks — Beginner Friendly, Social Good",
+          "url": "https://green-shift-hacks.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "HackathonForEveryone",
+          "deadline": "2026-12-10",
+          "source": "devpost",
+          "id": "45f227863e",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-17",
           "is_new": true
         },
         {
@@ -2390,6 +2432,20 @@
           "hack": true,
           "first_seen": "2026-11-05",
           "is_new": false
+        },
+        {
+          "title": "AccessED Hacks — Beginner Friendly, Education, Social Good",
+          "url": "https://accessed-hacks.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "AccessEDnpo",
+          "deadline": "2026-12-20",
+          "source": "devpost",
+          "id": "bac85f4ba9",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-16",
+          "is_new": true
         },
         {
           "title": "Arbiter Hacks V1 — Beginner Friendly, Machine Learning/AI, Open Ended",

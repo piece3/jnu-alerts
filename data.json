@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17 13:50",
+  "generated_at": "2026-11-18 02:55",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 170,
   "sources": [
@@ -1675,7 +1675,7 @@
           "id": "1f2125bc84",
           "category": "notice",
           "hack": false,
-          "deadline": "2026-11-16",
+          "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
         },
@@ -1856,20 +1856,6 @@
       "error": null,
       "items": [
         {
-          "title": "2026 현장문제 AX 업무혁신 아이디어 해커톤 참가자 모집",
-          "url": "https://linkareer.com/activity/361137",
-          "date": "",
-          "pinned": false,
-          "author": "주식회사 어치브모먼트",
-          "deadline": "2026-11-17",
-          "source": "linkareer",
-          "id": "bbec47b225",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-31",
-          "is_new": false
-        },
-        {
           "title": "2026 사회보장 데이터를 활용한 AI 혁신 아이디어 경진대회",
           "url": "https://linkareer.com/activity/358856",
           "date": "",
@@ -1924,6 +1910,20 @@
           "hack": false,
           "first_seen": "2026-10-27",
           "is_new": false
+        },
+        {
+          "title": "[Liner Scholar] 3주 리서치 챌린지",
+          "url": "https://linkareer.com/activity/365185",
+          "date": "",
+          "pinned": false,
+          "author": "라이너",
+          "deadline": "2026-11-22",
+          "source": "linkareer",
+          "id": "33050673de",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-18",
+          "is_new": true
         },
         {
           "title": "하나은행 『하나원픽 CUP AI 게임창작대회』",
@@ -2010,18 +2010,18 @@
           "is_new": true
         },
         {
-          "title": "2026 AI 플레이 콘텐츠 제작 공모전 공모전",
-          "url": "https://linkareer.com/activity/358358",
+          "title": "2027 제 2회 Superb AI X BDAI Vision AI 해커톤",
+          "url": "https://linkareer.com/activity/365130",
           "date": "",
           "pinned": false,
-          "author": "중앙대학교",
-          "deadline": "2026-12-31",
+          "author": "비디에이아이(BDAI)",
+          "deadline": "2027-01-10",
           "source": "linkareer",
-          "id": "a63734c349",
+          "id": "fdd5321bfc",
           "category": "contest",
-          "hack": false,
-          "first_seen": "2026-11-07",
-          "is_new": false
+          "hack": true,
+          "first_seen": "2026-11-18",
+          "is_new": true
         }
       ]
     },
@@ -2040,7 +2040,7 @@
           "date": "",
           "pinned": false,
           "author": "대구광역시 탄소중립지원센",
-          "deadline": "2026-11-20",
+          "deadline": "2026-11-21",
           "source": "wevity",
           "id": "b9c1f5b229",
           "category": "contest",
@@ -2054,7 +2054,7 @@
           "date": "",
           "pinned": false,
           "author": "과학기술정보통신부",
-          "deadline": "2026-11-20",
+          "deadline": "2026-11-21",
           "source": "wevity",
           "id": "113740d5a4",
           "category": "contest",
@@ -2068,7 +2068,7 @@
           "date": "",
           "pinned": false,
           "author": "조달청",
-          "deadline": "2026-11-22",
+          "deadline": "2026-11-23",
           "source": "wevity",
           "id": "20f86069dc",
           "category": "contest",
@@ -2082,7 +2082,7 @@
           "date": "",
           "pinned": false,
           "author": "한국창조미술협회",
-          "deadline": "2026-11-27",
+          "deadline": "2026-11-28",
           "source": "wevity",
           "id": "c8eff97bf4",
           "category": "contest",
@@ -2096,7 +2096,7 @@
           "date": "",
           "pinned": false,
           "author": "대구광역시,대구창조경제혁신센터",
-          "deadline": "2026-11-30",
+          "deadline": "2026-12-01",
           "source": "wevity",
           "id": "84898d8a62",
           "category": "contest",
@@ -2110,7 +2110,7 @@
           "date": "",
           "pinned": false,
           "author": "국토교통부",
-          "deadline": "2026-12-14",
+          "deadline": "2026-12-15",
           "source": "wevity",
           "id": "5382e3dbd9",
           "category": "contest",
@@ -2124,13 +2124,13 @@
           "date": "",
           "pinned": false,
           "author": "saaskr",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "b78212a6c4",
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-13",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "세종사이버대학교 전국민 AI 공모전 (AI 불씨)",
@@ -2138,7 +2138,7 @@
           "date": "",
           "pinned": false,
           "author": "세종사이버대학교",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "75f2ecc9ee",
           "category": "contest",
@@ -2152,13 +2152,13 @@
           "date": "",
           "pinned": false,
           "author": "중앙대학교",
-          "deadline": "2026-12-31",
+          "deadline": "2027-01-01",
           "source": "wevity",
           "id": "f840dfbd4e",
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-13",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -2403,7 +2403,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-13",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "QNX Global Hackathon — IoT, Machine Learning/AI, Open Ended",
@@ -2515,7 +2515,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-13",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Syntax Summit — DevOps, Machine Learning/AI, Robotic Process Automation",

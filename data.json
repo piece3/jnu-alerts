@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18 12:55",
+  "generated_at": "2026-11-18 15:29",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 170,
+  "total": 171,
   "sources": [
     {
       "key": "ece",
@@ -756,6 +756,20 @@
       "stale": false,
       "error": null,
       "items": [
+        {
+          "title": "[공지] 2026 SW프로그래밍 경진대회 시상식 및 제3차 SW기업Day 행사 안내",
+          "url": "https://sojoong.kr/notice/notice-board/?uid=1079&mod=document",
+          "date": "2026-11-18",
+          "pinned": true,
+          "author": "",
+          "source": "sojoong",
+          "id": "be9906a7c9",
+          "category": "contest",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-18",
+          "is_new": true
+        },
         {
           "title": "[공지] 제11회 SW프로그래밍 경진대회(호남·제주) 수상자 발표",
           "url": "https://sojoong.kr/notice/notice-board/?uid=1078&mod=document",

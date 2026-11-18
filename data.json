@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18 15:29",
+  "generated_at": "2026-11-19 02:38",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 171,
+  "total": 170,
   "sources": [
     {
       "key": "ece",
@@ -794,9 +794,9 @@
           "id": "2315bad2e8",
           "category": "job",
           "hack": false,
-          "deadline": "2026-11-17",
+          "deadline": null,
           "first_seen": "2026-11-14",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[학생모집] 2026년 동계 계절학기 해외 인턴십(필리핀) 참여학생 모집_4주 과정",
@@ -810,7 +810,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-14",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[모집공고] SW중심대학사업단 2026년 동계 계절학기 인턴십(현장실습) 학생 모집",
@@ -2054,7 +2054,7 @@
           "date": "",
           "pinned": false,
           "author": "대구광역시 탄소중립지원센",
-          "deadline": "2026-11-20",
+          "deadline": "2026-11-21",
           "source": "wevity",
           "id": "b9c1f5b229",
           "category": "contest",
@@ -2068,7 +2068,7 @@
           "date": "",
           "pinned": false,
           "author": "과학기술정보통신부",
-          "deadline": "2026-11-20",
+          "deadline": "2026-11-21",
           "source": "wevity",
           "id": "113740d5a4",
           "category": "contest",
@@ -2082,7 +2082,7 @@
           "date": "",
           "pinned": false,
           "author": "조달청",
-          "deadline": "2026-11-22",
+          "deadline": "2026-11-23",
           "source": "wevity",
           "id": "20f86069dc",
           "category": "contest",
@@ -2096,7 +2096,7 @@
           "date": "",
           "pinned": false,
           "author": "한국창조미술협회",
-          "deadline": "2026-11-27",
+          "deadline": "2026-11-28",
           "source": "wevity",
           "id": "c8eff97bf4",
           "category": "contest",
@@ -2110,7 +2110,7 @@
           "date": "",
           "pinned": false,
           "author": "대구광역시,대구창조경제혁신센터",
-          "deadline": "2026-11-30",
+          "deadline": "2026-12-01",
           "source": "wevity",
           "id": "84898d8a62",
           "category": "contest",
@@ -2124,7 +2124,7 @@
           "date": "",
           "pinned": false,
           "author": "국토교통부",
-          "deadline": "2026-12-14",
+          "deadline": "2026-12-15",
           "source": "wevity",
           "id": "5382e3dbd9",
           "category": "contest",
@@ -2138,7 +2138,7 @@
           "date": "",
           "pinned": false,
           "author": "saaskr",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "b78212a6c4",
           "category": "contest",
@@ -2152,7 +2152,7 @@
           "date": "",
           "pinned": false,
           "author": "세종사이버대학교",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "75f2ecc9ee",
           "category": "contest",
@@ -2166,7 +2166,7 @@
           "date": "",
           "pinned": false,
           "author": "중앙대학교",
-          "deadline": "2026-12-31",
+          "deadline": "2027-01-01",
           "source": "wevity",
           "id": "f840dfbd4e",
           "category": "contest",
@@ -2195,20 +2195,6 @@
       "stale": false,
       "error": null,
       "items": [
-        {
-          "title": "Meta VR Start Developer Competition 2026 — AR/VR, Machine Learning/AI, Web",
-          "url": "https://start-developer-competition-26.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Meta",
-          "deadline": "2026-11-18",
-          "source": "devpost",
-          "id": "289c22d03d",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
         {
           "title": "Dakar Bitcoin Hack by BTrust — Blockchain, Fintech, Machine Learning/AI",
           "url": "https://dakar-bitcoin-hack-2026.devpost.com/",

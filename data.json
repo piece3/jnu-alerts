@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-20 12:46",
+  "generated_at": "2026-11-21 02:21",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 174,
+  "total": 169,
   "sources": [
     {
       "key": "ece",
@@ -1870,62 +1870,6 @@
       "error": null,
       "items": [
         {
-          "title": "2026 사회보장 데이터를 활용한 AI 혁신 아이디어 경진대회",
-          "url": "https://linkareer.com/activity/358856",
-          "date": "",
-          "pinned": false,
-          "author": "한국사회보장정보원, 대구가톨릭대학교",
-          "deadline": "2026-11-20",
-          "source": "linkareer",
-          "id": "5202abbdfe",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
-          "title": "2026 성평등 AI 벤치마크 챌린지 참가팀 모집",
-          "url": "https://linkareer.com/activity/361052",
-          "date": "",
-          "pinned": false,
-          "author": "성평등가족부",
-          "deadline": "2026-11-20",
-          "source": "linkareer",
-          "id": "9cdf05424d",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-31",
-          "is_new": false
-        },
-        {
-          "title": "[과학기술정보통신부] AI 달인 꿀팁 챌린지 시즌4",
-          "url": "https://linkareer.com/activity/361293",
-          "date": "",
-          "pinned": false,
-          "author": "과학기술정보통신부",
-          "deadline": "2026-11-20",
-          "source": "linkareer",
-          "id": "b764102cf1",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-11-03",
-          "is_new": false
-        },
-        {
-          "title": "[데이콘] 제주 AI·빅데이터 활용 AI Agent 개발 챌린지(~11/20)",
-          "url": "https://linkareer.com/activity/359517",
-          "date": "",
-          "pinned": false,
-          "author": "데이콘 주식회사",
-          "deadline": "2026-11-20",
-          "source": "linkareer",
-          "id": "80ffaa18e1",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
           "title": "[Liner Scholar] 3주 리서치 챌린지",
           "url": "https://linkareer.com/activity/365185",
           "date": "",
@@ -1968,6 +1912,20 @@
           "is_new": false
         },
         {
+          "title": "2026 포항 MICE 창업 해커톤",
+          "url": "https://linkareer.com/activity/365981",
+          "date": "",
+          "pinned": false,
+          "author": "포항시",
+          "deadline": "2026-11-30",
+          "source": "linkareer",
+          "id": "c9ddcb4d37",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-21",
+          "is_new": true
+        },
+        {
           "title": "[한국프로세스혁신협회] 2026 AI 서비스 기획 공모전",
           "url": "https://linkareer.com/activity/359841",
           "date": "",
@@ -2007,7 +1965,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-16",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "현대모비스 로보틱스 경진대회 참가자 모집(2027 MOBIS Robotics Challenge)",
@@ -2038,6 +1996,20 @@
           "is_new": true
         },
         {
+          "title": "2026 AI 플레이 콘텐츠 제작 공모전 공모전",
+          "url": "https://linkareer.com/activity/358358",
+          "date": "",
+          "pinned": false,
+          "author": "중앙대학교",
+          "deadline": "2026-12-31",
+          "source": "linkareer",
+          "id": "a63734c349",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-21",
+          "is_new": true
+        },
+        {
           "title": "2027 제 2회 Superb AI X BDAI Vision AI 해커톤",
           "url": "https://linkareer.com/activity/365130",
           "date": "",
@@ -2063,40 +2035,12 @@
       "error": null,
       "items": [
         {
-          "title": "2026 대구광역시 기후·환경·탄소중립 공공 데이터 AI 활용대회",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111567",
-          "date": "",
-          "pinned": false,
-          "author": "대구광역시 탄소중립지원센",
-          "deadline": "2026-11-20",
-          "source": "wevity",
-          "id": "b9c1f5b229",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-11-17",
-          "is_new": true
-        },
-        {
-          "title": "AI 달인의 꿀팁 챌린지 시즌4",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112049",
-          "date": "",
-          "pinned": false,
-          "author": "과학기술정보통신부",
-          "deadline": "2026-11-20",
-          "source": "wevity",
-          "id": "113740d5a4",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-11-03",
-          "is_new": false
-        },
-        {
           "title": "2026 조달청 AI 게임·콘텐츠 공모전",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111628",
           "date": "",
           "pinned": false,
           "author": "조달청",
-          "deadline": "2026-11-22",
+          "deadline": "2026-11-23",
           "source": "wevity",
           "id": "20f86069dc",
           "category": "contest",
@@ -2110,7 +2054,7 @@
           "date": "",
           "pinned": false,
           "author": "한국창조미술협회",
-          "deadline": "2026-11-27",
+          "deadline": "2026-11-28",
           "source": "wevity",
           "id": "c8eff97bf4",
           "category": "contest",
@@ -2124,7 +2068,7 @@
           "date": "",
           "pinned": false,
           "author": "(재)운당나눔재단, (재)울산창조경제혁신센터",
-          "deadline": "2026-11-29",
+          "deadline": "2026-11-30",
           "source": "wevity",
           "id": "dee52bdc05",
           "category": "contest",
@@ -2138,7 +2082,7 @@
           "date": "",
           "pinned": false,
           "author": "대구광역시,대구창조경제혁신센터",
-          "deadline": "2026-11-30",
+          "deadline": "2026-12-01",
           "source": "wevity",
           "id": "84898d8a62",
           "category": "contest",
@@ -2152,7 +2096,7 @@
           "date": "",
           "pinned": false,
           "author": "서울특별시동부교육지원청",
-          "deadline": "2026-12-11",
+          "deadline": "2026-12-12",
           "source": "wevity",
           "id": "854d8a430a",
           "category": "contest",
@@ -2166,7 +2110,7 @@
           "date": "",
           "pinned": false,
           "author": "국토교통부",
-          "deadline": "2026-12-14",
+          "deadline": "2026-12-15",
           "source": "wevity",
           "id": "5382e3dbd9",
           "category": "contest",
@@ -2180,7 +2124,7 @@
           "date": "",
           "pinned": false,
           "author": "saaskr",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "b78212a6c4",
           "category": "contest",
@@ -2194,7 +2138,7 @@
           "date": "",
           "pinned": false,
           "author": "세종사이버대학교",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "75f2ecc9ee",
           "category": "contest",
@@ -2208,7 +2152,7 @@
           "date": "",
           "pinned": false,
           "author": "중앙대학교",
-          "deadline": "2026-12-31",
+          "deadline": "2027-01-01",
           "source": "wevity",
           "id": "f840dfbd4e",
           "category": "contest",
@@ -2237,20 +2181,6 @@
       "stale": false,
       "error": null,
       "items": [
-        {
-          "title": "Dakar Bitcoin Hack by BTrust — Blockchain, Fintech, Machine Learning/AI",
-          "url": "https://dakar-bitcoin-hack-2026.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Dakar Bitcoin Days",
-          "deadline": "2026-11-20",
-          "source": "devpost",
-          "id": "1fe9003750",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-16",
-          "is_new": true
-        },
         {
           "title": "STEM2Connect AI Hackathon — Beginner Friendly, Education, Web",
           "url": "https://stem2connect-online-hackathon.devpost.com/",
@@ -2361,7 +2291,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-16",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Reddit’s Game of the Day Hackathon — Beginner Friendly, Gaming",
@@ -2473,7 +2403,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-16",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Arbiter Hacks V1 — Beginner Friendly, Machine Learning/AI, Open Ended",

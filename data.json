@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21 12:35",
+  "generated_at": "2026-11-22 01:25",
   "schedule": "매일 08시·18시 자동 갱신",
   "total": 171,
   "sources": [
@@ -189,7 +189,7 @@
           "hack": false,
           "deadline": "2026-12-06",
           "first_seen": "2026-11-17",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "CJ올리브네트웍스 AI Campus 2기 교육생 모집 (~11.29/교육비 무료/신입공채 서류면제)",
@@ -782,7 +782,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-17",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[학생모집] (해외취업박람회) 2026 전남광주 글로벌 커리어 박람회 참여 신청 안내 ( ~ 11월 17일 18:00까지 )",
@@ -905,7 +905,7 @@
           "hack": false,
           "deadline": "2026-11-22",
           "first_seen": "2026-11-17",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "전남대학교 2026학년도 동계 계절학기 운영 계획 안내(학점교류(초청))",
@@ -1112,7 +1112,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-17",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026년 한국전자통신연구원(ETRI) 견학 (★선착순 모집★)",
@@ -1138,7 +1138,7 @@
           "id": "fe06adde30",
           "category": "academic",
           "hack": false,
-          "deadline": "2026-11-20",
+          "deadline": null,
           "first_seen": "2026-11-11",
           "is_new": false
         },
@@ -1979,7 +1979,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-17",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "제 3회 스마트그리드 아이디어 공모전",
@@ -2040,7 +2040,7 @@
           "date": "",
           "pinned": false,
           "author": "조달청",
-          "deadline": "2026-11-22",
+          "deadline": "2026-11-23",
           "source": "wevity",
           "id": "20f86069dc",
           "category": "contest",
@@ -2054,7 +2054,7 @@
           "date": "",
           "pinned": false,
           "author": "한국창조미술협회",
-          "deadline": "2026-11-27",
+          "deadline": "2026-11-28",
           "source": "wevity",
           "id": "c8eff97bf4",
           "category": "contest",
@@ -2068,7 +2068,7 @@
           "date": "",
           "pinned": false,
           "author": "(재)운당나눔재단, (재)울산창조경제혁신센터",
-          "deadline": "2026-11-29",
+          "deadline": "2026-11-30",
           "source": "wevity",
           "id": "dee52bdc05",
           "category": "contest",
@@ -2082,7 +2082,7 @@
           "date": "",
           "pinned": false,
           "author": "대구광역시,대구창조경제혁신센터",
-          "deadline": "2026-11-30",
+          "deadline": "2026-12-01",
           "source": "wevity",
           "id": "84898d8a62",
           "category": "contest",
@@ -2096,7 +2096,7 @@
           "date": "",
           "pinned": false,
           "author": "서울특별시동부교육지원청",
-          "deadline": "2026-12-11",
+          "deadline": "2026-12-12",
           "source": "wevity",
           "id": "854d8a430a",
           "category": "contest",
@@ -2110,13 +2110,13 @@
           "date": "",
           "pinned": false,
           "author": "국토교통부",
-          "deadline": "2026-12-14",
+          "deadline": "2026-12-15",
           "source": "wevity",
           "id": "5382e3dbd9",
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-17",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 saaskr 게임 어워드 - AI로 만든 웹게임 연말 시상",
@@ -2124,7 +2124,7 @@
           "date": "",
           "pinned": false,
           "author": "saaskr",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "b78212a6c4",
           "category": "contest",
@@ -2138,7 +2138,7 @@
           "date": "",
           "pinned": false,
           "author": "세종사이버대학교",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "75f2ecc9ee",
           "category": "contest",
@@ -2152,7 +2152,7 @@
           "date": "",
           "pinned": false,
           "author": "중앙대학교",
-          "deadline": "2026-12-31",
+          "deadline": "2027-01-01",
           "source": "wevity",
           "id": "f840dfbd4e",
           "category": "contest",
@@ -2182,34 +2182,6 @@
       "error": null,
       "items": [
         {
-          "title": "STEM2Connect AI Hackathon — Beginner Friendly, Education, Web",
-          "url": "https://stem2connect-online-hackathon.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "STEM2Connect",
-          "deadline": "2026-11-21",
-          "source": "devpost",
-          "id": "e101467911",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
-        {
-          "title": "Taskforge — Beginner Friendly, Quantum",
-          "url": "https://taskforge.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "HackathonForEveryone",
-          "deadline": "2026-11-24",
-          "source": "devpost",
-          "id": "2701f36432",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-21",
-          "is_new": true
-        },
-        {
           "title": "Build Your First AI App — Education, Machine Learning/AI, Web",
           "url": "https://build-your-first-ai-app.devpost.com/",
           "date": "",
@@ -2221,6 +2193,34 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-10-31",
+          "is_new": false
+        },
+        {
+          "title": "Global AI Builder’s Challenge — Machine Learning/AI",
+          "url": "https://global-ai-builders-challenge.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Refactor The World",
+          "deadline": "2026-11-28",
+          "source": "devpost",
+          "id": "7197fed499",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-22",
+          "is_new": true
+        },
+        {
+          "title": "STEM2Connect AI Hackathon — Beginner Friendly, Education, Web",
+          "url": "https://stem2connect-online-hackathon.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "STEM2Connect",
+          "deadline": "2026-11-29",
+          "source": "devpost",
+          "id": "e101467911",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-10-27",
           "is_new": false
         },
         {
@@ -2361,7 +2361,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-17",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AWS MSP AI Hackathon — Machine Learning/AI, Productivity, Web",

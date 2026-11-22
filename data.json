@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-22 11:42",
+  "generated_at": "2026-11-23 01:41",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 170,
+  "total": 168,
   "sources": [
     {
       "key": "ece",
@@ -768,7 +768,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-18",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[공지] 제11회 SW프로그래밍 경진대회(호남·제주) 수상자 발표",
@@ -1870,32 +1870,18 @@
       "error": null,
       "items": [
         {
-          "title": "[Liner Scholar] 3주 리서치 챌린지",
-          "url": "https://linkareer.com/activity/365185",
+          "title": "[한국과학기술정보연구원] 2026 DATA·AI 분석 경진대회",
+          "url": "https://linkareer.com/activity/342034",
           "date": "",
           "pinned": false,
-          "author": "라이너",
-          "deadline": "2026-11-22",
+          "author": "한국과학기술정보연구원",
+          "deadline": "2026-11-25",
           "source": "linkareer",
-          "id": "33050673de",
+          "id": "b268a008f4",
           "category": "contest",
           "hack": false,
-          "first_seen": "2026-11-18",
+          "first_seen": "2026-11-23",
           "is_new": true
-        },
-        {
-          "title": "하나은행 『하나원픽 CUP AI 게임창작대회』",
-          "url": "https://linkareer.com/activity/360524",
-          "date": "",
-          "pinned": false,
-          "author": "(주)하나은행",
-          "deadline": "2026-11-22",
-          "source": "linkareer",
-          "id": "d7f1f55367",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-29",
-          "is_new": false
         },
         {
           "title": "2026 대구 로컬AI그라운드 - 지역문제 해결형 AI활용 경진대회 공모전",
@@ -2021,7 +2007,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-18",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -2034,20 +2020,6 @@
       "stale": false,
       "error": null,
       "items": [
-        {
-          "title": "2026 조달청 AI 게임·콘텐츠 공모전",
-          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111628",
-          "date": "",
-          "pinned": false,
-          "author": "조달청",
-          "deadline": "2026-11-23",
-          "source": "wevity",
-          "id": "20f86069dc",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-10-27",
-          "is_new": false
-        },
         {
           "title": "제2회 2026 대한민국 AI 창조공모대전",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=111837",
@@ -2501,7 +2473,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-18",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Syntax Summit — DevOps, Machine Learning/AI, Robotic Process Automation",

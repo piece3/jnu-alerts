@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24 15:33",
+  "generated_at": "2026-11-25 04:44",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 171,
+  "total": 172,
   "sources": [
     {
       "key": "ece",
@@ -189,7 +189,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "로컬 AI 메이커스랩 - 현직자와 AI로 실무 문제 해결(~12/6)",
@@ -771,6 +771,20 @@
           "is_new": true
         },
         {
+          "title": "[추가모집] 2026년 동계 계절학기 해외 인턴십(필리핀) 참여학생 모집_4주 과정",
+          "url": "https://sojoong.kr/notice/notice-board/?uid=1081&mod=document",
+          "date": "2026-11-23",
+          "pinned": true,
+          "author": "",
+          "source": "sojoong",
+          "id": "31c50d630c",
+          "category": "job",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-24",
+          "is_new": true
+        },
+        {
           "title": "[학생모집] (해외취업박람회) 2026 전남광주 글로벌 커리어 박람회 참여 신청 안내 ( ~ 11월 17일 18:00까지 )",
           "url": "https://sojoong.kr/notice/notice-board/?uid=1063&mod=document",
           "date": "2026-11-13",
@@ -853,20 +867,6 @@
           "deadline": null,
           "first_seen": "2026-10-16",
           "is_new": false
-        },
-        {
-          "title": "New",
-          "url": "https://sojoong.kr/notice/notice-board/?uid=1081&mod=document",
-          "date": "2026-11-23",
-          "pinned": false,
-          "author": "",
-          "source": "sojoong",
-          "id": "31c50d630c",
-          "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-11-24",
-          "is_new": true
         }
       ]
     },
@@ -891,7 +891,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "「2026 동계 비교과 자격증 취득 프로그램」사전 수요조사 안내(~11/22(일))",
@@ -2007,7 +2007,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 AI 플레이 콘텐츠 제작 공모전 공모전",
@@ -2054,7 +2054,7 @@
           "date": "",
           "pinned": false,
           "author": "한국창조미술협회",
-          "deadline": "2026-11-27",
+          "deadline": "2026-11-28",
           "source": "wevity",
           "id": "c8eff97bf4",
           "category": "contest",
@@ -2068,13 +2068,13 @@
           "date": "",
           "pinned": false,
           "author": "(재)운당나눔재단, (재)울산창조경제혁신센터",
-          "deadline": "2026-11-29",
+          "deadline": "2026-11-30",
           "source": "wevity",
           "id": "dee52bdc05",
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 대구 로컬AI그라운드 - 지역문제 해결형 AI활용 경진대회",
@@ -2082,7 +2082,7 @@
           "date": "",
           "pinned": false,
           "author": "대구광역시,대구창조경제혁신센터",
-          "deadline": "2026-11-30",
+          "deadline": "2026-12-01",
           "source": "wevity",
           "id": "84898d8a62",
           "category": "contest",
@@ -2091,18 +2091,32 @@
           "is_new": false
         },
         {
+          "title": "대구광역시 남구 AI 행정혁신 경진대회",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112549",
+          "date": "",
+          "pinned": false,
+          "author": "대구광역시 남구청, 계명대학교 창업지원단",
+          "deadline": "2026-12-10",
+          "source": "wevity",
+          "id": "b41b510f28",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-25",
+          "is_new": true
+        },
+        {
           "title": "2026년 서울교육 AI 활용 공모전",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112438",
           "date": "",
           "pinned": false,
           "author": "서울특별시동부교육지원청",
-          "deadline": "2026-12-11",
+          "deadline": "2026-12-12",
           "source": "wevity",
           "id": "854d8a430a",
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-20",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2026 국가시범도시 AI 아이디어 · 기술 공모전",
@@ -2110,7 +2124,7 @@
           "date": "",
           "pinned": false,
           "author": "국토교통부",
-          "deadline": "2026-12-14",
+          "deadline": "2026-12-15",
           "source": "wevity",
           "id": "5382e3dbd9",
           "category": "contest",
@@ -2124,7 +2138,7 @@
           "date": "",
           "pinned": false,
           "author": "saaskr",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "b78212a6c4",
           "category": "contest",
@@ -2138,7 +2152,7 @@
           "date": "",
           "pinned": false,
           "author": "세종사이버대학교",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "75f2ecc9ee",
           "category": "contest",
@@ -2152,7 +2166,7 @@
           "date": "",
           "pinned": false,
           "author": "중앙대학교",
-          "deadline": "2026-12-31",
+          "deadline": "2027-01-01",
           "source": "wevity",
           "id": "f840dfbd4e",
           "category": "contest",
@@ -2181,6 +2195,20 @@
       "stale": false,
       "error": null,
       "items": [
+        {
+          "title": "HackWithAditya — Education, Health, Machine Learning/AI",
+          "url": "https://hackwithaditya.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Aditya University",
+          "deadline": "2026-11-25",
+          "source": "devpost",
+          "id": "777c3b313b",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-25",
+          "is_new": true
+        },
         {
           "title": "Global AI Builder’s Challenge — Machine Learning/AI",
           "url": "https://global-ai-builders-challenge.devpost.com/",
@@ -2348,20 +2376,6 @@
           "hack": true,
           "first_seen": "2026-10-27",
           "is_new": false
-        },
-        {
-          "title": "Green Shift Hacks — Beginner Friendly, Social Good",
-          "url": "https://green-shift-hacks.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "HackathonForEveryone",
-          "deadline": "2026-12-10",
-          "source": "devpost",
-          "id": "45f227863e",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-23",
-          "is_new": true
         },
         {
           "title": "AWS MSP AI Hackathon — Machine Learning/AI, Productivity, Web",

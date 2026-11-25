@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25 14:05",
+  "generated_at": "2026-11-26 03:52",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 172,
+  "total": 173,
   "sources": [
     {
       "key": "ece",
@@ -243,7 +243,7 @@
           "id": "5a7df884d1",
           "category": "job",
           "hack": false,
-          "deadline": "2026-11-24",
+          "deadline": null,
           "first_seen": "2026-11-09",
           "is_new": false
         },
@@ -880,6 +880,20 @@
       "error": null,
       "items": [
         {
+          "title": "AICOSS 제주 Re:Local 수요조사 안내(~11/30까지)",
+          "url": "https://aicoss.ac.kr/www/notice/view/4135?bd=notice&page=1",
+          "date": "2026-11-25",
+          "pinned": true,
+          "author": "",
+          "source": "aicoss",
+          "id": "abcab18a5b",
+          "category": "notice",
+          "hack": false,
+          "deadline": "2026-11-30",
+          "first_seen": "2026-11-26",
+          "is_new": true
+        },
+        {
           "title": "2026학년도 동계 계절학기 서울과학기술대학교 학점교류 신청 안내(11/27(금) 9:00까지)",
           "url": "https://aicoss.ac.kr/www/notice/view/4134?bd=notice&page=1",
           "date": "2026-11-20",
@@ -1070,20 +1084,6 @@
           "source": "aicoss",
           "id": "a20887e0ec",
           "category": "notice",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-10-07",
-          "is_new": false
-        },
-        {
-          "title": "[인공지능 혁신융합대학사업단] 2026 AICOSS-UTAS 글로벌 학생 프로그램 선발 안내(~10/14까지)",
-          "url": "https://aicoss.ac.kr/www/notice/view/4119?bd=notice&page=1",
-          "date": "2026-10-01",
-          "pinned": false,
-          "author": "",
-          "source": "aicoss",
-          "id": "82296169a3",
-          "category": "academic",
           "hack": false,
           "deadline": null,
           "first_seen": "2026-10-07",
@@ -1336,7 +1336,21 @@
           "is_new": false
         },
         {
-          "title": "[접수중] 2026 바이오 소재분야 이론 및 실무교육 참가자 모집",
+          "title": "[접수중] AI 바이브코딩 기반 앱·웹 개발 해커톤 캠프 참가자 모집",
+          "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1061934/artclView.do",
+          "date": "2026-11-25",
+          "pinned": false,
+          "author": "공학교육혁신센터",
+          "source": "icee",
+          "id": "e97ff3e780",
+          "category": "contest",
+          "hack": true,
+          "deadline": null,
+          "first_seen": "2026-11-26",
+          "is_new": true
+        },
+        {
+          "title": "[접수마감] 2026 바이오 소재분야 이론 및 실무교육 참가자 모집",
           "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1060331/artclView.do",
           "date": "2026-11-09",
           "pinned": false,
@@ -1455,20 +1469,6 @@
           "author": "공학교육혁신센터",
           "source": "icee",
           "id": "4b0b5adcc4",
-          "category": "contest",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
-        },
-        {
-          "title": "[안내] 2026 Capstone Design 경진대회 본선진출팀 공고",
-          "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1051837/artclView.do",
-          "date": "2026-08-13",
-          "pinned": false,
-          "author": "공학교육혁신센터",
-          "source": "icee",
-          "id": "efb6ed0e6d",
           "category": "contest",
           "hack": false,
           "deadline": null,
@@ -1870,31 +1870,17 @@
       "error": null,
       "items": [
         {
-          "title": "[한국과학기술정보연구원] 2026 DATA·AI 분석 경진대회",
-          "url": "https://linkareer.com/activity/342034",
-          "date": "",
-          "pinned": false,
-          "author": "한국과학기술정보연구원",
-          "deadline": "2026-11-25",
-          "source": "linkareer",
-          "id": "b268a008f4",
-          "category": "contest",
-          "hack": false,
-          "first_seen": "2026-11-23",
-          "is_new": true
-        },
-        {
           "title": "Build with Qwen: AutoRAG Hackathon 2026",
-          "url": "https://linkareer.com/activity/366450",
+          "url": "https://linkareer.com/activity/366777",
           "date": "",
           "pinned": false,
-          "author": "알리바바 클라우드",
+          "author": "에이든",
           "deadline": "2026-11-29",
           "source": "linkareer",
-          "id": "8a8f9786ca",
+          "id": "edba8f2f0f",
           "category": "contest",
           "hack": true,
-          "first_seen": "2026-11-24",
+          "first_seen": "2026-11-26",
           "is_new": true
         },
         {
@@ -1923,7 +1909,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-21",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[한국프로세스혁신협회] 2026 AI 서비스 기획 공모전",
@@ -1982,6 +1968,20 @@
           "is_new": false
         },
         {
+          "title": "2026 제5회 대국민 K-water AI 경진대회",
+          "url": "https://linkareer.com/activity/367086",
+          "date": "",
+          "pinned": false,
+          "author": "한국수자원공사",
+          "deadline": "2026-12-06",
+          "source": "linkareer",
+          "id": "515b0ba617",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-26",
+          "is_new": true
+        },
+        {
           "title": "2026 서울 야간경제 활성화 해커톤 (Dopamine Seoul 24)",
           "url": "https://linkareer.com/activity/366175",
           "date": "",
@@ -2021,7 +2021,7 @@
           "category": "contest",
           "hack": false,
           "first_seen": "2026-11-21",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2027 제 2회 Superb AI X BDAI Vision AI 해커톤",
@@ -2054,7 +2054,7 @@
           "date": "",
           "pinned": false,
           "author": "한국창조미술협회",
-          "deadline": "2026-11-27",
+          "deadline": "2026-11-28",
           "source": "wevity",
           "id": "c8eff97bf4",
           "category": "contest",
@@ -2068,7 +2068,7 @@
           "date": "",
           "pinned": false,
           "author": "(재)운당나눔재단, (재)울산창조경제혁신센터",
-          "deadline": "2026-11-29",
+          "deadline": "2026-11-30",
           "source": "wevity",
           "id": "dee52bdc05",
           "category": "contest",
@@ -2082,7 +2082,7 @@
           "date": "",
           "pinned": false,
           "author": "대구광역시,대구창조경제혁신센터",
-          "deadline": "2026-11-30",
+          "deadline": "2026-12-01",
           "source": "wevity",
           "id": "84898d8a62",
           "category": "contest",
@@ -2096,7 +2096,7 @@
           "date": "",
           "pinned": false,
           "author": "대구광역시 남구청, 계명대학교 창업지원단",
-          "deadline": "2026-12-09",
+          "deadline": "2026-12-10",
           "source": "wevity",
           "id": "b41b510f28",
           "category": "contest",
@@ -2105,12 +2105,26 @@
           "is_new": true
         },
         {
+          "title": "AI·공공데이터·정보공개 대국민 혁신 아이디어 공모전",
+          "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112568",
+          "date": "",
+          "pinned": false,
+          "author": "국토안전관리원",
+          "deadline": "2026-12-11",
+          "source": "wevity",
+          "id": "f2d469e33b",
+          "category": "contest",
+          "hack": false,
+          "first_seen": "2026-11-26",
+          "is_new": true
+        },
+        {
           "title": "2026년 서울교육 AI 활용 공모전",
           "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=112438",
           "date": "",
           "pinned": false,
           "author": "서울특별시동부교육지원청",
-          "deadline": "2026-12-11",
+          "deadline": "2026-12-12",
           "source": "wevity",
           "id": "854d8a430a",
           "category": "contest",
@@ -2124,7 +2138,7 @@
           "date": "",
           "pinned": false,
           "author": "국토교통부",
-          "deadline": "2026-12-14",
+          "deadline": "2026-12-15",
           "source": "wevity",
           "id": "5382e3dbd9",
           "category": "contest",
@@ -2138,7 +2152,7 @@
           "date": "",
           "pinned": false,
           "author": "saaskr",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "b78212a6c4",
           "category": "contest",
@@ -2152,7 +2166,7 @@
           "date": "",
           "pinned": false,
           "author": "세종사이버대학교",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "75f2ecc9ee",
           "category": "contest",
@@ -2166,7 +2180,7 @@
           "date": "",
           "pinned": false,
           "author": "중앙대학교",
-          "deadline": "2026-12-31",
+          "deadline": "2027-01-01",
           "source": "wevity",
           "id": "f840dfbd4e",
           "category": "contest",
@@ -2195,20 +2209,6 @@
       "stale": false,
       "error": null,
       "items": [
-        {
-          "title": "HackWithAditya — Education, Health, Machine Learning/AI",
-          "url": "https://hackwithaditya.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Aditya University",
-          "deadline": "2026-11-25",
-          "source": "devpost",
-          "id": "777c3b313b",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-25",
-          "is_new": true
-        },
         {
           "title": "Global AI Builder’s Challenge — Machine Learning/AI",
           "url": "https://global-ai-builders-challenge.devpost.com/",
@@ -2263,6 +2263,20 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-21",
+          "is_new": false
+        },
+        {
+          "title": "AI for Medicine: A Global Student Hackathon on the Future of Care — Beginner Friendly, Health, Machine Learning/AI",
+          "url": "https://ai-for-medicine.devpost.com/",
+          "date": "",
+          "pinned": false,
+          "author": "Open Health AI Collective",
+          "deadline": "2026-12-04",
+          "source": "devpost",
+          "id": "e23e4a0466",
+          "category": "contest",
+          "hack": true,
+          "first_seen": "2026-11-26",
           "is_new": true
         },
         {

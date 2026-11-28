@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-28 13:22",
+  "generated_at": "2026-11-29 02:13",
   "schedule": "매일 08시·18시 자동 갱신",
-  "total": 171,
+  "total": 170,
   "sources": [
     {
       "key": "ece",
@@ -175,7 +175,7 @@
           "hack": false,
           "deadline": "2026-12-07",
           "first_seen": "2026-11-24",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[2026.11.24.(화) 13:00~15:00] 2026 환경산업 채용설명회 -기후에너지환경부, 한국환경산업협회",
@@ -768,7 +768,7 @@
           "hack": false,
           "deadline": "2026-12-04",
           "first_seen": "2026-11-24",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[추가모집] 2026년 동계 계절학기 해외 인턴십(필리핀) 참여학생 모집_4주 과정",
@@ -782,7 +782,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-24",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[학생모집] (해외취업박람회) 2026 전남광주 글로벌 커리어 박람회 참여 신청 안내 ( ~ 11월 17일 18:00까지 )",
@@ -1336,6 +1336,20 @@
           "is_new": false
         },
         {
+          "title": "[안내] [공고 일정 변경] 기초창의설계 경진대회 본선진출팀 발표 일정 변경",
+          "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1062194/artclView.do",
+          "date": "2026-11-28",
+          "pinned": false,
+          "author": "공학교육혁신센터",
+          "source": "icee",
+          "id": "120473fc89",
+          "category": "contest",
+          "hack": false,
+          "deadline": null,
+          "first_seen": "2026-11-29",
+          "is_new": true
+        },
+        {
           "title": "[접수중] AI 바이브코딩 기반 앱·웹 개발 해커톤 캠프 참가자 모집",
           "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1061934/artclView.do",
           "date": "2026-11-25",
@@ -1364,7 +1378,7 @@
           "is_new": false
         },
         {
-          "title": "[외부교육] [접수중] 2026 드론 운영 및 촬영 전문가 양성과정 참가자 모집",
+          "title": "[외부교육] [접수마감] 2026 드론 운영 및 촬영 전문가 양성과정 참가자 모집",
           "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1059513/artclView.do",
           "date": "2026-11-02",
           "pinned": false,
@@ -1460,20 +1474,6 @@
           "deadline": null,
           "first_seen": "2026-09-08",
           "is_new": false
-        },
-        {
-          "title": "[안내] 2026 Capstone Design 경진대회 본선진출팀 안내사항",
-          "url": "https://icee.jnu.ac.kr/bbs/icee/2798/1051838/artclView.do",
-          "date": "2026-08-13",
-          "pinned": false,
-          "author": "공학교육혁신센터",
-          "source": "icee",
-          "id": "4b0b5adcc4",
-          "category": "contest",
-          "hack": false,
-          "deadline": null,
-          "first_seen": "2026-09-08",
-          "is_new": false
         }
       ]
     },
@@ -1498,7 +1498,7 @@
           "hack": false,
           "deadline": null,
           "first_seen": "2026-11-24",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "[신입생 모집] 2027학년도 전기(1차) 일반대학원 신입생 모집(일반전형)",
@@ -1993,7 +1993,7 @@
           "category": "contest",
           "hack": true,
           "first_seen": "2026-11-24",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "제 3회 스마트그리드 아이디어 공모전",
@@ -2054,7 +2054,7 @@
           "date": "",
           "pinned": false,
           "author": "(재)운당나눔재단, (재)울산창조경제혁신센터",
-          "deadline": "2026-11-29",
+          "deadline": "2026-11-30",
           "source": "wevity",
           "id": "dee52bdc05",
           "category": "contest",
@@ -2068,7 +2068,7 @@
           "date": "",
           "pinned": false,
           "author": "대구광역시,대구창조경제혁신센터",
-          "deadline": "2026-11-30",
+          "deadline": "2026-12-01",
           "source": "wevity",
           "id": "84898d8a62",
           "category": "contest",
@@ -2082,7 +2082,7 @@
           "date": "",
           "pinned": false,
           "author": "대구광역시 남구청, 계명대학교 창업지원단",
-          "deadline": "2026-12-09",
+          "deadline": "2026-12-10",
           "source": "wevity",
           "id": "b41b510f28",
           "category": "contest",
@@ -2096,7 +2096,7 @@
           "date": "",
           "pinned": false,
           "author": "국토안전관리원",
-          "deadline": "2026-12-10",
+          "deadline": "2026-12-11",
           "source": "wevity",
           "id": "f2d469e33b",
           "category": "contest",
@@ -2110,7 +2110,7 @@
           "date": "",
           "pinned": false,
           "author": "서울특별시동부교육지원청",
-          "deadline": "2026-12-11",
+          "deadline": "2026-12-12",
           "source": "wevity",
           "id": "854d8a430a",
           "category": "contest",
@@ -2124,7 +2124,7 @@
           "date": "",
           "pinned": false,
           "author": "국토교통부",
-          "deadline": "2026-12-14",
+          "deadline": "2026-12-15",
           "source": "wevity",
           "id": "5382e3dbd9",
           "category": "contest",
@@ -2138,7 +2138,7 @@
           "date": "",
           "pinned": false,
           "author": "saaskr",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "b78212a6c4",
           "category": "contest",
@@ -2152,7 +2152,7 @@
           "date": "",
           "pinned": false,
           "author": "세종사이버대학교",
-          "deadline": "2026-12-20",
+          "deadline": "2026-12-21",
           "source": "wevity",
           "id": "75f2ecc9ee",
           "category": "contest",
@@ -2166,7 +2166,7 @@
           "date": "",
           "pinned": false,
           "author": "중앙대학교",
-          "deadline": "2026-12-31",
+          "deadline": "2027-01-01",
           "source": "wevity",
           "id": "f840dfbd4e",
           "category": "contest",
@@ -2195,20 +2195,6 @@
       "stale": false,
       "error": null,
       "items": [
-        {
-          "title": "Global AI Builder’s Challenge — Machine Learning/AI",
-          "url": "https://global-ai-builders-challenge.devpost.com/",
-          "date": "",
-          "pinned": false,
-          "author": "Refactor The World",
-          "deadline": "2026-11-28",
-          "source": "devpost",
-          "id": "7197fed499",
-          "category": "contest",
-          "hack": true,
-          "first_seen": "2026-11-22",
-          "is_new": false
-        },
         {
           "title": "STEM2Connect AI Hackathon — Beginner Friendly, Education, Web",
           "url": "https://stem2connect-online-hackathon.devpost.com/",
